@@ -1,3 +1,20 @@
+directions = {
+	forward = {inspect = turtle.inspect, dig = turtle.dig, detect = turtle.detect},
+    down = {inspect = turtle.inspectDown, dig = turtle.digDown, detect = turtle.detectDown},
+    up = {inspect = turtle.inspectUp, dig = turtle.digUp, detect = turtle.detectUp}
+}
+
+
+opposites = {
+	left = 'right',
+	right = 'left',
+	up = 'down',
+	down = 'up',
+	forward = 'back',
+	back = 'forward'
+}
+
+
 function haveEnough(item_name, required_amount, slot)
 	local old_cursor_slot = turtle.getSelectedSlot()
 	turtle.select(slot)
@@ -11,15 +28,22 @@ end
 
 function walk(distance) -- moves forward until obstructed or completes distance, then returns remainder of steps. A distance of 0 walks until obstructed.
 	local count = 0
-	unobstructed = not turtle.detect()
-	while unobstructed do
-		turtle.forward()
-		count = count + 1
-		unobstructed = not turtle.detect()
+	repeat
+		if turtle.forward() then count = (count + 1) end
+		local obstructed = turtle.detect()
 		if count == distance then
 			return math.max(0, distance - count)
 		end
-	end
+	until obstructed
+	-- unobstructed = not turtle.detect()
+	-- while unobstructed do
+	-- 	turtle.forward()
+	-- 	count = count + 1
+	-- 	unobstructed = not turtle.detect()
+	-- 	if count == distance then
+	-- 		return math.max(0, distance - count)
+	-- 	end
+	-- end
 end
 
 
@@ -47,11 +71,11 @@ end
 
 
 function removeNonBlocks(direction) -- digs blocks that are not shovel-able or pickaxe-able, meant to clear grass, flowers, leaves, etc
-    local directions = {
-        forward = {inspect = turtle.inspect, dig = turtle.dig},
-        down = {inspect = turtle.inspectDown, dig = turtle.digDown},
-        up = {inspect = turtle.inspectUp, dig = turtle.digUp}
-    }
+    -- local directions = {
+    --     forward = {inspect = turtle.inspect, dig = turtle.dig},
+    --     down = {inspect = turtle.inspectDown, dig = turtle.digDown},
+    --     up = {inspect = turtle.inspectUp, dig = turtle.digUp}
+    -- }
     local choice = directions[direction]
     local has_block, data = choice.inspect()
     if has_block then
@@ -74,17 +98,21 @@ end
 
 function digUntilClear(direction) -- Continue digging until space in chosen direction is empty. Meant to ensure space is empty in case of sand/gravel.
 	if direction == nil then direction = 'forward' end
-	local directions = {
-        forward = {detect = turtle.detect, dig = turtle.dig},
-        down = {detect = turtle.detectDown, dig = turtle.digDown},
-        up = {detect = turtle.detectUp, dig = turtle.digUp}
-    }
+	-- local directions = {
+    --     forward = {detect = turtle.detect, dig = turtle.dig},
+    --     down = {detect = turtle.detectDown, dig = turtle.digDown},
+    --     up = {detect = turtle.detectUp, dig = turtle.digUp}
+    -- }
     local choice = directions[direction]
-	local obstruction = choice.detect()
-	while obstruction do
-		choice.dig()
-		obstruction = choice.detect()
-	end
+    repeat
+    	choice.dig()
+    	local obstructed = choice.detect()
+    until not obstructed
+	-- local obstruction = choice.detect()
+	-- while obstruction do
+	-- 	choice.dig()
+	-- 	obstruction = choice.detect()
+	-- end
 end
 
 
@@ -155,6 +183,30 @@ function buildBasicBridge(floor_slot, left_slot, right_slot)
 		turtle.dig()
 		turtle.forward()
 		floor = turtle.detectDown()
+	end
+end
+
+
+function clearArea(depth, width, direction, torch_slot)
+	--local opposite = {left = 'right', right = 'left'}
+	local counter_x = 0
+	while counter_x < width do
+		local counter_y = 0
+		while counter_y < depth do
+			turtle.dig()
+			if turtle.forward() then counter_y = (counter_y + 1) end
+			if counter_x % 10 == 0 and counter_y % 10 == 0 then
+				turtle.select(torch_slot)
+				turtle.place()
+			end
+			turtle.digUp()
+		end
+		counter_x = (counter_x + 1)
+		if counter_x % 2 == 0 then
+			hook(opposites[direction])
+		else
+			hook(direction)
+		end
 	end
 end
 
