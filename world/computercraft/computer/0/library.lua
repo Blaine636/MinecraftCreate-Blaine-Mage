@@ -6,7 +6,7 @@ directions = {
     left = {turn = turtle.turnLeft}
 }
 
---Server test comment
+--Second server test
 opposites = {
 	left = 'right',
 	right = 'left',
