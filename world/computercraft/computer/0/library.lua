@@ -1,7 +1,9 @@
 directions = {
 	forward = {inspect = turtle.inspect, dig = turtle.dig, detect = turtle.detect},
     down = {inspect = turtle.inspectDown, dig = turtle.digDown, detect = turtle.detectDown},
-    up = {inspect = turtle.inspectUp, dig = turtle.digUp, detect = turtle.detectUp}
+    up = {inspect = turtle.inspectUp, dig = turtle.digUp, detect = turtle.detectUp},
+    right = {turn = turtle.turnRight},
+    left = {turn = turtle.turnLeft}
 }
 
 
@@ -35,47 +37,26 @@ function walk(distance) -- moves forward until obstructed or completes distance,
 			return math.max(0, distance - count)
 		end
 	until obstructed
-	-- unobstructed = not turtle.detect()
-	-- while unobstructed do
-	-- 	turtle.forward()
-	-- 	count = count + 1
-	-- 	unobstructed = not turtle.detect()
-	-- 	if count == distance then
-	-- 		return math.max(0, distance - count)
-	-- 	end
-	-- end
 end
 
 
 function hook(direction) -- moves to the corresponding adjacent space and faces the opposite direction you started
-	if direction == 'right' then
-		turtle.turnRight()
-		turtle.dig()
-		turtle.forward()
-		turtle.turnRight()
-	elseif direction == 'left' then
-		turtle.turnLeft()
-		turtle.dig()
-		turtle.forward()
-		turtle.turnLeft()
-	else
-		error('hook() recieved unknown direction argument')
-	end
+	local choice = directions[direction]
+	choice.turn()
+	digUntilClear()
+	assert(turtle.forward(), 'Didn\'t walk forward as expected.')
+	digUntilClear('up')
+	choice.turn()
 end
 
 
-function flip()
+function flip() -- Flips turtle 180°
 	turtle.turnRight()
 	turtle.turnRight()
 end
 
 
 function removeNonBlocks(direction) -- digs blocks that are not shovel-able or pickaxe-able, meant to clear grass, flowers, leaves, etc
-    -- local directions = {
-    --     forward = {inspect = turtle.inspect, dig = turtle.dig},
-    --     down = {inspect = turtle.inspectDown, dig = turtle.digDown},
-    --     up = {inspect = turtle.inspectUp, dig = turtle.digUp}
-    -- }
     local choice = directions[direction]
     local has_block, data = choice.inspect()
     if has_block then
@@ -98,21 +79,12 @@ end
 
 function digUntilClear(direction) -- Continue digging until space in chosen direction is empty. Meant to ensure space is empty in case of sand/gravel.
 	if direction == nil then direction = 'forward' end
-	-- local directions = {
-    --     forward = {detect = turtle.detect, dig = turtle.dig},
-    --     down = {detect = turtle.detectDown, dig = turtle.digDown},
-    --     up = {detect = turtle.detectUp, dig = turtle.digUp}
-    -- }
     local choice = directions[direction]
     repeat
     	choice.dig()
     	local obstructed = choice.detect()
+    	sleep(0.2)
     until not obstructed
-	-- local obstruction = choice.detect()
-	-- while obstruction do
-	-- 	choice.dig()
-	-- 	obstruction = choice.detect()
-	-- end
 end
 
 
@@ -167,7 +139,7 @@ function digTunnel(distance, torch_slot, fill_floor_slot) -- Digs a tunnel(2 hig
 end
 
 
-function buildBasicBridge(floor_slot, left_slot, right_slot)
+function buildBasicBridge(floor_slot, left_slot, right_slot) -- Walks forward and places a brick the the left, down, and right until it detects a block below it.
 	turtle.forward()
 	local floor = false
 	while not floor do
@@ -187,19 +159,21 @@ function buildBasicBridge(floor_slot, left_slot, right_slot)
 end
 
 
-function clearArea(depth, width, direction, torch_slot)
-	--local opposite = {left = 'right', right = 'left'}
+function clearArea(depth, width, direction, torch_slot) -- Clears a 2 block high space of specified depth and width. places torches behind bot every 10sq blocks
 	local counter_x = 0
 	while counter_x < width do
 		local counter_y = 0
 		while counter_y < depth do
-			turtle.dig()
+			digUntilClear('forward')
 			if turtle.forward() then counter_y = (counter_y + 1) end
 			if counter_x % 10 == 0 and counter_y % 10 == 0 then
+				print('should have placed torch')
+				flip()
 				turtle.select(torch_slot)
 				turtle.place()
+				flip()
 			end
-			turtle.digUp()
+			digUntilClear('up')
 		end
 		counter_x = (counter_x + 1)
 		if counter_x % 2 == 0 then
@@ -211,4 +185,4 @@ function clearArea(depth, width, direction, torch_slot)
 end
 
 
-return {haveEnough = haveEnough, walk = walk, hook = hook, flip = flip, removeNonBlocks = removeNonBlocks, returnToFloor = returnToFloor, digUntilClear = digUntilClear, digTunnel = digTunnel, buildBasicBridge = buildBasicBridge}
+return {haveEnough = haveEnough, walk = walk, hook = hook, flip = flip, removeNonBlocks = removeNonBlocks, returnToFloor = returnToFloor, digUntilClear = digUntilClear, digTunnel = digTunnel, buildBasicBridge = buildBasicBridge, clearArea = clearArea}
