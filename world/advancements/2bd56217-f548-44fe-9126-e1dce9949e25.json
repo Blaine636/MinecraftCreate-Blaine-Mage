@@ -7,7 +7,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2026-08-15 01:40:40 -0600",
       "minecraft:deep_ocean": "2024-03-22 22:15:22 -0600",
+      "minecraft:frozen_river": "2026-08-15 01:40:52 -0600",
       "minecraft:sunflower_plains": "2024-03-22 23:17:49 -0600",
       "minecraft:birch_forest": "2024-03-22 22:19:41 -0600",
       "minecraft:savanna_plateau": "2024-03-22 21:50:05 -0600",
@@ -16,9 +18,13 @@
       "minecraft:river": "2024-03-22 21:20:00 -0600",
       "minecraft:lukewarm_ocean": "2026-08-08 23:21:46 -0600",
       "minecraft:stony_shore": "2026-08-13 23:43:07 -0600",
+      "minecraft:snowy_plains": "2026-08-15 01:41:03 -0600",
+      "minecraft:dripstone_caves": "2026-08-14 21:44:48 -0600",
+      "minecraft:snowy_taiga": "2026-08-15 01:40:07 -0600",
       "minecraft:grove": "2024-03-22 22:24:49 -0600",
       "minecraft:jagged_peaks": "2024-03-22 22:26:31 -0600",
       "minecraft:forest": "2024-03-22 21:03:03 -0600",
+      "minecraft:ice_spikes": "2026-08-15 01:56:16 -0600",
       "minecraft:ocean": "2024-03-22 22:14:04 -0600",
       "minecraft:jungle": "2024-03-23 23:38:56 -0600",
       "minecraft:deep_lukewarm_ocean": "2026-08-10 19:43:05 -0600",
@@ -5936,6 +5942,132 @@
   "create:recipes/building_blocks/small_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
     "criteria": {
       "has_stone_types_dripstone": "2026-08-14 00:46:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2026-08-15 00:58:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2026-08-15 00:00:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2026-08-14 23:34:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2026-08-14 23:34:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2026-08-14 23:34:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-08-15 00:39:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2026-08-15 00:39:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-08-15 00:39:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-08-15 00:39:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_gray_dye": "2026-08-15 00:39:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-08-15 02:11:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2026-08-14 21:50:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-08-15 00:59:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2026-08-15 00:39:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2026-08-15 00:39:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-08-15 00:39:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-08-15 00:39:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-08-15 00:59:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2026-08-15 00:39:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-08-15 00:39:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2026-08-15 00:00:49 -0600"
     },
     "done": true
   },

@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:deep_ocean": "2024-03-22 22:15:24 -0600",
+      "minecraft:frozen_river": "2026-08-15 01:40:16 -0600",
       "minecraft:sunflower_plains": "2024-03-03 16:51:26 -0700",
       "minecraft:birch_forest": "2024-03-22 22:20:00 -0600",
       "minecraft:windswept_hills": "2024-04-06 13:14:11 -0600",
@@ -18,7 +19,9 @@
       "minecraft:lukewarm_ocean": "2024-02-26 13:20:33 -0700",
       "minecraft:river": "2024-02-26 13:24:06 -0700",
       "minecraft:stony_shore": "2024-03-18 21:39:27 -0600",
+      "minecraft:snowy_plains": "2026-08-15 01:45:29 -0600",
       "minecraft:dripstone_caves": "2024-03-03 17:02:15 -0700",
+      "minecraft:snowy_taiga": "2026-08-15 01:40:08 -0600",
       "minecraft:grove": "2024-03-22 22:23:55 -0600",
       "minecraft:swamp": "2024-04-06 13:36:56 -0600",
       "minecraft:jagged_peaks": "2024-03-22 22:26:32 -0600",
@@ -812,6 +815,7 @@
       "minecraft:piglin": "2024-03-08 19:30:09 -0700",
       "minecraft:enderman": "2024-03-03 16:48:18 -0700",
       "minecraft:silverfish": "2024-10-31 01:15:31 -0600",
+      "minecraft:stray": "2026-08-15 01:57:34 -0600",
       "minecraft:zombie": "2024-02-26 13:26:05 -0700",
       "minecraft:drowned": "2024-02-26 13:27:26 -0700",
       "minecraft:zombie_villager": "2024-03-04 22:09:32 -0700"
@@ -2631,6 +2635,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cat": "2024-03-02 11:35:07 -0700",
+      "minecraft:turtle": "2026-08-15 02:17:34 -0600",
       "minecraft:chicken": "2024-03-20 19:22:13 -0600"
     },
     "done": false
@@ -7503,6 +7508,24 @@
   "create:recipes/misc/blasting/zinc_ingot_from_crushed": {
     "criteria": {
       "has_item": "2026-08-14 14:40:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-08-14 22:39:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2026-08-14 22:39:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2026-08-14 22:43:43 -0600"
     },
     "done": true
   },

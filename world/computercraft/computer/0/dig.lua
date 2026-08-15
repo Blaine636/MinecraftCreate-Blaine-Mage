@@ -1,11 +1,3 @@
-while true do
-    turtle.turnLeft()
-    turtle.dig()
-    turtle.turnRight()
-    turtle.dig()
-    turtle.turnRight()
-    turtle.dig()
-    turtle.turnLeft()
-    turtle.digDown()
-    turtle.forward()
-end
+local lib = require('library')
+
+lib.clearArea(5,5,'right',16)
