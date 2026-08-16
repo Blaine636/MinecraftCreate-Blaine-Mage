@@ -1,4 +1,5 @@
 local lib = require('library')
+local categories = require('categories')
 local args = {...}
 local step_counter = 0
 
@@ -51,8 +52,46 @@ end
 
 function main_loop()
     print('Sorting...')
-    print('WIP: main sorting')
+    pull_items()
+    sort_items()
 end
+
+
+function move(value)
+    --
+end
+
+
+function pull_items()
+    turtle.select(1)
+    repeat
+        local pulled_none = turtle.suck()
+    until pulled_none
+end
+
+
+function sort_items()
+    -- Move to face first category.
+    turtle.turnRight()
+    turtle.forward()
+    turtle.turnRight()
+    turtle.forward()
+    turtle.turnRight()
+
+    -- Temporary! Sort per slot
+    for i=1,16,1 do
+        turtle.select(i)
+        local item_info = turtle.getItemDetail(i, true)
+        for key, value in ipairs(categories) do
+            print('key: '..key..' value: '..value)
+            sleep(0.2)
+            --local found = tableContains(key, )
+        end
+    end
+end
+
+
+
 
 
 function refuelAndStatus()
