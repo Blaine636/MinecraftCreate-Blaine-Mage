@@ -1,75 +1,76 @@
-[16Aug2026 17:36:06.857] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[16Aug2026 17:36:06.863] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[16Aug2026 17:36:07.176] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[16Aug2026 17:36:07.232] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[16Aug2026 17:36:07.471] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[16Aug2026 17:36:07.476] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[16Aug2026 17:36:07.480] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[16Aug2026 17:36:07.486] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[16Aug2026 17:36:07.623] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[16Aug2026 17:36:09.106] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Aug2026 17:36:09.115] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[16Aug2026 17:36:15.561] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[16Aug2026 17:36:15.562] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: quicktransfer, class com.quicktransfer.QuickTransfer
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at com.quicktransfer.QuickTransfer.<init>(QuickTransfer.java:17) ~[quicktransfer-1.0.0.jar%23118!/:1.0.0]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.0.jar%23123!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.0.jar%23122!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[16Aug2026 17:36:15.576] [modloading-worker-0/INFO] [NorthernCompass/]: NorthernCompass v1.20.1-1.0.16 Initialized
-[16Aug2026 17:36:15.601] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[16Aug2026 17:36:15.602] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[16Aug2026 17:36:16.966] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
-[16Aug2026 17:36:17.104] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 312f2dc6-65ae-4df5-8d0e-a07123dd7a66
-[16Aug2026 17:36:17.106] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2026-08-16_17.36.17-fml.txt
-[16Aug2026 17:36:17.109] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c4f6520a-f8ea-4e83-9fa9-a9f441007ea7
-[16Aug2026 17:36:17.110] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
-net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	QuickTransfer (quicktransfer) has failed to load correctly
-§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-]
-	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.0.jar%23122!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.0.jar%23122!/:?]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.0.jar%23122!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.0.jar%23122!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.0.jar%23122!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.0-universal.jar%23126!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23121!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[16Aug2026 17:38:16.018] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[16Aug2026 17:38:16.023] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[16Aug2026 17:38:16.292] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Aug2026 17:38:16.354] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[16Aug2026 17:38:16.608] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[16Aug2026 17:38:16.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[16Aug2026 17:38:16.619] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[16Aug2026 17:38:16.623] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[16Aug2026 17:38:16.759] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[16Aug2026 17:38:18.083] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Aug2026 17:38:18.093] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[16Aug2026 17:38:24.099] [modloading-worker-0/INFO] [NorthernCompass/]: NorthernCompass v1.20.1-1.0.16 Initialized
+[16Aug2026 17:38:24.121] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[16Aug2026 17:38:24.121] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[16Aug2026 17:38:26.588] [main/INFO] [journeymap/]: Initializing Packet Registries
+[16Aug2026 17:38:26.719] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaPluginCore
+[16Aug2026 17:38:26.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[16Aug2026 17:38:26.740] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaPluginVanilla
+[16Aug2026 17:38:26.768] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:harvest at mcp.mobius.waila.plugin.harvest.WailaPluginHarvest
+[16Aug2026 17:38:26.772] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:forge at mcp.mobius.waila.plugin.forge.WailaPluginForge
+[16Aug2026 17:38:26.776] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:extra at mcp.mobius.waila.plugin.extra.WailaPluginExtra
+[16Aug2026 17:38:26.795] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[16Aug2026 17:38:27.122] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.113.1 Target: 1.120.2
+[16Aug2026 17:38:27.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Aug2026 17:38:27.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
+[16Aug2026 17:38:27.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[16Aug2026 17:38:27.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[16Aug2026 17:38:27.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[16Aug2026 17:38:27.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: AHEAD Current: 5.9.20 Target: null
+[16Aug2026 17:38:28.623] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Aug2026 17:38:28.718] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 47.2.0 -> 47.3.0)
+Things may not work well.
+[16Aug2026 17:38:29.944] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
+[16Aug2026 17:38:29.945] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
+[16Aug2026 17:38:31.250] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[16Aug2026 17:38:31.335] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2299 advancements
+[16Aug2026 17:38:31.340] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[16Aug2026 17:38:31.341] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[16Aug2026 17:38:33.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[16Aug2026 17:38:33.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Aug2026 17:38:33.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[16Aug2026 17:38:33.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Aug2026 17:38:33.129] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[16Aug2026 17:38:33.148] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[16Aug2026 17:38:33.376] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[16Aug2026 17:38:33.425] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Aug2026 17:38:34.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Aug2026 17:38:36.885] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 17:38:36.914] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 17:38:36.985] [Worker-Main-17/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 17:38:36.995] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 17:38:36.995] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 17:38:36.996] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 17:38:37.234] [Worker-Main-18/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[16Aug2026 17:38:37.699] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3465 ms
+[16Aug2026 17:38:37.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.328s)! For help, type "help"
+[16Aug2026 17:38:37.743] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[16Aug2026 17:38:37.775] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[16Aug2026 17:38:50.415] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
+[16Aug2026 17:38:52.801] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:4906] logged in with entity id 195 at (-194.17118789611595, 69.0, -1.8837485564424432)
+[16Aug2026 17:38:52.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
+[16Aug2026 17:49:43.932] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[16Aug2026 17:49:43.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[16Aug2026 17:49:49.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[16Aug2026 17:49:49.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Aug2026 17:49:49.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Aug2026 17:49:49.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Aug2026 17:49:49.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
+[16Aug2026 17:49:49.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
+[16Aug2026 17:49:49.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[16Aug2026 17:49:49.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Aug2026 17:49:49.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Aug2026 17:49:49.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Aug2026 17:49:49.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16Aug2026 17:49:50.516] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
