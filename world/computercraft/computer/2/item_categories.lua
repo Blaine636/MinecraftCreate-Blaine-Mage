@@ -1,4 +1,4 @@
-local categories = {
+categories = {
 	'a' = {"minecraft:wheat",
             "minecraft:carrot",
             "minecraft:potato",

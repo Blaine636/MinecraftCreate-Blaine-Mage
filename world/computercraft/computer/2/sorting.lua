@@ -1,5 +1,5 @@
 local lib = require('library')
-local categories = require('categories')
+local categories = require('item_categories')
 local args = {...}
 local step_counter = 0
 
