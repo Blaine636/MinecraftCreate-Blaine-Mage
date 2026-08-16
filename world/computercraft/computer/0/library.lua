@@ -1,12 +1,13 @@
 directions = {
-	forward = {inspect = turtle.inspect, dig = turtle.dig, detect = turtle.detect},
-    down = {inspect = turtle.inspectDown, dig = turtle.digDown, detect = turtle.detectDown},
-    up = {inspect = turtle.inspectUp, dig = turtle.digUp, detect = turtle.detectUp},
-    right = {turn = turtle.turnRight},
-    left = {turn = turtle.turnLeft}
+	forward = { inspect = turtle.inspect,		dig = turtle.dig, 		detect = turtle.detect},
+	back = { 	inspect = inspectBack,			dig = digBack, 			detect = detectBack,			turn = flip},
+    down = {	inspect = turtle.inspectDown, 	dig = turtle.digDown, 	detect = turtle.detectDown},
+    up = {		inspect = turtle.inspectUp, 	dig = turtle.digUp, 	detect = turtle.detectUp},
+    right = {	inspect = inspectRight, 		dig = digRight, 		detect = detectRight, 			turn = turtle.turnRight},
+    left = {	inspect = inspectLeft, 			dig = digLeft, 			detect = detectLeft, 			turn = turtle.turnLeft}
 }
 
---Second server test
+
 opposites = {
 	left = 'right',
 	right = 'left',
@@ -17,14 +18,98 @@ opposites = {
 }
 
 
-function haveEnough(item_name, required_amount, slot)
+function tableContains(array, target)
+	for index, value in ipairs(array) do
+    	if value == target then
+    		return index
+    	end
+	end
+	return nil
+end
+
+
+function haveEnough(slot, required_amount, item_name)
 	local old_cursor_slot = turtle.getSelectedSlot()
 	turtle.select(slot)
 	local item_info = turtle.getItemDetail()
-	if item_info.name ~= item_name then error('Item in slot doesn\'t match given item name!') end
+	if item_name ~= nil then
+		if item_info.name ~= item_name then error('Item in slot doesn\'t match given item name!') end
+	end
 	local enough = turtle.getItemCount() >= required_amount
 	turtle.select(old_cursor_slot)
 	return enough
+end
+
+
+function digLeft()
+	turtle.turnLeft()
+	local result = turtle.dig()
+	turtle.turnRight()
+	return result
+end
+
+
+function digRight()
+	turtle.turnRight()
+	local result = turtle.dig()
+	turtle.turnLeft()
+	return result
+end
+
+
+function digBack()
+	flip()
+	local result = turtle.dig()
+	flip()
+	return result
+end
+
+
+function inspectLeft()
+	turtle.turnLeft()
+	local result = turtle.inspect()
+	turtle.turnRight()
+	return result
+end
+
+
+function inspectRight()
+	turtle.turnRight()
+	local result = turtle.inspect()
+	turtle.turnLeft()
+	return result
+end
+
+
+function inspectBack()
+	flip()
+	local result = turtle.inspect()
+	flip()
+	return result
+end
+
+
+function detectLeft()
+	turtle.turnLeft()
+	local result = turtle.detect()
+	turtle.turnRight()
+	return result
+end
+
+
+function detectRight()
+	turtle.turnRight()
+	local result = turtle.detect()
+	turtle.turnLeft()
+	return result
+end
+
+
+function detectBack()
+	flip()
+	local result = turtle.detect()
+	flip()
+	return result
 end
 
 
@@ -88,7 +173,7 @@ function digUntilClear(direction) -- Continue digging until space in chosen dire
 end
 
 
-function placeTunnelTorch(torch_slot, fill_floor_slot, direction) -- Places torches at head level recessed into the wall. Compliant with blaine's "point towards exit" standard.
+function placeTunnelTorch(torch_slot, filler_slot, direction) -- Places torches at head level recessed into the wall. Compliant with blaine's "point towards exit" standard.
 	if direction == nil then direction = 'left' end
 	local turn = {
 		left = turtle.turnLeft,
@@ -102,8 +187,8 @@ function placeTunnelTorch(torch_slot, fill_floor_slot, direction) -- Places torc
 	digUntilClear()
 	turtle.forward()
 	local surface = turtle.detect()
-	if not surface and fill_floor_slot then
-		turtle.select(fill_floor_slot)
+	if not surface and filler_slot then
+		turtle.select(filler_slot)
 		turtle.place()
 	end
 	turtle.back()
@@ -116,40 +201,42 @@ function placeTunnelTorch(torch_slot, fill_floor_slot, direction) -- Places torc
 end
 
 
-function digTunnel(distance, torch_slot, fill_floor_slot) -- Digs a tunnel(2 high x 1 wide) a fixed distance accounting for sand/gravel falls, and places torches along the path.
-	if fill_floor_slot == nil then fill_floor_slot = 0 end
+function digTunnel(distance, torch_slot, filler_slot) -- Digs a tunnel(2 high x 1 wide) a fixed distance accounting for sand/gravel falls, and places torches along the path.
+	if filler_slot == nil then filler_slot = 0 end
 	local counter = 0
 	while counter < distance do
 		turtle.dig()
 		if turtle.forward() then counter = (counter + 1) end
 		local floor = turtle.detectDown()
-		if not floor and fill_floor_slot > 0 then 
-			turtle.select(fill_floor_slot)
+
+		-- place floor if a filler slot was given
+		if not floor and filler_slot > 0 then
+			if not haveEnough(filler_slot, 1) then break end
+			turtle.select(filler_slot)
 			turtle.placeDown()
 		end
-		local above = true
-		while above do
-			turtle.digUp()
-			above = turtle.detectUp()
-		end
+		digUntilClear('up')
 		if counter%10 == 0 then
-			placeTunnelTorch(torch_slot, fill_floor_slot)
+			placeTunnelTorch(torch_slot, filler_slot)
 		end
 	end
 end
 
 
-function buildBasicBridge(floor_slot, left_slot, right_slot) -- Walks forward and places a brick the the left, down, and right until it detects a block below it.
+function buildBasicBridge(floor_slot, left_slot, right_slot) -- Walks forward and places a brick to the left, down, and right until it detects a block below it, or runs out of any blocks.
 	turtle.forward()
 	local floor = false
 	while not floor do
 		turtle.turnRight()
+		if not haveEnough(right_slot, 1) then break end
 		turtle.select(right_slot)
 		turtle.place()
 		flip()
+		if not haveEnough(left_slot, 1) then break end
 		turtle.select(left_slot)
 		turtle.place()
 		turtle.turnRight()
+		if not haveEnough(floor_slot, 1) then break end
 		turtle.select(floor_slot)
 		turtle.placeDown()
 		turtle.dig()
@@ -185,4 +272,4 @@ function clearArea(depth, width, direction, torch_slot) -- Clears a 2 block high
 end
 
 
-return {haveEnough = haveEnough, walk = walk, hook = hook, flip = flip, removeNonBlocks = removeNonBlocks, returnToFloor = returnToFloor, digUntilClear = digUntilClear, digTunnel = digTunnel, buildBasicBridge = buildBasicBridge, clearArea = clearArea}
+return {tableContains = tableContains, haveEnough = haveEnough, walk = walk, hook = hook, flip = flip, removeNonBlocks = removeNonBlocks, returnToFloor = returnToFloor, digUntilClear = digUntilClear, digTunnel = digTunnel, buildBasicBridge = buildBasicBridge, clearArea = clearArea}

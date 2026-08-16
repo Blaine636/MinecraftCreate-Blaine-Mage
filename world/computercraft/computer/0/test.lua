@@ -1,29 +1,12 @@
 local lib = require('library')
+local args = {...}
 
---lib.buildBasicBridge(1,2,3)
+print('Oh, ')
+term.write('hello!')
 
-function buildStairsDown()
-    for i=1,20,1 do
-        turtle.forward()
-        turtle.down()
-        turtle.turnLeft()
-        turtle.place()
-        lib.flip()
-        turtle.place()
-        turtle.turnLeft()
-        turtle.placeDown()
-    end
-end
-
-buildStairsDown()
---turtle.select(2)
---buildStairsDown()
-
-
---local tunnel_dist = 140
---local filler = 1
---local torch = 2
-
---lib.digTunnel(tunnel_dist, torch, filler)
---lib.flip()
---lib.walk(tunnel_dist)
+print()
+print('...\nIm Bot! What\'s your name?')
+local input = term.read()
+term.clear()
+term.setCursorPos(20,10)
+print('Nice to meet you '..input)
