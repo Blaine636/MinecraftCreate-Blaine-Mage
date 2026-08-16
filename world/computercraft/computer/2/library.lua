@@ -272,4 +272,4 @@ function clearArea(depth, width, direction, torch_slot) -- Clears a 2 block high
 end
 
 
-return {tableContains = tableContains, haveEnough = haveEnough, walk = walk, hook = hook, flip = flip, removeNonBlocks = removeNonBlocks, returnToFloor = returnToFloor, digUntilClear = digUntilClear, digTunnel = digTunnel, buildBasicBridge = buildBasicBridge, clearArea = clearArea}
+return {directions = directions, opposites = opposites, tableContains = tableContains, haveEnough = haveEnough, walk = walk, hook = hook, flip = flip, removeNonBlocks = removeNonBlocks, returnToFloor = returnToFloor, digUntilClear = digUntilClear, digTunnel = digTunnel, buildBasicBridge = buildBasicBridge, clearArea = clearArea}

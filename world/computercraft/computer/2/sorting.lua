@@ -3,12 +3,6 @@ local categories = require('item_categories')
 local args = {...}
 local step_counter = 0
 
-function moveForwardAndCount()
-    local step = turtle.forward()
-    if step then step_counter = (step_counter + 1) end
-    return step
-end
-
 
 function home()
     print('returning to home...')
@@ -23,10 +17,9 @@ function home()
         local ok, data = turtle.inspectDown()
         -- Check if standing on the chiseled stone block, then reset counter and exit loop
         if data.name == 'minecraft:chiseled_stone_bricks' then
-            step_counter = 0
             break
         end
-        local clear = moveForwardAndCount()
+        local clear = turtle.forward() --moveForwardAndCount()
         if not clear then turtle.turnLeft() end
     end
 
@@ -51,42 +44,92 @@ end
 
 
 function main_loop()
-    print('Sorting...')
-    pull_items()
-    sort_items()
+    while true do
+        print('Sorting...')
+        pullItems()
+        sortItems()
+        home()
+    end
 end
 
 
-function move(value)
-    --
+function moveTo(value)
+    local current_position
+    local ok, data = turtle.inspectDown()
+    if ok then
+        if data.name == 'minecraft:redstone_wire' then
+            current_position = data.state.power
+        else
+            current_position = 0
+        end
+    end
+    local difference = value - current_position
+    local direction
+    if difference ~= 0 then
+        if difference > 0 then
+            direction = 'left'
+        elseif difference < 0 then
+            direction = 'right'
+        end
+        lib.directions[direction].turn()
+        for i=1,math.abs(difference),1 do
+            turtle.forward()
+        end
+        lib.directions[opposites[direction]].turn()
+    end
 end
 
 
-function pull_items()
-    turtle.select(1)
+function placeItem()
+    turtle.drop()
+end
+
+
+function pullItems()
+    local i = 1
+    turtle.select(i)
     repeat
-        local pulled_none = turtle.suck()
-    until pulled_none
+        local pulled_something = turtle.suck()
+        if not pulled_something then
+            print('Waiting for items...')
+            sleep(10)
+        end
+    until pulled_something
+    i = (i+1)
+    repeat
+        turtle.select(i)
+        local pulled_none = not turtle.suck()
+        i = (i+1)
+    until pulled_none or i > 16
 end
 
 
-function sort_items()
+function sortItems()
     -- Move to face first category.
     turtle.turnRight()
     turtle.forward()
-    turtle.turnRight()
-    turtle.forward()
-    turtle.turnRight()
+    lib.flip()
 
     -- Temporary! Sort per slot
     for i=1,16,1 do
         turtle.select(i)
         local item_info = turtle.getItemDetail(i, true)
-        for key, value in ipairs(categories) do
-            print('key: '..key..' value: '..value)
-            sleep(0.2)
-            --local found = tableContains(key, )
+        if item_info ~= nil then
+            for key, value in ipairs(categories) do
+                local found = tableContains(value, item_info.name)
+                if found then
+                    moveTo(key)
+                    placeItem()
+                    break
+                end
+            end
         end
+    end
+
+    moveTo(12)
+    for i=1,16,1 do
+        turtle.select(i)
+        placeItem()
     end
 end
 
