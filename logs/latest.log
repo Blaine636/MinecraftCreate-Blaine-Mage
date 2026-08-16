@@ -1,35 +1,73 @@
-[16Aug2026 00:23:48.099] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin lost connection: Disconnected
-[16Aug2026 00:23:48.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin left the game
-[16Aug2026 01:02:45.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine was slain by Zombie
-[16Aug2026 01:05:05.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Set the time to 13000]
-[16Aug2026 01:06:44.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine was shot by Skeleton
-[16Aug2026 01:09:31.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine was shot by Skeleton
-[16Aug2026 01:10:10.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Set the time to 1000]
-[16Aug2026 01:32:17.397] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@14fca1dc[id=<null>,name=PaperMuffin,properties={},legacy=false] (/174.109.224.121:54564) lost connection: Disconnected
-[16Aug2026 01:33:10.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Set the time to 13000]
-[16Aug2026 01:33:43.599] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PaperMuffin is 2bd56217-f548-44fe-9126-e1dce9949e25
-[16Aug2026 01:33:45.345] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PaperMuffin[/174.109.224.121:57627] logged in with entity id 62298 at (-190.59934810412085, 69.0, -1.8863243317559826)
-[16Aug2026 01:33:45.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin joined the game
-[16Aug2026 01:36:56.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine was shot by PaperMuffin
-[16Aug2026 01:47:44.503] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from PaperMuffin: Location (-197.375, 69.41589951515198, 4.49930864572525) too far away from hit block BlockPos{x=-199, y=69, z=4}.
-[16Aug2026 02:20:28.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
-[16Aug2026 02:20:28.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
-[16Aug2026 02:41:42.044] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
-[16Aug2026 02:41:44.305] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:9983] logged in with entity id 76252 at (-199.67465141824212, 69.0, -27.57327557865781)
-[16Aug2026 02:41:44.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
-[16Aug2026 03:04:46.382] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin lost connection: Disconnected
-[16Aug2026 03:04:46.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin left the game
-[16Aug2026 03:08:04.833] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
-[16Aug2026 03:08:04.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
-[16Aug2026 03:08:22.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[16Aug2026 03:08:22.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[16Aug2026 03:08:22.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[16Aug2026 03:08:22.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[16Aug2026 03:08:22.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
-[16Aug2026 03:08:22.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[16Aug2026 03:08:22.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
-[16Aug2026 03:08:22.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16Aug2026 03:08:22.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16Aug2026 03:08:22.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16Aug2026 03:08:22.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16Aug2026 03:08:23.635] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[16Aug2026 16:49:35.615] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[16Aug2026 16:49:35.620] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[16Aug2026 16:49:36.585] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Aug2026 16:49:36.648] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[16Aug2026 16:49:36.968] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[16Aug2026 16:49:37.045] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[16Aug2026 16:49:37.090] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[16Aug2026 16:49:37.135] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[16Aug2026 16:49:37.326] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[16Aug2026 16:49:39.043] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Aug2026 16:49:39.052] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[16Aug2026 16:49:46.407] [modloading-worker-0/INFO] [NorthernCompass/]: NorthernCompass v1.20.1-1.0.16 Initialized
+[16Aug2026 16:49:46.432] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[16Aug2026 16:49:46.432] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[16Aug2026 16:49:49.266] [main/INFO] [journeymap/]: Initializing Packet Registries
+[16Aug2026 16:49:49.395] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaPluginCore
+[16Aug2026 16:49:49.418] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaPluginVanilla
+[16Aug2026 16:49:49.448] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:harvest at mcp.mobius.waila.plugin.harvest.WailaPluginHarvest
+[16Aug2026 16:49:49.451] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:forge at mcp.mobius.waila.plugin.forge.WailaPluginForge
+[16Aug2026 16:49:49.456] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Registering plugin waila:extra at mcp.mobius.waila.plugin.extra.WailaPluginExtra
+[16Aug2026 16:49:49.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[16Aug2026 16:49:49.547] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[16Aug2026 16:49:50.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.113.1 Target: 1.120.2
+[16Aug2026 16:49:50.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Aug2026 16:49:50.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.10
+[16Aug2026 16:49:50.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[16Aug2026 16:49:50.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[16Aug2026 16:49:50.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[16Aug2026 16:49:50.268] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: AHEAD Current: 5.9.20 Target: null
+[16Aug2026 16:49:52.036] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Aug2026 16:49:53.671] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
+[16Aug2026 16:49:53.671] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
+[16Aug2026 16:49:55.505] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[16Aug2026 16:49:55.601] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2299 advancements
+[16Aug2026 16:49:55.608] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[16Aug2026 16:49:55.609] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[16Aug2026 16:49:57.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[16Aug2026 16:49:57.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Aug2026 16:49:57.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[16Aug2026 16:49:57.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Aug2026 16:49:57.820] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[16Aug2026 16:49:57.845] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[16Aug2026 16:49:58.103] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[16Aug2026 16:49:58.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Aug2026 16:49:59.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Aug2026 16:50:01.190] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 16:50:01.234] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 16:50:01.245] [Worker-Main-20/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 16:50:01.252] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 16:50:01.259] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 16:50:01.622] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Aug2026 16:50:02.122] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[16Aug2026 16:50:02.469] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3348 ms
+[16Aug2026 16:50:02.469] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.388s)! For help, type "help"
+[16Aug2026 16:50:02.499] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[16Aug2026 16:50:02.600] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[16Aug2026 16:53:26.021] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
+[16Aug2026 16:53:28.380] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:2680] logged in with entity id 207 at (-195.58037805082446, 69.0, -2.9852955196729423)
+[16Aug2026 16:53:28.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
+[16Aug2026 16:58:52.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[16Aug2026 16:58:52.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[16Aug2026 16:58:58.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[16Aug2026 16:58:58.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Aug2026 16:58:58.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Aug2026 16:58:58.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Aug2026 16:58:58.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
+[16Aug2026 16:58:58.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
+[16Aug2026 16:58:58.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[16Aug2026 16:58:59.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Aug2026 16:58:59.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Aug2026 16:58:59.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Aug2026 16:58:59.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16Aug2026 16:59:00.122] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
