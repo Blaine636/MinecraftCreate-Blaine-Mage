@@ -78,7 +78,7 @@ categories = {
 
             --Plants/farming
             {"minecraft:wheat",
-            "minecraft:wheat_seads"
+            "minecraft:wheat_seeds",
             "minecraft:carrot",
             "minecraft:potato",
             "minecraft:beetroot",
@@ -111,6 +111,11 @@ categories = {
             "minecraft:small_dripleaf",
             "minecraft:flowering_azalea",
             "minecraft:azalea",
+            "minecraft:spruce_sapling",
+            "minecraft:acacia_sapling",
+            "minecraft:oak_sapling",
+            "minecraft:birch_sapling",
+            "minecraft:dark_oak_sapling",
             "minecraft:moss_block",
             "minecraft:moss_carpet"},
 
