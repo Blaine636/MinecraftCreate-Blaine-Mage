@@ -4,7 +4,59 @@ categories = {
             "minecraft:cobbled_deepslate"},
 
             --Tools
-            {"minecraft:flint_and_steel",
+            {"minecraft:wooden_axe",
+            "minecraft:wooden_pickaxe",
+            "minecraft:wooden_sword",
+            "minecraft:wooden_shovel",
+            "minecraft:wooden_hoe",
+
+            "minecraft:stone_axe",
+            "minecraft:stone_pickaxe",
+            "minecraft:stone_sword",
+            "minecraft:stone_shovel",
+            "minecraft:stone_hoe",
+
+            "minecraft:iron_axe",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_sword",
+            "minecraft:iron_shovel",
+            "minecraft:iron_hoe",
+            "minecraft:iron_helmet",
+            "minecraft:iron_chestplate",
+            "minecraft:iron_leggings",
+            "minecraft:iron_boots",
+
+            "minecraft:golden_axe",
+            "minecraft:golden_pickaxe",
+            "minecraft:golden_sword",
+            "minecraft:golden_shovel",
+            "minecraft:golden_hoe",
+            "minecraft:golden_helmet",
+            "minecraft:golden_chestplate",
+            "minecraft:golden_leggings",
+            "minecraft:golden_boots",
+
+            "minecraft:diamond_axe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_sword",
+            "minecraft:diamond_shovel",
+            "minecraft:diamond_hoe",
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+
+            "minecraft:netherite_axe",
+            "minecraft:netherite_pickaxe",
+            "minecraft:netherite_sword",
+            "minecraft:netherite_shovel",
+            "minecraft:netherite_hoe",
+            "minecraft:netherite_helmet",
+            "minecraft:netherite_chestplate",
+            "minecraft:netherite_leggings",
+            "minecraft:netherite_boots",
+
+            "minecraft:flint_and_steel",
             "minecraft:bow",
             "minecraft:crossbow",
             "minecraft:fishing_rod",
@@ -19,10 +71,14 @@ categories = {
             "minecraft:clock",
             "minecraft:lead",
             "minecraft:name_tag",
-            "minecraft:elytra"},
+            "minecraft:elytra",
+
+            "create:wrench",
+            "create:goggles"},
 
             --Plants/farming
             {"minecraft:wheat",
+            "minecraft:wheat_seads"
             "minecraft:carrot",
             "minecraft:potato",
             "minecraft:beetroot",
@@ -124,7 +180,13 @@ categories = {
             "minecraft:redstone",
             "minecraft:quartz",
             "minecraft:netherite_scrap",
-            "minecraft:netherite_ingot"},
+            "minecraft:netherite_ingot",
+
+            "create:brass_ingot",
+            "create:brass_nugget",
+            "create:raw_zinc",
+            "create:zinc_ingot",
+            "create:zinc_nugget"},
 
             -- Rocks
             {"minecraft:coarse_dirt",
@@ -270,7 +332,11 @@ categories = {
             "minecraft:powder_snow_bucket",
             "minecraft:milk_bucket",
             "minecraft:glass_bottle",
-            "minecraft:bundle"}
+            "minecraft:bundle"},
+
+            -- Non minecraft
+            {"create:whisk",
+            "create:propeller"}
 }
 
 return categories
