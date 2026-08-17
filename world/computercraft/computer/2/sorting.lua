@@ -81,7 +81,21 @@ end
 
 
 function placeItem()
-    turtle.drop()
+    local success = turtle.drop()
+    while not success do
+        turtle.up()
+        local ok, data = turtle.inspect()
+        if ok then
+            if data.name == 'minecraft:chest' then
+                success = turtle.drop()
+            else
+                break
+            end
+        else
+            break
+        end
+    end
+    lib.returnToFloor()
 end
 
 
@@ -129,7 +143,10 @@ function sortItems()
     moveTo(12)
     for i=1,16,1 do
         turtle.select(i)
-        placeItem()
+        local item_info = turtle.getItemDetail(i, true)
+        if item_info ~= nil then
+            placeItem()
+        end
     end
 end
 
