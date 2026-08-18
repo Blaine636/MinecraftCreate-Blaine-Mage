@@ -1,6 +1,7 @@
 local lib = require('library')
 local args = {...}
 
+lib.clearArea(4, 10, 'right')
 
 
 for i=1,#args do

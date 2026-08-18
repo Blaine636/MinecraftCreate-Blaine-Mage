@@ -884,6 +884,7 @@
       "minecraft:spider": "2024-03-22 22:42:08 -0600",
       "minecraft:creeper": "2024-03-22 23:02:39 -0600",
       "minecraft:phantom": "2026-08-09 19:30:38 -0600",
+      "minecraft:witch": "2026-08-17 23:13:50 -0600",
       "minecraft:wither_skeleton": "2026-08-10 22:29:48 -0600",
       "minecraft:piglin": "2026-08-10 00:07:25 -0600",
       "minecraft:enderman": "2024-03-22 23:03:08 -0600",
@@ -6254,21 +6255,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_crimsite_brick_wall_from_stone_types_crimsite_stonecutting": {
-    "criteria": {
-      "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2026-08-16 19:48:04 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_crimsite_slab_from_stone_types_crimsite_stonecutting": {
-    "criteria": {
-      "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
     },
     "done": true
   },
@@ -6284,9 +6273,39 @@
     },
     "done": true
   },
-  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
-      "has_item": "2026-08-16 21:50:45 -0600"
+      "has_stone_bricks": "2026-08-16 19:48:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-16 19:48:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-08-16 19:48:04 -0600"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2026-08-16 20:23:29 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_brick_wall_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_slab_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
     },
     "done": true
   },
@@ -6311,12 +6330,6 @@
   "create:recipes/building_blocks/polished_cut_crimsite_from_stone_types_crimsite_stonecutting": {
     "criteria": {
       "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
-    },
-    "done": true
-  },
-  "create:chute": {
-    "criteria": {
-      "0": "2026-08-16 20:23:29 -0600"
     },
     "done": true
   },
@@ -6350,33 +6363,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
-    "criteria": {
-      "has_item": "2026-08-16 22:39:04 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
-    "criteria": {
-      "has_item": "2026-08-16 21:50:45 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/crimsite_pillar_from_stone_types_crimsite_stonecutting": {
     "criteria": {
       "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2026-08-16 19:48:04 -0600"
-    },
-    "done": true
-  },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2026-08-16 22:02:55 -0600"
     },
     "done": true
   },
@@ -6392,18 +6381,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/fluid_tank": {
-    "criteria": {
-      "has_item": "2026-08-16 21:12:03 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2026-08-16 19:48:04 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_crimsite_from_stone_types_crimsite_stonecutting": {
     "criteria": {
       "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
@@ -6413,24 +6390,6 @@
   "create:recipes/building_blocks/cut_crimsite_wall_from_stone_types_crimsite_stonecutting": {
     "criteria": {
       "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2026-08-16 19:48:04 -0600"
-    },
-    "done": true
-  },
-  "create:steam_engine": {
-    "criteria": {
-      "0": "2026-08-16 22:06:39 -0600"
-    },
-    "done": true
-  },
-  "create:water_supply": {
-    "criteria": {
-      "0": "2026-08-16 21:46:28 -0600"
     },
     "done": true
   },
@@ -6446,15 +6405,273 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_crimsite_bricks_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2026-08-16 21:12:03 -0600"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/kinetics/item_vault": {
     "criteria": {
       "has_item": "2026-08-16 21:12:03 -0600"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_crimsite_bricks_from_stone_types_crimsite_stonecutting": {
+  "create:water_supply": {
     "criteria": {
-      "has_stone_types_crimsite": "2026-08-16 20:53:45 -0600"
+      "0": "2026-08-16 21:46:28 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-08-16 21:50:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-08-16 21:50:45 -0600"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2026-08-16 22:02:55 -0600"
+    },
+    "done": true
+  },
+  "create:steam_engine": {
+    "criteria": {
+      "0": "2026-08-16 22:06:39 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2026-08-16 22:39:04 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_crafter": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/rotation_speed_controller": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/redstone_link": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_arm": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_door": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/content_observer": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/display_link": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/stockpile_switch": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sequenced_gearshift": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/redstone_contact": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/clockwork_bearing": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/nixie_tube": {
+    "criteria": {
+      "has_item": "2026-08-17 21:57:51 -0600"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2026-08-17 22:02:50 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
+    "criteria": {
+      "has_item": "2026-08-17 22:02:55 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/spout": {
+    "criteria": {
+      "has_item": "2026-08-17 22:02:55 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2026-08-17 22:02:55 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_door": {
+    "criteria": {
+      "has_item": "2026-08-17 22:02:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2026-08-17 22:10:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2026-08-17 22:10:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2026-08-17 22:10:53 -0600"
+    },
+    "done": true
+  },
+  "create:sturdy_sheet": {
+    "criteria": {
+      "0": "2026-08-17 22:22:57 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/track_station": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:train": {
+    "criteria": {
+      "0": "2026-08-17 23:11:32 -0600"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2026-08-17 23:11:11 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/train_door": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/track_signal": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:spout": {
+    "criteria": {
+      "0": "2026-08-17 22:22:30 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/controls": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2026-08-17 22:32:02 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/track_observer_from_other_plates": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2026-08-18 00:01:16 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/schedule": {
+    "criteria": {
+      "has_item": "2026-08-17 22:22:57 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/brown_toolbox": {
+    "criteria": {
+      "has_item": "2026-08-17 23:05:48 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/track_observer": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/train_trapdoor": {
+    "criteria": {
+      "has_item": "2026-08-17 22:26:33 -0600"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2026-08-17 23:07:19 -0600"
     },
     "done": true
   },
