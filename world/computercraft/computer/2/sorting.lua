@@ -1,44 +1,49 @@
 local lib = require('library')
 local categories = require('item_categories')
 local args = {...}
-local step_counter = 0
+local last_powered_step = nil
 
 
 function home()
     print('returning to home...')
 
     --Move down until standing on ground
-    repeat
-        local floor = not turtle.down()
-    until floor
+    lib.returnToFloor()
 
     --Move to chiseled stone block anchor point
     while true do
         local ok, data = turtle.inspectDown()
-        -- Check if standing on the chiseled stone block, then reset counter and exit loop
-        if data.name == 'minecraft:chiseled_stone_bricks' then
-            break
+
+        -- Check position on redstone wire
+        if data.name == 'minecraft:redstone_wire' then
+            if data.state.power == 0 then
+                break
+            elseif last_powered_step ~= nil then
+                local difference = data.state.power - last_powered_step
+                if difference > 0 then
+                    lib.flip()
+                elseif difference == 0 then
+                    turtle.turnRight()
+                end
+            end
+            last_powered_step = data.state.power
+            local clear = turtle.forward()
         end
-        local clear = turtle.forward() --moveForwardAndCount()
-        if not clear then turtle.turnLeft() end
     end
 
-    --check adjacent floor blocks (counter clockwise) until standing on smooth stone
+    --check adjacent floor blocks (counter clockwise) until standing on chiseled stone bricks
     while true do
         turtle.turnLeft()
         local clear = turtle.forward()
         if clear then
             local ok, data = turtle.inspectDown()
-            if data.name == 'minecraft:smooth_stone' then
+            if data.name == 'minecraft:chiseled_stone_bricks' then
                 break
             else
                 turtle.back()
             end
         end
     end
-
-    --face unsorted chest
-    turtle.turnRight()
     print('homing complete')
 end
 
