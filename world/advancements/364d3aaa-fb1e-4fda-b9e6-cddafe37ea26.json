@@ -7608,5 +7608,17 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/smart_chute": {
+    "criteria": {
+      "has_item": "2026-08-18 19:45:19 -0600"
+    },
+    "done": true
+  },
+  "create:portable_storage_interface": {
+    "criteria": {
+      "0": "2026-08-18 20:02:33 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
