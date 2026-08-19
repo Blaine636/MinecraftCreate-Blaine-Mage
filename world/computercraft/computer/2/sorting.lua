@@ -124,10 +124,8 @@ end
 
 
 function sortItems()
-    -- Move to face first category.
-    turtle.turnRight()
-    turtle.forward()
-    lib.flip()
+    -- Move to isle while facing chests
+    turtle.back()
 
     -- Temporary! Sort per slot
     for i=1,16,1 do
