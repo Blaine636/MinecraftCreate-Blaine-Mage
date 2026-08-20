@@ -1,2 +1,1 @@
-shell.run("hello")
-shell.run('practice')
+shell.run('kelp_farmer')
