@@ -2,22 +2,28 @@ local lib = require('library')
 local categories = require('item_categories')
 local args = {...}
 local last_powered_step = nil
+local uncategorized_chest = 12
 
 
 function home()
     print('returning to home...')
+    local found_home = false
 
     --Move down until standing on ground
     lib.returnToFloor()
 
-    --Move to chiseled stone block anchor point
-    while true do
+    --Move to 'chiseled stone bricks' home position
+    while not found_home do
         local ok, data = turtle.inspectDown()
 
         -- Check position on redstone wire
         if data.name == 'minecraft:redstone_wire' then
+
+            -- Go to next step if at the end of the redstone line
             if data.state.power == 0 then
                 break
+
+            -- Orient move direction towards zero
             elseif last_powered_step ~= nil then
                 local difference = data.state.power - last_powered_step
                 if difference > 0 then
@@ -26,13 +32,30 @@ function home()
                     turtle.turnRight()
                 end
             end
-            last_powered_step = data.state.power
-            local clear = turtle.forward()
+
+        -- If standing on home plate
+        elseif data.name == 'minecraft:chiseled_stone_bricks' then
+
+            -- Rotate counter-clockwise and find/face barrel
+            repeat
+                local _, block  = turtle.inspect()
+                if block.name == 'minecraft:barrel' then
+                    found_home = true
+                else
+                    turtle.turnLeft()
+                end
+            until found_home
+        
+
+        else
+            error('Off the rails')
         end
+        last_powered_step = data.state.power
+        local clear = turtle.forward()
     end
 
     --check adjacent floor blocks (counter clockwise) until standing on chiseled stone bricks
-    while true do
+    while not found_home do
         turtle.turnLeft()
         local clear = turtle.forward()
         if clear then
@@ -48,7 +71,17 @@ function home()
 end
 
 
-function main_loop()
+function inventoryPresent()
+    for i=1,16 do
+        turtle.select(i)
+        local has_item, data = turtle.getItemDetail()
+        if has_item then return true end
+    end
+    return false
+end
+
+
+function mainLoop()
     while true do
         print('Sorting...')
         pullItems()
@@ -64,7 +97,8 @@ function moveTo(value)
     if ok then
         if data.name == 'minecraft:redstone_wire' then
             current_position = data.state.power
-        else
+        elseif data.name == 'minecraft:chiseled_stone_bricks' then
+            turtle.back()
             current_position = 0
         end
     end
@@ -107,13 +141,14 @@ end
 function pullItems()
     local i = 1
     turtle.select(i)
-    repeat
-        local pulled_something = turtle.suck()
-        if not pulled_something then
-            print('Waiting for items...')
-            sleep(10)
-        end
-    until pulled_something
+    local items_to_sort =  turtle.suck() or inventoryPresent()
+
+    while not items_to_sort do
+        print('Waiting for items...')
+        sleep(10)
+        items_to_sort = turtle.suck()
+    end
+
     i = (i+1)
     repeat
         turtle.select(i)
@@ -127,7 +162,7 @@ function sortItems()
     -- Move to isle while facing chests
     turtle.back()
 
-    -- Temporary! Sort per slot
+    -- Temporary! Sort per item slot
     for i=1,16,1 do
         turtle.select(i)
         local item_info = turtle.getItemDetail(i, true)
@@ -143,28 +178,27 @@ function sortItems()
         end
     end
 
-    moveTo(12)
-    for i=1,16,1 do
-        turtle.select(i)
-        local item_info = turtle.getItemDetail(i, true)
-        if item_info ~= nil then
-            placeItem()
+    -- Dump remaing items into the uncategorized chest column
+    if inventoryPresent() then
+        moveTo(uncategorized_chest)
+        for i=1,16,1 do
+            turtle.select(i)
+            local item_info = turtle.getItemDetail(i, true)
+            if item_info ~= nil then
+                placeItem()
+            end
         end
     end
 end
 
 
-
-
-
 function refuelAndStatus()
-    local fuel_sources = {
-        'minecraft:lava_bucket',
-        'minecraft:coal_block',
-        'minecraft:dried_kelp_block',
-        'minecraft:coal',
-        'minecraft:charcoal'
-    }
+    local fuel_sources = 
+    {'minecraft:lava_bucket',
+    'minecraft:coal_block',
+    'minecraft:dried_kelp_block',
+    'minecraft:coal',
+    'minecraft:charcoal'}
 
     -- Refuel if slot 1 contains an approved fuel source, and print fuel remaining.
     local refuel = false
@@ -185,22 +219,6 @@ for i=1,#args do
         print('starting...')
         refuelAndStatus()
         home()
-        main_loop()
-    -- elseif args[i] == 'home' then
-    --     home()
-    -- elseif args[i] == 'forward' then
-    --     turtle.forward()
-    -- elseif args[i] == 'right' then
-    --     turtle.turnRight()
-    -- elseif args[i] == 'left' then
-    --     turtle.turnLeft()
-    -- elseif args[i] == 'up' then
-    --     turtle.up()
-    -- elseif args[i] == 'down' then
-    --     turtle.down()
-    -- elseif args[i] == 'fuel' then
-    --     print(turtle.getFuelLevel())
-    -- elseif args[i] == 'refuel' then
-    --     turtle.refuel()
+        mainLoop()
     end
 end
