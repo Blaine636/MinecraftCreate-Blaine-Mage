@@ -43,7 +43,7 @@ function refuel()
     if not hasFuel(1000) then
         turtle.select(16)
         turtle.dropUp()
-        turtle.suck()
+        turtle.suck(2)
         item = turtle.getItemDetail()
         if item then
             if item.name == 'minecraft:dried_kelp_block' then
