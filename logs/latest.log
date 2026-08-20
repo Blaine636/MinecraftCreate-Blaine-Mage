@@ -1,12 +1,17 @@
-[19Aug2026 00:25:36.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[19Aug2026 00:25:36.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Aug2026 00:25:36.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Aug2026 00:25:36.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Aug2026 00:25:36.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
-[19Aug2026 00:25:36.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
-[19Aug2026 00:25:36.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[19Aug2026 00:25:36.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19Aug2026 00:25:36.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Aug2026 00:25:36.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Aug2026 00:25:36.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19Aug2026 00:25:37.853] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Aug2026 01:01:17.919] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -810.0444870375933,7.0,-617.1999999880791
+[20Aug2026 01:01:24.489] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[20Aug2026 01:01:24.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[20Aug2026 01:14:14.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin lost connection: Disconnected
+[20Aug2026 01:14:14.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin left the game
+[20Aug2026 01:46:58.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20Aug2026 01:46:58.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Aug2026 01:46:58.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Aug2026 01:46:58.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Aug2026 01:46:58.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
+[20Aug2026 01:46:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
+[20Aug2026 01:46:58.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Aug2026 01:47:00.092] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
