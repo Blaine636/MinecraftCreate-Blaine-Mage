@@ -187,7 +187,7 @@ function sortItems()
     end
 
     -- Go to each column and drop off all slots that belong there
-    for column=1, #locations do
+    for column, list in pairs(locations) do
         moveTo(column)
         for _, slot in ipairs(locations[column]) do
             turtle.select(slot)

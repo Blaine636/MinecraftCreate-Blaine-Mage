@@ -258,7 +258,7 @@ categories = {
 
     --Mob drops
     {
-    prefix={
+    suffix={
     'salmon',
     'fish',
     'chicken',
@@ -303,7 +303,7 @@ categories = {
 
     -- Ores/Ingots
     {
-    prefix={
+    suffix={
     'copper',
     'iron',
     'gold',
@@ -337,7 +337,7 @@ categories = {
 
     -- Create blocks
     {
-    prefix={
+    suffix={
     },
     list={
     'create:water_wheel',
