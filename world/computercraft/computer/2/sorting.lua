@@ -2,7 +2,7 @@ local lib = require('library')
 local categories = require('item_categories')
 local args = {...}
 local last_powered_step = nil
-local uncategorized_chest = 12
+local uncategorized_chest = #categories + 1
 
 
 function home()
@@ -72,8 +72,8 @@ end
 
 
 function inventoryPresent()
-    for i=1,16 do
-        turtle.select(i)
+    for slot=1,16 do
+        turtle.select(slot)
         local has_item, data = turtle.getItemDetail()
         if has_item then return true end
     end
@@ -139,16 +139,19 @@ end
 
 
 function pullItems()
+    -- Check for items in sorting bot's inventory
+    local items_to_sort = inventoryPresent()
     local i = 1
     turtle.select(i)
-    local items_to_sort =  turtle.suck() or inventoryPresent()
 
+    -- Wait for items to be dropped off
     while not items_to_sort do
         print('Waiting for items...')
         sleep(10)
         items_to_sort = turtle.suck()
     end
 
+    -- Pull available items
     i = (i+1)
     repeat
         turtle.select(i)
@@ -159,22 +162,36 @@ end
 
 
 function sortItems()
+    -- Create table for columns and the item slots that need to be dropped off there
+    local locations = {}
+
     -- Move to isle while facing chests
     turtle.back()
 
-    -- Temporary! Sort per item slot
-    for i=1,16,1 do
-        turtle.select(i)
-        local item_info = turtle.getItemDetail(i, true)
+    -- Cycle through each slot in turtle's inventory
+    for slot=1,16,1 do
+        turtle.select(slot)
+        local item_info = turtle.getItemDetail(slot, true)
         if item_info ~= nil then
-            for key, value in ipairs(categories) do
-                local found = tableContains(value, item_info.name)
-                if found then
-                    moveTo(key)
-                    placeItem()
-                    break
+
+            -- Get storage location, then add slot to storage column's table
+            local index = categories.getStorageLocation(item_info.name)
+            if index then
+                if locations[index] then
+                    table.insert(locations[index], slot)
+                else
+                    locations[index] = {slot}
                 end
             end
+        end
+    end
+
+    -- Go to each column and drop off all slots that belong there
+    for column=1, #locations do
+        moveTo(column)
+        for _, slot in ipairs(locations[column]) do
+            turtle.select(slot)
+            placeItem()
         end
     end
 
