@@ -1,17 +1,14 @@
-[20Aug2026 01:01:17.919] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -810.0444870375933,7.0,-617.1999999880791
-[20Aug2026 01:01:24.489] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
-[20Aug2026 01:01:24.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
-[20Aug2026 01:14:14.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin lost connection: Disconnected
-[20Aug2026 01:14:14.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin left the game
-[20Aug2026 01:46:58.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[20Aug2026 01:46:58.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20Aug2026 01:46:58.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20Aug2026 01:46:58.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20Aug2026 01:46:58.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
-[20Aug2026 01:46:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
-[20Aug2026 01:46:58.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20Aug2026 01:46:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20Aug2026 01:47:00.092] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[23Aug2026 01:13:33.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[23Aug2026 01:13:33.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[23Aug2026 01:13:54.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Aug2026 01:13:54.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Aug2026 01:13:54.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Aug2026 01:13:54.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Aug2026 01:13:54.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
+[23Aug2026 01:13:55.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[23Aug2026 01:13:55.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
+[23Aug2026 01:13:55.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Aug2026 01:13:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Aug2026 01:13:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Aug2026 01:13:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Aug2026 01:13:56.512] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
