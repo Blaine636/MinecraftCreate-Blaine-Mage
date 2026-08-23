@@ -2,7 +2,7 @@ local lib = require('library')
 local item_categories = require('item_categories')
 local args = {...}
 local last_powered_step = nil
-local uncategorized_chest = (#item_categories[1]) + 1
+local uncategorized_chest = (#item_categories.categories) + 1
 
 
 function home()
