@@ -1,8 +1,8 @@
 local lib = require('library')
-local categories = require('item_categories')
+local item_categories = require('item_categories')
 local args = {...}
 local last_powered_step = nil
-local uncategorized_chest = #categories + 1
+local uncategorized_chest = (#item_categories[1]) + 1
 
 
 function home()
@@ -175,7 +175,7 @@ function sortItems()
         if item_info ~= nil then
 
             -- Get storage location, then add slot to storage column's table
-            local index = categories.getStorageLocation(item_info.name)
+            local index = item_categories.getStorageLocation(item_info.name)
             if index then
                 if locations[index] then
                     table.insert(locations[index], slot)
