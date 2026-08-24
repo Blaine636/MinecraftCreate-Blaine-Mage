@@ -7160,6 +7160,12 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/computer_normal": {
+    "criteria": {
+      "has_redstone": "2026-08-09 00:30:26 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/warped_hyphae": {
     "criteria": {
       "has_log": "2026-08-10 22:05:34 -0600"
@@ -7298,6 +7304,12 @@
     },
     "done": true
   },
+  "computercraft:recipes/redstone/computer_advanced": {
+    "criteria": {
+      "has_components": "2026-08-11 19:21:20 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2026-08-11 22:13:10 -0600"
@@ -7307,6 +7319,84 @@
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_logs": "2026-08-11 22:13:10 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_normal": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printer": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/cable": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_drive": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/speaker": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_normal": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_normal": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_advanced": {
+    "criteria": {
+      "has_computer": "2026-08-11 23:32:25 -0600"
     },
     "done": true
   },
@@ -7648,13 +7738,13 @@
   },
   "simulated:root": {
     "criteria": {
-      "0": "2026-08-23 22:03:51 -0600"
+      "0": "2026-08-23 22:10:22 -0600"
     },
     "done": true
   },
   "aeronautics:root": {
     "criteria": {
-      "0": "2026-08-23 22:03:51 -0600"
+      "0": "2026-08-23 22:10:22 -0600"
     },
     "done": true
   },
