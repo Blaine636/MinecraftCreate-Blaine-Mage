@@ -13,14 +13,18 @@
       "minecraft:deep_ocean": "2024-03-22 22:15:24 -0600",
       "minecraft:lush_caves": "2024-03-04 21:15:27 -0700",
       "minecraft:ice_spikes": "2024-04-06 13:21:47 -0600",
+      "minecraft:desert": "2026-08-24 00:19:22 -0600",
       "minecraft:frozen_river": "2026-08-15 01:40:16 -0600",
       "minecraft:jungle": "2024-02-26 17:20:22 -0700",
       "minecraft:ocean": "2024-03-22 22:13:59 -0600",
       "minecraft:sunflower_plains": "2024-03-03 16:51:26 -0700",
       "minecraft:birch_forest": "2024-03-22 22:20:00 -0600",
       "minecraft:windswept_hills": "2024-04-06 13:14:11 -0600",
+      "minecraft:wooded_badlands": "2026-08-24 00:17:56 -0600",
+      "minecraft:bamboo_jungle": "2026-08-24 00:16:38 -0600",
       "minecraft:warm_ocean": "2024-04-06 13:48:24 -0600",
       "minecraft:deep_lukewarm_ocean": "2024-02-26 13:20:45 -0700",
+      "minecraft:badlands": "2026-08-24 00:19:43 -0600",
       "minecraft:flower_forest": "2024-03-04 20:55:34 -0700",
       "minecraft:savanna_plateau": "2024-03-03 16:47:24 -0700",
       "minecraft:beach": "2024-02-26 13:11:22 -0700",
@@ -2615,7 +2619,8 @@
       "minecraft:cat": "2024-03-02 11:35:07 -0700",
       "minecraft:chicken": "2024-03-20 19:22:13 -0600",
       "minecraft:wolf": "2026-08-23 01:09:44 -0600",
-      "minecraft:turtle": "2026-08-15 02:17:34 -0600"
+      "minecraft:turtle": "2026-08-15 02:17:34 -0600",
+      "minecraft:sheep": "2026-08-23 22:55:19 -0600"
     },
     "done": false
   },
@@ -7949,6 +7954,270 @@
   "aeronautics:recipes/misc/andesite_propeller_from_andesite": {
     "criteria": {
       "has_ingredient": "2026-08-23 22:29:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2026-08-23 23:30:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/vertical_framed_glass_from_glass_blocks_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_blocks_colorless": "2026-08-24 00:54:05 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/lime_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/yellow_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/light_blue_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/green_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_from_glass_blocks_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_blocks_colorless": "2026-08-24 00:54:05 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/magenta_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/magenta_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/yellow_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/orange_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/orange_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/blue_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2026-08-24 00:19:55 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/green_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/black_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/cyan_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/cyan_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/purple_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/red_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/white_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/gray_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/red_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/brown_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "simulated:measure_once_build_twice": {
+    "criteria": {
+      "0": "2026-08-24 01:53:23 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/horizontal_framed_glass_from_glass_blocks_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_blocks_colorless": "2026-08-24 00:54:05 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/black_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tiled_glass_from_glass_blocks_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_blocks_colorless": "2026-08-24 00:54:05 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/pink_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/light_gray_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/brown_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_table_cloth_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2026-08-23 23:33:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
+    "criteria": {
+      "has_item": "2026-08-24 00:04:03 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/lime_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/pink_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:in_thrust_we_trust": {
+    "criteria": {
+      "0": "2026-08-24 01:13:05 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:head_in_the_clouds": {
+    "criteria": {
+      "0": "2026-08-24 01:08:29 -0600"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/rope_coupling": {
+    "criteria": {
+      "has_ingredient": "2026-08-24 01:31:13 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/white_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-08-23 23:26:47 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/purple_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-08-23 23:26:47 -0600"
     },
     "done": true
   },
