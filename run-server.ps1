@@ -70,7 +70,7 @@ $serverProcess = Start-Process `
     -FilePath "java.exe" `
     -ArgumentList @(
         "@user_jvm_args.txt",
-        "@libraries/net/minecraftforge/forge/1.21.1-52.1.0/win_args.txt"
+        "@libraries/net/neoforged/neoforge/21.1.248/win_args.txt"
     ) `
     -WorkingDirectory $serverDirectory `
     -NoNewWindow `
