@@ -1,14 +1,3240 @@
-[23Aug2026 01:13:33.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
-[23Aug2026 01:13:33.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
-[23Aug2026 01:13:54.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[23Aug2026 01:13:54.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23Aug2026 01:13:54.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23Aug2026 01:13:54.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23Aug2026 01:13:54.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
-[23Aug2026 01:13:55.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[23Aug2026 01:13:55.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
-[23Aug2026 01:13:55.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23Aug2026 01:13:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23Aug2026 01:13:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23Aug2026 01:13:55.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23Aug2026 01:13:56.512] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[23Aug2026 20:45:35.059] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Aug2026 20:45:35.069] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[23Aug2026 20:45:35.559] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Aug2026 20:45:35.638] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Aug2026 20:45:36.100] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[23Aug2026 20:45:36.200] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Aug2026 20:45:36.260] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Aug2026 20:45:36.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Aug2026 20:45:36.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Aug2026 20:45:37.865] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Aug2026 20:45:44.342] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[23Aug2026 20:45:44.346] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[23Aug2026 20:45:45.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Aug2026 20:45:45.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.10
+[23Aug2026 20:45:46.090] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Aug2026 20:45:46.195] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+arrowspicker (version 1.0.0 -> MISSING)
+badpackets (version 0.4.3 -> MISSING)
+computercraft (version 1.113.1 -> MISSING)
+create (version 0.5.1.f -> MISSING)
+flywheel (version 0.6.10-7 -> MISSING)
+inventorysorter (version 23.0.1 -> MISSING)
+jei (version 15.3.0.4 -> MISSING)
+journeymap (version 5.9.20 -> MISSING)
+northerncompass (version 1.20.1-1.0.16 -> MISSING)
+waila (version 8.7.3 -> MISSING)
+wthit (version 8.7.3 -> MISSING)
+Things may not work well.
+[23Aug2026 20:45:46.276] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	computercraft:cable: 1602
+	computercraft:computer_advanced: 1590
+	computercraft:computer_command: 1591
+	computercraft:computer_normal: 1589
+	computercraft:disk_drive: 1595
+	computercraft:lectern: 1603
+	computercraft:monitor_advanced: 1598
+	computercraft:monitor_normal: 1597
+	computercraft:printer: 1596
+	computercraft:speaker: 1594
+	computercraft:turtle_advanced: 1593
+	computercraft:turtle_normal: 1592
+	computercraft:wired_modem_full: 1601
+	computercraft:wireless_modem_advanced: 1600
+	computercraft:wireless_modem_normal: 1599
+	create:acacia_window: 1314
+	create:acacia_window_pane: 1324
+	create:adjustable_chain_gearshift: 1018
+	create:analog_lever: 1175
+	create:andesite_alloy_block: 1245
+	create:andesite_bars: 1206
+	create:andesite_belt_funnel: 1147
+	create:andesite_casing: 1126
+	create:andesite_door: 1234
+	create:andesite_encased_cogwheel: 1010
+	create:andesite_encased_large_cogwheel: 1012
+	create:andesite_encased_shaft: 1008
+	create:andesite_funnel: 1146
+	create:andesite_ladder: 1203
+	create:andesite_pillar: 1383
+	create:andesite_scaffolding: 1209
+	create:andesite_tunnel: 1150
+	create:asurine: 1456
+	create:asurine_pillar: 1474
+	create:basin: 1035
+	create:belt: 1019
+	create:birch_window: 1312
+	create:birch_window_pane: 1322
+	create:black_nixie_tube: 1172
+	create:black_sail: 1125
+	create:black_seat: 1233
+	create:black_toolbox: 1201
+	create:black_valve_handle: 1068
+	create:blaze_burner: 1036
+	create:blue_nixie_tube: 1168
+	create:blue_sail: 1121
+	create:blue_seat: 1229
+	create:blue_toolbox: 1197
+	create:blue_valve_handle: 1064
+	create:brass_bars: 1207
+	create:brass_belt_funnel: 1149
+	create:brass_block: 1247
+	create:brass_casing: 1127
+	create:brass_door: 1235
+	create:brass_encased_cogwheel: 1011
+	create:brass_encased_large_cogwheel: 1013
+	create:brass_encased_shaft: 1009
+	create:brass_funnel: 1148
+	create:brass_ladder: 1204
+	create:brass_scaffolding: 1210
+	create:brass_tunnel: 1151
+	create:brown_nixie_tube: 1169
+	create:brown_sail: 1122
+	create:brown_seat: 1230
+	create:brown_toolbox: 1198
+	create:brown_valve_handle: 1065
+	create:calcite_pillar: 1401
+	create:cart_assembler: 1092
+	create:chocolate: 1301
+	create:chute: 1040
+	create:clipboard: 1202
+	create:clockwork_bearing: 1087
+	create:clutch: 1015
+	create:cogwheel: 1006
+	create:content_observer: 1152
+	create:contraption_controls: 1099
+	create:controller_rail: 1093
+	create:controls: 1144
+	create:copper_backtank: 1182
+	create:copper_bars: 1208
+	create:copper_casing: 1128
+	create:copper_door: 1236
+	create:copper_ladder: 1205
+	create:copper_scaffolding: 1211
+	create:copper_shingle_slab: 1256
+	create:copper_shingle_stairs: 1260
+	create:copper_shingles: 1252
+	create:copper_tile_slab: 1280
+	create:copper_tile_stairs: 1284
+	create:copper_tiles: 1276
+	create:copper_valve_handle: 1052
+	create:copycat_bars: 1217
+	create:copycat_base: 1214
+	create:copycat_panel: 1216
+	create:copycat_step: 1215
+	create:creative_crate: 1154
+	create:creative_fluid_tank: 1070
+	create:creative_motor: 1020
+	create:crimsite: 1475
+	create:crimsite_pillar: 1493
+	create:crimson_window: 1317
+	create:crimson_window_pane: 1327
+	create:crushing_wheel: 1031
+	create:crushing_wheel_controller: 1032
+	create:cuckoo_clock: 1028
+	create:cut_andesite: 1366
+	create:cut_andesite_brick_slab: 1376
+	create:cut_andesite_brick_stairs: 1375
+	create:cut_andesite_brick_wall: 1377
+	create:cut_andesite_bricks: 1374
+	create:cut_andesite_slab: 1368
+	create:cut_andesite_stairs: 1367
+	create:cut_andesite_wall: 1369
+	create:cut_asurine: 1457
+	create:cut_asurine_brick_slab: 1467
+	create:cut_asurine_brick_stairs: 1466
+	create:cut_asurine_brick_wall: 1468
+	create:cut_asurine_bricks: 1465
+	create:cut_asurine_slab: 1459
+	create:cut_asurine_stairs: 1458
+	create:cut_asurine_wall: 1460
+	create:cut_calcite: 1384
+	create:cut_calcite_brick_slab: 1394
+	create:cut_calcite_brick_stairs: 1393
+	create:cut_calcite_brick_wall: 1395
+	create:cut_calcite_bricks: 1392
+	create:cut_calcite_slab: 1386
+	create:cut_calcite_stairs: 1385
+	create:cut_calcite_wall: 1387
+	create:cut_crimsite: 1476
+	create:cut_crimsite_brick_slab: 1486
+	create:cut_crimsite_brick_stairs: 1485
+	create:cut_crimsite_brick_wall: 1487
+	create:cut_crimsite_bricks: 1484
+	create:cut_crimsite_slab: 1478
+	create:cut_crimsite_stairs: 1477
+	create:cut_crimsite_wall: 1479
+	create:cut_deepslate: 1420
+	create:cut_deepslate_brick_slab: 1430
+	create:cut_deepslate_brick_stairs: 1429
+	create:cut_deepslate_brick_wall: 1431
+	create:cut_deepslate_bricks: 1428
+	create:cut_deepslate_slab: 1422
+	create:cut_deepslate_stairs: 1421
+	create:cut_deepslate_wall: 1423
+	create:cut_diorite: 1348
+	create:cut_diorite_brick_slab: 1358
+	create:cut_diorite_brick_stairs: 1357
+	create:cut_diorite_brick_wall: 1359
+	create:cut_diorite_bricks: 1356
+	create:cut_diorite_slab: 1350
+	create:cut_diorite_stairs: 1349
+	create:cut_diorite_wall: 1351
+	create:cut_dripstone: 1402
+	create:cut_dripstone_brick_slab: 1412
+	create:cut_dripstone_brick_stairs: 1411
+	create:cut_dripstone_brick_wall: 1413
+	create:cut_dripstone_bricks: 1410
+	create:cut_dripstone_slab: 1404
+	create:cut_dripstone_stairs: 1403
+	create:cut_dripstone_wall: 1405
+	create:cut_granite: 1330
+	create:cut_granite_brick_slab: 1340
+	create:cut_granite_brick_stairs: 1339
+	create:cut_granite_brick_wall: 1341
+	create:cut_granite_bricks: 1338
+	create:cut_granite_slab: 1332
+	create:cut_granite_stairs: 1331
+	create:cut_granite_wall: 1333
+	create:cut_limestone: 1495
+	create:cut_limestone_brick_slab: 1505
+	create:cut_limestone_brick_stairs: 1504
+	create:cut_limestone_brick_wall: 1506
+	create:cut_limestone_bricks: 1503
+	create:cut_limestone_slab: 1497
+	create:cut_limestone_stairs: 1496
+	create:cut_limestone_wall: 1498
+	create:cut_ochrum: 1514
+	create:cut_ochrum_brick_slab: 1524
+	create:cut_ochrum_brick_stairs: 1523
+	create:cut_ochrum_brick_wall: 1525
+	create:cut_ochrum_bricks: 1522
+	create:cut_ochrum_slab: 1516
+	create:cut_ochrum_stairs: 1515
+	create:cut_ochrum_wall: 1517
+	create:cut_scorchia: 1552
+	create:cut_scorchia_brick_slab: 1562
+	create:cut_scorchia_brick_stairs: 1561
+	create:cut_scorchia_brick_wall: 1563
+	create:cut_scorchia_bricks: 1560
+	create:cut_scorchia_slab: 1554
+	create:cut_scorchia_stairs: 1553
+	create:cut_scorchia_wall: 1555
+	create:cut_scoria: 1533
+	create:cut_scoria_brick_slab: 1543
+	create:cut_scoria_brick_stairs: 1542
+	create:cut_scoria_brick_wall: 1544
+	create:cut_scoria_bricks: 1541
+	create:cut_scoria_slab: 1535
+	create:cut_scoria_stairs: 1534
+	create:cut_scoria_wall: 1536
+	create:cut_tuff: 1438
+	create:cut_tuff_brick_slab: 1448
+	create:cut_tuff_brick_stairs: 1447
+	create:cut_tuff_brick_wall: 1449
+	create:cut_tuff_bricks: 1446
+	create:cut_tuff_slab: 1440
+	create:cut_tuff_stairs: 1439
+	create:cut_tuff_wall: 1441
+	create:cut_veridium: 1571
+	create:cut_veridium_brick_slab: 1581
+	create:cut_veridium_brick_stairs: 1580
+	create:cut_veridium_brick_wall: 1582
+	create:cut_veridium_bricks: 1579
+	create:cut_veridium_slab: 1573
+	create:cut_veridium_stairs: 1572
+	create:cut_veridium_wall: 1574
+	create:cyan_nixie_tube: 1166
+	create:cyan_sail: 1119
+	create:cyan_seat: 1227
+	create:cyan_toolbox: 1195
+	create:cyan_valve_handle: 1062
+	create:dark_oak_window: 1315
+	create:dark_oak_window_pane: 1325
+	create:deepslate_pillar: 1437
+	create:deepslate_zinc_ore: 1242
+	create:deployer: 1102
+	create:depot: 1038
+	create:diorite_pillar: 1365
+	create:display_board: 1156
+	create:display_link: 1155
+	create:dripstone_pillar: 1419
+	create:elevator_contact: 1105
+	create:elevator_pulley: 1091
+	create:encased_chain_drive: 1017
+	create:encased_fan: 1024
+	create:encased_fluid_pipe: 1047
+	create:experience_block: 1248
+	create:exposed_copper_shingle_slab: 1257
+	create:exposed_copper_shingle_stairs: 1261
+	create:exposed_copper_shingles: 1253
+	create:exposed_copper_tile_slab: 1281
+	create:exposed_copper_tile_stairs: 1285
+	create:exposed_copper_tiles: 1277
+	create:fake_track: 1137
+	create:fluid_pipe: 1046
+	create:fluid_tank: 1069
+	create:fluid_valve: 1051
+	create:flywheel: 1133
+	create:framed_glass: 1303
+	create:framed_glass_door: 1239
+	create:framed_glass_pane: 1307
+	create:framed_glass_trapdoor: 1240
+	create:gantry_carriage: 1083
+	create:gantry_shaft: 1084
+	create:gearbox: 1014
+	create:gearshift: 1016
+	create:glass_fluid_pipe: 1048
+	create:granite_pillar: 1347
+	create:gray_nixie_tube: 1164
+	create:gray_sail: 1117
+	create:gray_seat: 1225
+	create:gray_toolbox: 1193
+	create:gray_valve_handle: 1060
+	create:green_nixie_tube: 1170
+	create:green_sail: 1123
+	create:green_seat: 1231
+	create:green_toolbox: 1199
+	create:green_valve_handle: 1066
+	create:hand_crank: 1027
+	create:haunted_bell: 1185
+	create:honey: 1300
+	create:horizontal_framed_glass: 1304
+	create:horizontal_framed_glass_pane: 1308
+	create:hose_pulley: 1071
+	create:industrial_iron_block: 1246
+	create:item_drain: 1072
+	create:item_vault: 1145
+	create:jungle_window: 1313
+	create:jungle_window_pane: 1323
+	create:large_bogey: 1143
+	create:large_cogwheel: 1007
+	create:large_water_wheel: 1022
+	create:layered_andesite: 1382
+	create:layered_asurine: 1473
+	create:layered_calcite: 1400
+	create:layered_crimsite: 1492
+	create:layered_deepslate: 1436
+	create:layered_diorite: 1364
+	create:layered_dripstone: 1418
+	create:layered_granite: 1346
+	create:layered_limestone: 1511
+	create:layered_ochrum: 1530
+	create:layered_scorchia: 1568
+	create:layered_scoria: 1549
+	create:layered_tuff: 1454
+	create:layered_veridium: 1587
+	create:lectern_controller: 1181
+	create:light_blue_nixie_tube: 1160
+	create:light_blue_sail: 1113
+	create:light_blue_seat: 1221
+	create:light_blue_toolbox: 1189
+	create:light_blue_valve_handle: 1056
+	create:light_gray_nixie_tube: 1165
+	create:light_gray_sail: 1118
+	create:light_gray_seat: 1226
+	create:light_gray_toolbox: 1194
+	create:light_gray_valve_handle: 1061
+	create:lime_nixie_tube: 1162
+	create:lime_sail: 1115
+	create:lime_seat: 1223
+	create:lime_toolbox: 1191
+	create:lime_valve_handle: 1058
+	create:limestone: 1494
+	create:limestone_pillar: 1512
+	create:linear_chassis: 1095
+	create:lit_blaze_burner: 1037
+	create:magenta_nixie_tube: 1159
+	create:magenta_sail: 1112
+	create:magenta_seat: 1220
+	create:magenta_toolbox: 1188
+	create:magenta_valve_handle: 1055
+	create:mangrove_window: 1316
+	create:mangrove_window_pane: 1326
+	create:mechanical_arm: 1135
+	create:mechanical_bearing: 1086
+	create:mechanical_crafter: 1131
+	create:mechanical_drill: 1100
+	create:mechanical_harvester: 1106
+	create:mechanical_mixer: 1034
+	create:mechanical_piston: 1079
+	create:mechanical_piston_head: 1082
+	create:mechanical_plough: 1107
+	create:mechanical_press: 1033
+	create:mechanical_pump: 1049
+	create:mechanical_roller: 1108
+	create:mechanical_saw: 1101
+	create:metal_bracket: 1045
+	create:metal_girder: 1212
+	create:metal_girder_encased_shaft: 1213
+	create:millstone: 1030
+	create:minecart_anchor: 1094
+	create:mysterious_cuckoo_clock: 1029
+	create:netherite_backtank: 1183
+	create:nixie_tube: 1157
+	create:nozzle: 1025
+	create:oak_window: 1310
+	create:oak_window_pane: 1320
+	create:ochrum: 1513
+	create:ochrum_pillar: 1531
+	create:orange_sail: 1111
+	create:orange_seat: 1219
+	create:orange_toolbox: 1187
+	create:orange_valve_handle: 1054
+	create:ornate_iron_window: 1319
+	create:ornate_iron_window_pane: 1329
+	create:oxidized_copper_shingle_slab: 1259
+	create:oxidized_copper_shingle_stairs: 1263
+	create:oxidized_copper_shingles: 1255
+	create:oxidized_copper_tile_slab: 1283
+	create:oxidized_copper_tile_stairs: 1287
+	create:oxidized_copper_tiles: 1279
+	create:peculiar_bell: 1184
+	create:pink_nixie_tube: 1163
+	create:pink_sail: 1116
+	create:pink_seat: 1224
+	create:pink_toolbox: 1192
+	create:pink_valve_handle: 1059
+	create:piston_extension_pole: 1081
+	create:placard: 1176
+	create:polished_cut_andesite: 1370
+	create:polished_cut_andesite_slab: 1372
+	create:polished_cut_andesite_stairs: 1371
+	create:polished_cut_andesite_wall: 1373
+	create:polished_cut_asurine: 1461
+	create:polished_cut_asurine_slab: 1463
+	create:polished_cut_asurine_stairs: 1462
+	create:polished_cut_asurine_wall: 1464
+	create:polished_cut_calcite: 1388
+	create:polished_cut_calcite_slab: 1390
+	create:polished_cut_calcite_stairs: 1389
+	create:polished_cut_calcite_wall: 1391
+	create:polished_cut_crimsite: 1480
+	create:polished_cut_crimsite_slab: 1482
+	create:polished_cut_crimsite_stairs: 1481
+	create:polished_cut_crimsite_wall: 1483
+	create:polished_cut_deepslate: 1424
+	create:polished_cut_deepslate_slab: 1426
+	create:polished_cut_deepslate_stairs: 1425
+	create:polished_cut_deepslate_wall: 1427
+	create:polished_cut_diorite: 1352
+	create:polished_cut_diorite_slab: 1354
+	create:polished_cut_diorite_stairs: 1353
+	create:polished_cut_diorite_wall: 1355
+	create:polished_cut_dripstone: 1406
+	create:polished_cut_dripstone_slab: 1408
+	create:polished_cut_dripstone_stairs: 1407
+	create:polished_cut_dripstone_wall: 1409
+	create:polished_cut_granite: 1334
+	create:polished_cut_granite_slab: 1336
+	create:polished_cut_granite_stairs: 1335
+	create:polished_cut_granite_wall: 1337
+	create:polished_cut_limestone: 1499
+	create:polished_cut_limestone_slab: 1501
+	create:polished_cut_limestone_stairs: 1500
+	create:polished_cut_limestone_wall: 1502
+	create:polished_cut_ochrum: 1518
+	create:polished_cut_ochrum_slab: 1520
+	create:polished_cut_ochrum_stairs: 1519
+	create:polished_cut_ochrum_wall: 1521
+	create:polished_cut_scorchia: 1556
+	create:polished_cut_scorchia_slab: 1558
+	create:polished_cut_scorchia_stairs: 1557
+	create:polished_cut_scorchia_wall: 1559
+	create:polished_cut_scoria: 1537
+	create:polished_cut_scoria_slab: 1539
+	create:polished_cut_scoria_stairs: 1538
+	create:polished_cut_scoria_wall: 1540
+	create:polished_cut_tuff: 1442
+	create:polished_cut_tuff_slab: 1444
+	create:polished_cut_tuff_stairs: 1443
+	create:polished_cut_tuff_wall: 1445
+	create:polished_cut_veridium: 1575
+	create:polished_cut_veridium_slab: 1577
+	create:polished_cut_veridium_stairs: 1576
+	create:polished_cut_veridium_wall: 1578
+	create:portable_fluid_interface: 1074
+	create:portable_storage_interface: 1103
+	create:powered_latch: 1179
+	create:powered_shaft: 1078
+	create:powered_toggle_latch: 1180
+	create:pulley_magnet: 1090
+	create:pulse_extender: 1178
+	create:pulse_repeater: 1177
+	create:purple_nixie_tube: 1167
+	create:purple_sail: 1120
+	create:purple_seat: 1228
+	create:purple_toolbox: 1196
+	create:purple_valve_handle: 1063
+	create:radial_chassis: 1097
+	create:railway_casing: 1138
+	create:raw_zinc_block: 1243
+	create:red_nixie_tube: 1171
+	create:red_sail: 1124
+	create:red_seat: 1232
+	create:red_toolbox: 1200
+	create:red_valve_handle: 1067
+	create:redstone_contact: 1104
+	create:redstone_link: 1174
+	create:refined_radiance_casing: 1130
+	create:rope: 1089
+	create:rope_pulley: 1088
+	create:rose_quartz_block: 1249
+	create:rose_quartz_lamp: 1173
+	create:rose_quartz_tiles: 1250
+	create:rotation_speed_controller: 1134
+	create:sail_frame: 1109
+	create:schematic_table: 1004
+	create:schematicannon: 1003
+	create:scorchia: 1551
+	create:scorchia_pillar: 1569
+	create:scoria: 1532
+	create:scoria_pillar: 1550
+	create:secondary_linear_chassis: 1096
+	create:sequenced_gearshift: 1132
+	create:shadow_steel_casing: 1129
+	create:shaft: 1005
+	create:small_andesite_brick_slab: 1380
+	create:small_andesite_brick_stairs: 1379
+	create:small_andesite_brick_wall: 1381
+	create:small_andesite_bricks: 1378
+	create:small_asurine_brick_slab: 1471
+	create:small_asurine_brick_stairs: 1470
+	create:small_asurine_brick_wall: 1472
+	create:small_asurine_bricks: 1469
+	create:small_bogey: 1142
+	create:small_calcite_brick_slab: 1398
+	create:small_calcite_brick_stairs: 1397
+	create:small_calcite_brick_wall: 1399
+	create:small_calcite_bricks: 1396
+	create:small_crimsite_brick_slab: 1490
+	create:small_crimsite_brick_stairs: 1489
+	create:small_crimsite_brick_wall: 1491
+	create:small_crimsite_bricks: 1488
+	create:small_deepslate_brick_slab: 1434
+	create:small_deepslate_brick_stairs: 1433
+	create:small_deepslate_brick_wall: 1435
+	create:small_deepslate_bricks: 1432
+	create:small_diorite_brick_slab: 1362
+	create:small_diorite_brick_stairs: 1361
+	create:small_diorite_brick_wall: 1363
+	create:small_diorite_bricks: 1360
+	create:small_dripstone_brick_slab: 1416
+	create:small_dripstone_brick_stairs: 1415
+	create:small_dripstone_brick_wall: 1417
+	create:small_dripstone_bricks: 1414
+	create:small_granite_brick_slab: 1344
+	create:small_granite_brick_stairs: 1343
+	create:small_granite_brick_wall: 1345
+	create:small_granite_bricks: 1342
+	create:small_limestone_brick_slab: 1509
+	create:small_limestone_brick_stairs: 1508
+	create:small_limestone_brick_wall: 1510
+	create:small_limestone_bricks: 1507
+	create:small_ochrum_brick_slab: 1528
+	create:small_ochrum_brick_stairs: 1527
+	create:small_ochrum_brick_wall: 1529
+	create:small_ochrum_bricks: 1526
+	create:small_rose_quartz_tiles: 1251
+	create:small_scorchia_brick_slab: 1566
+	create:small_scorchia_brick_stairs: 1565
+	create:small_scorchia_brick_wall: 1567
+	create:small_scorchia_bricks: 1564
+	create:small_scoria_brick_slab: 1547
+	create:small_scoria_brick_stairs: 1546
+	create:small_scoria_brick_wall: 1548
+	create:small_scoria_bricks: 1545
+	create:small_tuff_brick_slab: 1452
+	create:small_tuff_brick_stairs: 1451
+	create:small_tuff_brick_wall: 1453
+	create:small_tuff_bricks: 1450
+	create:small_veridium_brick_slab: 1585
+	create:small_veridium_brick_stairs: 1584
+	create:small_veridium_brick_wall: 1586
+	create:small_veridium_bricks: 1583
+	create:smart_chute: 1041
+	create:smart_fluid_pipe: 1050
+	create:speedometer: 1042
+	create:spout: 1073
+	create:spruce_window: 1311
+	create:spruce_window_pane: 1321
+	create:steam_engine: 1075
+	create:steam_whistle: 1076
+	create:steam_whistle_extension: 1077
+	create:sticker: 1098
+	create:sticky_mechanical_piston: 1080
+	create:stockpile_switch: 1153
+	create:stressometer: 1043
+	create:tiled_glass: 1302
+	create:tiled_glass_pane: 1306
+	create:track: 1136
+	create:track_observer: 1141
+	create:track_signal: 1140
+	create:track_station: 1139
+	create:train_door: 1237
+	create:train_trapdoor: 1238
+	create:tuff_pillar: 1455
+	create:turntable: 1026
+	create:veridium: 1570
+	create:veridium_pillar: 1588
+	create:vertical_framed_glass: 1305
+	create:vertical_framed_glass_pane: 1309
+	create:warped_window: 1318
+	create:warped_window_pane: 1328
+	create:water_wheel: 1021
+	create:water_wheel_structure: 1023
+	create:waxed_copper_shingle_slab: 1268
+	create:waxed_copper_shingle_stairs: 1272
+	create:waxed_copper_shingles: 1264
+	create:waxed_copper_tile_slab: 1292
+	create:waxed_copper_tile_stairs: 1296
+	create:waxed_copper_tiles: 1288
+	create:waxed_exposed_copper_shingle_slab: 1269
+	create:waxed_exposed_copper_shingle_stairs: 1273
+	create:waxed_exposed_copper_shingles: 1265
+	create:waxed_exposed_copper_tile_slab: 1293
+	create:waxed_exposed_copper_tile_stairs: 1297
+	create:waxed_exposed_copper_tiles: 1289
+	create:waxed_oxidized_copper_shingle_slab: 1271
+	create:waxed_oxidized_copper_shingle_stairs: 1275
+	create:waxed_oxidized_copper_shingles: 1267
+	create:waxed_oxidized_copper_tile_slab: 1295
+	create:waxed_oxidized_copper_tile_stairs: 1299
+	create:waxed_oxidized_copper_tiles: 1291
+	create:waxed_weathered_copper_shingle_slab: 1270
+	create:waxed_weathered_copper_shingle_stairs: 1274
+	create:waxed_weathered_copper_shingles: 1266
+	create:waxed_weathered_copper_tile_slab: 1294
+	create:waxed_weathered_copper_tile_stairs: 1298
+	create:waxed_weathered_copper_tiles: 1290
+	create:weathered_copper_shingle_slab: 1258
+	create:weathered_copper_shingle_stairs: 1262
+	create:weathered_copper_shingles: 1254
+	create:weathered_copper_tile_slab: 1282
+	create:weathered_copper_tile_stairs: 1286
+	create:weathered_copper_tiles: 1278
+	create:weighted_ejector: 1039
+	create:white_nixie_tube: 1158
+	create:white_sail: 1110
+	create:white_seat: 1218
+	create:white_toolbox: 1186
+	create:white_valve_handle: 1053
+	create:windmill_bearing: 1085
+	create:wooden_bracket: 1044
+	create:yellow_nixie_tube: 1161
+	create:yellow_sail: 1114
+	create:yellow_seat: 1222
+	create:yellow_toolbox: 1190
+	create:yellow_valve_handle: 1057
+	create:zinc_block: 1244
+	create:zinc_ore: 1241
+
+[23Aug2026 20:45:46.286] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	create:capacity: 40
+	create:potato_recovery: 39
+
+[23Aug2026 20:45:46.286] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	create:carriage_contraption: 127
+	create:contraption: 124
+	create:crafting_blueprint: 129
+	create:gantry_contraption: 126
+	create:potato_projectile: 130
+	create:seat: 131
+	create:stationary_contraption: 125
+	create:super_glue: 128
+
+[23Aug2026 20:45:46.286] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:fluid
+	create:chocolate: 13
+	create:flowing_chocolate: 14
+	create:flowing_honey: 12
+	create:flowing_potion: 8
+	create:flowing_tea: 10
+	create:honey: 11
+	create:potion: 7
+	create:tea: 9
+	minecraft:flowing_milk: 6
+	minecraft:milk: 5
+
+[23Aug2026 20:45:46.291] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	computercraft:cable: 1893
+	computercraft:computer_advanced: 1874
+	computercraft:computer_command: 1875
+	computercraft:computer_normal: 1873
+	computercraft:disk: 1880
+	computercraft:disk_drive: 1886
+	computercraft:monitor_advanced: 1889
+	computercraft:monitor_normal: 1888
+	computercraft:pocket_computer_advanced: 1877
+	computercraft:pocket_computer_normal: 1876
+	computercraft:printed_book: 1884
+	computercraft:printed_page: 1882
+	computercraft:printed_pages: 1883
+	computercraft:printer: 1887
+	computercraft:speaker: 1885
+	computercraft:treasure_disk: 1881
+	computercraft:turtle_advanced: 1879
+	computercraft:turtle_normal: 1878
+	computercraft:wired_modem: 1894
+	computercraft:wired_modem_full: 1892
+	computercraft:wireless_modem_advanced: 1891
+	computercraft:wireless_modem_normal: 1890
+	create:acacia_window: 1598
+	create:acacia_window_pane: 1608
+	create:adjustable_chain_gearshift: 1270
+	create:analog_lever: 1380
+	create:andesite_alloy: 1411
+	create:andesite_alloy_block: 1529
+	create:andesite_bars: 1493
+	create:andesite_casing: 1351
+	create:andesite_door: 1518
+	create:andesite_encased_cogwheel: 1262
+	create:andesite_encased_large_cogwheel: 1264
+	create:andesite_encased_shaft: 1260
+	create:andesite_funnel: 1368
+	create:andesite_ladder: 1490
+	create:andesite_pillar: 1667
+	create:andesite_scaffolding: 1496
+	create:andesite_tunnel: 1370
+	create:asurine: 1740
+	create:asurine_pillar: 1758
+	create:attribute_filter: 1466
+	create:bar_of_chocolate: 1405
+	create:basin: 1284
+	create:belt_connector: 1438
+	create:birch_window: 1596
+	create:birch_window_pane: 1606
+	create:black_seat: 1517
+	create:black_toolbox: 1488
+	create:black_valve_handle: 1314
+	create:blaze_burner: 1285
+	create:blaze_cake: 1403
+	create:blaze_cake_base: 1402
+	create:blue_seat: 1513
+	create:blue_toolbox: 1484
+	create:blue_valve_handle: 1310
+	create:brass_bars: 1494
+	create:brass_block: 1531
+	create:brass_casing: 1352
+	create:brass_door: 1519
+	create:brass_encased_cogwheel: 1263
+	create:brass_encased_large_cogwheel: 1265
+	create:brass_encased_shaft: 1261
+	create:brass_funnel: 1369
+	create:brass_hand: 1395
+	create:brass_ingot: 1413
+	create:brass_ladder: 1491
+	create:brass_nugget: 1419
+	create:brass_scaffolding: 1497
+	create:brass_sheet: 1422
+	create:brass_tunnel: 1371
+	create:brown_seat: 1514
+	create:brown_toolbox: 1485
+	create:brown_valve_handle: 1311
+	create:builders_tea: 1409
+	create:calcite_pillar: 1685
+	create:cart_assembler: 1333
+	create:chest_minecart_contraption: 1458
+	create:chocolate_bucket: 1585
+	create:chocolate_glazed_berries: 1407
+	create:chromatic_compound: 1414
+	create:chute: 1288
+	create:cinder_flour: 1388
+	create:clipboard: 1489
+	create:clockwork_bearing: 1330
+	create:clutch: 1267
+	create:cogwheel: 1258
+	create:content_observer: 1372
+	create:contraption_controls: 1339
+	create:controller_rail: 1334
+	create:controls: 1366
+	create:copper_backtank: 1447
+	create:copper_backtank_placeable: 1445
+	create:copper_bars: 1495
+	create:copper_casing: 1353
+	create:copper_diving_boots: 1451
+	create:copper_diving_helmet: 1449
+	create:copper_door: 1520
+	create:copper_ladder: 1492
+	create:copper_nugget: 1417
+	create:copper_scaffolding: 1498
+	create:copper_sheet: 1421
+	create:copper_shingle_slab: 1540
+	create:copper_shingle_stairs: 1544
+	create:copper_shingles: 1536
+	create:copper_tile_slab: 1564
+	create:copper_tile_stairs: 1568
+	create:copper_tiles: 1560
+	create:copper_valve_handle: 1298
+	create:copycat_panel: 1501
+	create:copycat_step: 1500
+	create:crafter_slot_cover: 1396
+	create:crafting_blueprint: 1444
+	create:creative_blaze_cake: 1404
+	create:creative_crate: 1374
+	create:creative_fluid_tank: 1316
+	create:creative_motor: 1271
+	create:crimsite: 1759
+	create:crimsite_pillar: 1777
+	create:crimson_window: 1601
+	create:crimson_window_pane: 1611
+	create:crushed_raw_aluminum: 1435
+	create:crushed_raw_copper: 1427
+	create:crushed_raw_gold: 1426
+	create:crushed_raw_iron: 1425
+	create:crushed_raw_lead: 1433
+	create:crushed_raw_nickel: 1437
+	create:crushed_raw_osmium: 1429
+	create:crushed_raw_platinum: 1430
+	create:crushed_raw_quicksilver: 1434
+	create:crushed_raw_silver: 1431
+	create:crushed_raw_tin: 1432
+	create:crushed_raw_uranium: 1436
+	create:crushed_raw_zinc: 1428
+	create:crushing_wheel: 1281
+	create:cuckoo_clock: 1278
+	create:cut_andesite: 1650
+	create:cut_andesite_brick_slab: 1660
+	create:cut_andesite_brick_stairs: 1659
+	create:cut_andesite_brick_wall: 1661
+	create:cut_andesite_bricks: 1658
+	create:cut_andesite_slab: 1652
+	create:cut_andesite_stairs: 1651
+	create:cut_andesite_wall: 1653
+	create:cut_asurine: 1741
+	create:cut_asurine_brick_slab: 1751
+	create:cut_asurine_brick_stairs: 1750
+	create:cut_asurine_brick_wall: 1752
+	create:cut_asurine_bricks: 1749
+	create:cut_asurine_slab: 1743
+	create:cut_asurine_stairs: 1742
+	create:cut_asurine_wall: 1744
+	create:cut_calcite: 1668
+	create:cut_calcite_brick_slab: 1678
+	create:cut_calcite_brick_stairs: 1677
+	create:cut_calcite_brick_wall: 1679
+	create:cut_calcite_bricks: 1676
+	create:cut_calcite_slab: 1670
+	create:cut_calcite_stairs: 1669
+	create:cut_calcite_wall: 1671
+	create:cut_crimsite: 1760
+	create:cut_crimsite_brick_slab: 1770
+	create:cut_crimsite_brick_stairs: 1769
+	create:cut_crimsite_brick_wall: 1771
+	create:cut_crimsite_bricks: 1768
+	create:cut_crimsite_slab: 1762
+	create:cut_crimsite_stairs: 1761
+	create:cut_crimsite_wall: 1763
+	create:cut_deepslate: 1704
+	create:cut_deepslate_brick_slab: 1714
+	create:cut_deepslate_brick_stairs: 1713
+	create:cut_deepslate_brick_wall: 1715
+	create:cut_deepslate_bricks: 1712
+	create:cut_deepslate_slab: 1706
+	create:cut_deepslate_stairs: 1705
+	create:cut_deepslate_wall: 1707
+	create:cut_diorite: 1632
+	create:cut_diorite_brick_slab: 1642
+	create:cut_diorite_brick_stairs: 1641
+	create:cut_diorite_brick_wall: 1643
+	create:cut_diorite_bricks: 1640
+	create:cut_diorite_slab: 1634
+	create:cut_diorite_stairs: 1633
+	create:cut_diorite_wall: 1635
+	create:cut_dripstone: 1686
+	create:cut_dripstone_brick_slab: 1696
+	create:cut_dripstone_brick_stairs: 1695
+	create:cut_dripstone_brick_wall: 1697
+	create:cut_dripstone_bricks: 1694
+	create:cut_dripstone_slab: 1688
+	create:cut_dripstone_stairs: 1687
+	create:cut_dripstone_wall: 1689
+	create:cut_granite: 1614
+	create:cut_granite_brick_slab: 1624
+	create:cut_granite_brick_stairs: 1623
+	create:cut_granite_brick_wall: 1625
+	create:cut_granite_bricks: 1622
+	create:cut_granite_slab: 1616
+	create:cut_granite_stairs: 1615
+	create:cut_granite_wall: 1617
+	create:cut_limestone: 1779
+	create:cut_limestone_brick_slab: 1789
+	create:cut_limestone_brick_stairs: 1788
+	create:cut_limestone_brick_wall: 1790
+	create:cut_limestone_bricks: 1787
+	create:cut_limestone_slab: 1781
+	create:cut_limestone_stairs: 1780
+	create:cut_limestone_wall: 1782
+	create:cut_ochrum: 1798
+	create:cut_ochrum_brick_slab: 1808
+	create:cut_ochrum_brick_stairs: 1807
+	create:cut_ochrum_brick_wall: 1809
+	create:cut_ochrum_bricks: 1806
+	create:cut_ochrum_slab: 1800
+	create:cut_ochrum_stairs: 1799
+	create:cut_ochrum_wall: 1801
+	create:cut_scorchia: 1836
+	create:cut_scorchia_brick_slab: 1846
+	create:cut_scorchia_brick_stairs: 1845
+	create:cut_scorchia_brick_wall: 1847
+	create:cut_scorchia_bricks: 1844
+	create:cut_scorchia_slab: 1838
+	create:cut_scorchia_stairs: 1837
+	create:cut_scorchia_wall: 1839
+	create:cut_scoria: 1817
+	create:cut_scoria_brick_slab: 1827
+	create:cut_scoria_brick_stairs: 1826
+	create:cut_scoria_brick_wall: 1828
+	create:cut_scoria_bricks: 1825
+	create:cut_scoria_slab: 1819
+	create:cut_scoria_stairs: 1818
+	create:cut_scoria_wall: 1820
+	create:cut_tuff: 1722
+	create:cut_tuff_brick_slab: 1732
+	create:cut_tuff_brick_stairs: 1731
+	create:cut_tuff_brick_wall: 1733
+	create:cut_tuff_bricks: 1730
+	create:cut_tuff_slab: 1724
+	create:cut_tuff_stairs: 1723
+	create:cut_tuff_wall: 1725
+	create:cut_veridium: 1855
+	create:cut_veridium_brick_slab: 1865
+	create:cut_veridium_brick_stairs: 1864
+	create:cut_veridium_brick_wall: 1866
+	create:cut_veridium_bricks: 1863
+	create:cut_veridium_slab: 1857
+	create:cut_veridium_stairs: 1856
+	create:cut_veridium_wall: 1858
+	create:cyan_seat: 1511
+	create:cyan_toolbox: 1482
+	create:cyan_valve_handle: 1308
+	create:dark_oak_window: 1599
+	create:dark_oak_window_pane: 1609
+	create:deepslate_pillar: 1721
+	create:deepslate_zinc_ore: 1526
+	create:deployer: 1342
+	create:depot: 1286
+	create:diorite_pillar: 1649
+	create:display_board: 1376
+	create:display_link: 1375
+	create:dough: 1387
+	create:dripstone_pillar: 1703
+	create:electron_tube: 1397
+	create:elevator_contact: 1345
+	create:elevator_pulley: 1332
+	create:empty_blaze_burner: 1440
+	create:empty_schematic: 1468
+	create:encased_chain_drive: 1269
+	create:encased_fan: 1274
+	create:experience_block: 1532
+	create:experience_nugget: 1420
+	create:exposed_copper_shingle_slab: 1541
+	create:exposed_copper_shingle_stairs: 1545
+	create:exposed_copper_shingles: 1537
+	create:exposed_copper_tile_slab: 1565
+	create:exposed_copper_tile_stairs: 1569
+	create:exposed_copper_tiles: 1561
+	create:extendo_grip: 1461
+	create:filter: 1465
+	create:fluid_pipe: 1294
+	create:fluid_tank: 1315
+	create:fluid_valve: 1297
+	create:flywheel: 1358
+	create:framed_glass: 1587
+	create:framed_glass_door: 1523
+	create:framed_glass_pane: 1591
+	create:framed_glass_trapdoor: 1524
+	create:furnace_minecart_contraption: 1457
+	create:gantry_carriage: 1326
+	create:gantry_shaft: 1327
+	create:gearbox: 1266
+	create:gearshift: 1268
+	create:goggles: 1441
+	create:golden_sheet: 1424
+	create:granite_pillar: 1631
+	create:gray_seat: 1509
+	create:gray_toolbox: 1480
+	create:gray_valve_handle: 1306
+	create:green_seat: 1515
+	create:green_toolbox: 1486
+	create:green_valve_handle: 1312
+	create:hand_crank: 1277
+	create:handheld_worldshaper: 1463
+	create:haunted_bell: 1472
+	create:honey_bucket: 1584
+	create:honeyed_apple: 1408
+	create:horizontal_framed_glass: 1588
+	create:horizontal_framed_glass_pane: 1592
+	create:hose_pulley: 1317
+	create:incomplete_precision_mechanism: 1398
+	create:incomplete_track: 1400
+	create:industrial_iron_block: 1530
+	create:iron_sheet: 1423
+	create:item_drain: 1318
+	create:item_vault: 1367
+	create:jungle_window: 1597
+	create:jungle_window_pane: 1607
+	create:large_cogwheel: 1259
+	create:large_water_wheel: 1273
+	create:layered_andesite: 1666
+	create:layered_asurine: 1757
+	create:layered_calcite: 1684
+	create:layered_crimsite: 1776
+	create:layered_deepslate: 1720
+	create:layered_diorite: 1648
+	create:layered_dripstone: 1702
+	create:layered_granite: 1630
+	create:layered_limestone: 1795
+	create:layered_ochrum: 1814
+	create:layered_scorchia: 1852
+	create:layered_scoria: 1833
+	create:layered_tuff: 1738
+	create:layered_veridium: 1871
+	create:light_blue_seat: 1505
+	create:light_blue_toolbox: 1476
+	create:light_blue_valve_handle: 1302
+	create:light_gray_seat: 1510
+	create:light_gray_toolbox: 1481
+	create:light_gray_valve_handle: 1307
+	create:lime_seat: 1507
+	create:lime_toolbox: 1478
+	create:lime_valve_handle: 1304
+	create:limestone: 1778
+	create:limestone_pillar: 1796
+	create:linear_chassis: 1335
+	create:linked_controller: 1459
+	create:magenta_seat: 1504
+	create:magenta_toolbox: 1475
+	create:magenta_valve_handle: 1301
+	create:mangrove_window: 1600
+	create:mangrove_window_pane: 1610
+	create:mechanical_arm: 1360
+	create:mechanical_bearing: 1329
+	create:mechanical_crafter: 1356
+	create:mechanical_drill: 1340
+	create:mechanical_harvester: 1346
+	create:mechanical_mixer: 1283
+	create:mechanical_piston: 1323
+	create:mechanical_plough: 1347
+	create:mechanical_press: 1282
+	create:mechanical_pump: 1295
+	create:mechanical_roller: 1348
+	create:mechanical_saw: 1341
+	create:metal_bracket: 1293
+	create:metal_girder: 1499
+	create:millstone: 1280
+	create:minecart_contraption: 1456
+	create:minecart_coupling: 1443
+	create:mysterious_cuckoo_clock: 1279
+	create:netherite_backtank: 1448
+	create:netherite_backtank_placeable: 1446
+	create:netherite_diving_boots: 1452
+	create:netherite_diving_helmet: 1450
+	create:nixie_tube: 1377
+	create:nozzle: 1275
+	create:oak_window: 1594
+	create:oak_window_pane: 1604
+	create:ochrum: 1797
+	create:ochrum_pillar: 1815
+	create:orange_seat: 1503
+	create:orange_toolbox: 1474
+	create:orange_valve_handle: 1300
+	create:ornate_iron_window: 1603
+	create:ornate_iron_window_pane: 1613
+	create:oxidized_copper_shingle_slab: 1543
+	create:oxidized_copper_shingle_stairs: 1547
+	create:oxidized_copper_shingles: 1539
+	create:oxidized_copper_tile_slab: 1567
+	create:oxidized_copper_tile_stairs: 1571
+	create:oxidized_copper_tiles: 1563
+	create:peculiar_bell: 1471
+	create:pink_seat: 1508
+	create:pink_toolbox: 1479
+	create:pink_valve_handle: 1305
+	create:piston_extension_pole: 1325
+	create:placard: 1381
+	create:polished_cut_andesite: 1654
+	create:polished_cut_andesite_slab: 1656
+	create:polished_cut_andesite_stairs: 1655
+	create:polished_cut_andesite_wall: 1657
+	create:polished_cut_asurine: 1745
+	create:polished_cut_asurine_slab: 1747
+	create:polished_cut_asurine_stairs: 1746
+	create:polished_cut_asurine_wall: 1748
+	create:polished_cut_calcite: 1672
+	create:polished_cut_calcite_slab: 1674
+	create:polished_cut_calcite_stairs: 1673
+	create:polished_cut_calcite_wall: 1675
+	create:polished_cut_crimsite: 1764
+	create:polished_cut_crimsite_slab: 1766
+	create:polished_cut_crimsite_stairs: 1765
+	create:polished_cut_crimsite_wall: 1767
+	create:polished_cut_deepslate: 1708
+	create:polished_cut_deepslate_slab: 1710
+	create:polished_cut_deepslate_stairs: 1709
+	create:polished_cut_deepslate_wall: 1711
+	create:polished_cut_diorite: 1636
+	create:polished_cut_diorite_slab: 1638
+	create:polished_cut_diorite_stairs: 1637
+	create:polished_cut_diorite_wall: 1639
+	create:polished_cut_dripstone: 1690
+	create:polished_cut_dripstone_slab: 1692
+	create:polished_cut_dripstone_stairs: 1691
+	create:polished_cut_dripstone_wall: 1693
+	create:polished_cut_granite: 1618
+	create:polished_cut_granite_slab: 1620
+	create:polished_cut_granite_stairs: 1619
+	create:polished_cut_granite_wall: 1621
+	create:polished_cut_limestone: 1783
+	create:polished_cut_limestone_slab: 1785
+	create:polished_cut_limestone_stairs: 1784
+	create:polished_cut_limestone_wall: 1786
+	create:polished_cut_ochrum: 1802
+	create:polished_cut_ochrum_slab: 1804
+	create:polished_cut_ochrum_stairs: 1803
+	create:polished_cut_ochrum_wall: 1805
+	create:polished_cut_scorchia: 1840
+	create:polished_cut_scorchia_slab: 1842
+	create:polished_cut_scorchia_stairs: 1841
+	create:polished_cut_scorchia_wall: 1843
+	create:polished_cut_scoria: 1821
+	create:polished_cut_scoria_slab: 1823
+	create:polished_cut_scoria_stairs: 1822
+	create:polished_cut_scoria_wall: 1824
+	create:polished_cut_tuff: 1726
+	create:polished_cut_tuff_slab: 1728
+	create:polished_cut_tuff_stairs: 1727
+	create:polished_cut_tuff_wall: 1729
+	create:polished_cut_veridium: 1859
+	create:polished_cut_veridium_slab: 1861
+	create:polished_cut_veridium_stairs: 1860
+	create:polished_cut_veridium_wall: 1862
+	create:polished_rose_quartz: 1390
+	create:portable_fluid_interface: 1320
+	create:portable_storage_interface: 1343
+	create:potato_cannon: 1460
+	create:powdered_obsidian: 1391
+	create:powered_latch: 1384
+	create:powered_toggle_latch: 1385
+	create:precision_mechanism: 1401
+	create:propeller: 1393
+	create:pulse_extender: 1383
+	create:pulse_repeater: 1382
+	create:purple_seat: 1512
+	create:purple_toolbox: 1483
+	create:purple_valve_handle: 1309
+	create:radial_chassis: 1337
+	create:railway_casing: 1362
+	create:raw_zinc: 1410
+	create:raw_zinc_block: 1527
+	create:red_sand_paper: 1454
+	create:red_seat: 1516
+	create:red_toolbox: 1487
+	create:red_valve_handle: 1313
+	create:redstone_contact: 1344
+	create:redstone_link: 1379
+	create:refined_radiance: 1416
+	create:refined_radiance_casing: 1355
+	create:rope_pulley: 1331
+	create:rose_quartz: 1389
+	create:rose_quartz_block: 1533
+	create:rose_quartz_lamp: 1378
+	create:rose_quartz_tiles: 1534
+	create:rotation_speed_controller: 1359
+	create:sail_frame: 1349
+	create:sand_paper: 1453
+	create:schedule: 1467
+	create:schematic: 1470
+	create:schematic_and_quill: 1469
+	create:schematic_table: 1256
+	create:schematicannon: 1255
+	create:scorchia: 1835
+	create:scorchia_pillar: 1853
+	create:scoria: 1816
+	create:scoria_pillar: 1834
+	create:secondary_linear_chassis: 1336
+	create:sequenced_gearshift: 1357
+	create:shadow_steel: 1415
+	create:shadow_steel_casing: 1354
+	create:shaft: 1257
+	create:small_andesite_brick_slab: 1664
+	create:small_andesite_brick_stairs: 1663
+	create:small_andesite_brick_wall: 1665
+	create:small_andesite_bricks: 1662
+	create:small_asurine_brick_slab: 1755
+	create:small_asurine_brick_stairs: 1754
+	create:small_asurine_brick_wall: 1756
+	create:small_asurine_bricks: 1753
+	create:small_calcite_brick_slab: 1682
+	create:small_calcite_brick_stairs: 1681
+	create:small_calcite_brick_wall: 1683
+	create:small_calcite_bricks: 1680
+	create:small_crimsite_brick_slab: 1774
+	create:small_crimsite_brick_stairs: 1773
+	create:small_crimsite_brick_wall: 1775
+	create:small_crimsite_bricks: 1772
+	create:small_deepslate_brick_slab: 1718
+	create:small_deepslate_brick_stairs: 1717
+	create:small_deepslate_brick_wall: 1719
+	create:small_deepslate_bricks: 1716
+	create:small_diorite_brick_slab: 1646
+	create:small_diorite_brick_stairs: 1645
+	create:small_diorite_brick_wall: 1647
+	create:small_diorite_bricks: 1644
+	create:small_dripstone_brick_slab: 1700
+	create:small_dripstone_brick_stairs: 1699
+	create:small_dripstone_brick_wall: 1701
+	create:small_dripstone_bricks: 1698
+	create:small_granite_brick_slab: 1628
+	create:small_granite_brick_stairs: 1627
+	create:small_granite_brick_wall: 1629
+	create:small_granite_bricks: 1626
+	create:small_limestone_brick_slab: 1793
+	create:small_limestone_brick_stairs: 1792
+	create:small_limestone_brick_wall: 1794
+	create:small_limestone_bricks: 1791
+	create:small_ochrum_brick_slab: 1812
+	create:small_ochrum_brick_stairs: 1811
+	create:small_ochrum_brick_wall: 1813
+	create:small_ochrum_bricks: 1810
+	create:small_rose_quartz_tiles: 1535
+	create:small_scorchia_brick_slab: 1850
+	create:small_scorchia_brick_stairs: 1849
+	create:small_scorchia_brick_wall: 1851
+	create:small_scorchia_bricks: 1848
+	create:small_scoria_brick_slab: 1831
+	create:small_scoria_brick_stairs: 1830
+	create:small_scoria_brick_wall: 1832
+	create:small_scoria_bricks: 1829
+	create:small_tuff_brick_slab: 1736
+	create:small_tuff_brick_stairs: 1735
+	create:small_tuff_brick_wall: 1737
+	create:small_tuff_bricks: 1734
+	create:small_veridium_brick_slab: 1869
+	create:small_veridium_brick_stairs: 1868
+	create:small_veridium_brick_wall: 1870
+	create:small_veridium_bricks: 1867
+	create:smart_chute: 1289
+	create:smart_fluid_pipe: 1296
+	create:speedometer: 1290
+	create:spout: 1319
+	create:spruce_window: 1595
+	create:spruce_window_pane: 1605
+	create:steam_engine: 1321
+	create:steam_whistle: 1322
+	create:sticker: 1338
+	create:sticky_mechanical_piston: 1324
+	create:stockpile_switch: 1373
+	create:stressometer: 1291
+	create:sturdy_sheet: 1392
+	create:super_glue: 1442
+	create:sweet_roll: 1406
+	create:tiled_glass: 1586
+	create:tiled_glass_pane: 1590
+	create:track: 1361
+	create:track_observer: 1365
+	create:track_signal: 1364
+	create:track_station: 1363
+	create:train_door: 1521
+	create:train_trapdoor: 1522
+	create:tree_fertilizer: 1464
+	create:tuff_pillar: 1739
+	create:turntable: 1276
+	create:unprocessed_obsidian_sheet: 1399
+	create:veridium: 1854
+	create:veridium_pillar: 1872
+	create:vertical_framed_glass: 1589
+	create:vertical_framed_glass_pane: 1593
+	create:vertical_gearbox: 1439
+	create:wand_of_symmetry: 1462
+	create:warped_window: 1602
+	create:warped_window_pane: 1612
+	create:water_wheel: 1272
+	create:waxed_copper_shingle_slab: 1552
+	create:waxed_copper_shingle_stairs: 1556
+	create:waxed_copper_shingles: 1548
+	create:waxed_copper_tile_slab: 1576
+	create:waxed_copper_tile_stairs: 1580
+	create:waxed_copper_tiles: 1572
+	create:waxed_exposed_copper_shingle_slab: 1553
+	create:waxed_exposed_copper_shingle_stairs: 1557
+	create:waxed_exposed_copper_shingles: 1549
+	create:waxed_exposed_copper_tile_slab: 1577
+	create:waxed_exposed_copper_tile_stairs: 1581
+	create:waxed_exposed_copper_tiles: 1573
+	create:waxed_oxidized_copper_shingle_slab: 1555
+	create:waxed_oxidized_copper_shingle_stairs: 1559
+	create:waxed_oxidized_copper_shingles: 1551
+	create:waxed_oxidized_copper_tile_slab: 1579
+	create:waxed_oxidized_copper_tile_stairs: 1583
+	create:waxed_oxidized_copper_tiles: 1575
+	create:waxed_weathered_copper_shingle_slab: 1554
+	create:waxed_weathered_copper_shingle_stairs: 1558
+	create:waxed_weathered_copper_shingles: 1550
+	create:waxed_weathered_copper_tile_slab: 1578
+	create:waxed_weathered_copper_tile_stairs: 1582
+	create:waxed_weathered_copper_tiles: 1574
+	create:weathered_copper_shingle_slab: 1542
+	create:weathered_copper_shingle_stairs: 1546
+	create:weathered_copper_shingles: 1538
+	create:weathered_copper_tile_slab: 1566
+	create:weathered_copper_tile_stairs: 1570
+	create:weathered_copper_tiles: 1562
+	create:weighted_ejector: 1287
+	create:wheat_flour: 1386
+	create:whisk: 1394
+	create:white_sail: 1350
+	create:white_seat: 1502
+	create:white_toolbox: 1473
+	create:white_valve_handle: 1299
+	create:windmill_bearing: 1328
+	create:wooden_bracket: 1292
+	create:wrench: 1455
+	create:yellow_seat: 1506
+	create:yellow_toolbox: 1477
+	create:yellow_valve_handle: 1303
+	create:zinc_block: 1528
+	create:zinc_ingot: 1412
+	create:zinc_nugget: 1418
+	create:zinc_ore: 1525
+
+[23Aug2026 20:45:46.298] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	create:blaze_munch: 1510
+	create:chiff: 1487
+	create:cogs: 1490
+	create:confirm: 1498
+	create:contraption_assemble: 1535
+	create:contraption_assemble_compounded_1: 1536
+	create:contraption_disassemble: 1476
+	create:controller_click: 1530
+	create:controller_put: 1515
+	create:controller_take: 1494
+	create:copper_armor_equip: 1532
+	create:crafter_click: 1495
+	create:crafter_click_compounded_1: 1496
+	create:crafter_craft: 1483
+	create:cranking: 1516
+	create:cranking_compounded_1: 1517
+	create:crushing_1: 1508
+	create:crushing_2: 1507
+	create:crushing_3: 1506
+	create:deny: 1529
+	create:depot_plop: 1497
+	create:depot_slide: 1509
+	create:funnel_flap: 1511
+	create:funnel_flap_compounded_1: 1512
+	create:fwoomp: 1504
+	create:haunted_bell_convert: 1526
+	create:haunted_bell_use: 1513
+	create:mechanical_press_activation: 1533
+	create:mechanical_press_activation_belt: 1502
+	create:mechanical_press_activation_belt_compounded_1: 1503
+	create:mechanical_press_activation_compounded_1: 1534
+	create:mixing: 1499
+	create:mixing_compounded_1: 1500
+	create:peculiar_bell_use: 1477
+	create:potato_hit: 1520
+	create:potato_hit_compounded_1: 1521
+	create:sanding_long: 1505
+	create:sanding_short: 1518
+	create:saw_activate_stone: 1481
+	create:saw_activate_wood: 1522
+	create:schematicannon_finish: 1482
+	create:schematicannon_launch_block: 1493
+	create:scroll_value: 1514
+	create:slime_added: 1491
+	create:steam: 1480
+	create:train: 1527
+	create:train2: 1486
+	create:train3: 1488
+	create:whistle: 1489
+	create:whistle_high: 1523
+	create:whistle_low: 1531
+	create:whistle_train: 1525
+	create:whistle_train_low: 1492
+	create:whistle_train_manual: 1479
+	create:whistle_train_manual_end: 1528
+	create:whistle_train_manual_low: 1524
+	create:whistle_train_manual_low_end: 1501
+	create:worldshaper_place: 1478
+	create:wrench_remove: 1484
+	create:wrench_remove_compounded_1: 1485
+	create:wrench_rotate: 1519
+	minecraft:item.bucket.empty_milk: 1474
+	minecraft:item.bucket.fill_milk: 1475
+
+[23Aug2026 20:45:46.303] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 1324 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[23Aug2026 20:45:46.304] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    create:blaze_munch
+    create:chiff
+    create:cogs
+    create:confirm
+    create:contraption_assemble
+    create:contraption_assemble_compounded_1
+    create:contraption_disassemble
+    create:controller_click
+    create:controller_put
+    create:controller_take
+    create:copper_armor_equip
+    create:crafter_click
+    create:crafter_click_compounded_1
+    create:crafter_craft
+    create:cranking
+    create:cranking_compounded_1
+    create:crushing_1
+    create:crushing_2
+    create:crushing_3
+    create:deny
+    create:depot_plop
+    create:depot_slide
+    create:funnel_flap
+    create:funnel_flap_compounded_1
+    create:fwoomp
+    create:haunted_bell_convert
+    create:haunted_bell_use
+    create:mechanical_press_activation
+    create:mechanical_press_activation_belt
+    create:mechanical_press_activation_belt_compounded_1
+    create:mechanical_press_activation_compounded_1
+    create:mixing
+    create:mixing_compounded_1
+    create:peculiar_bell_use
+    create:potato_hit
+    create:potato_hit_compounded_1
+    create:sanding_long
+    create:sanding_short
+    create:saw_activate_stone
+    create:saw_activate_wood
+    create:schematicannon_finish
+    create:schematicannon_launch_block
+    create:scroll_value
+    create:slime_added
+    create:steam
+    create:train
+    create:train2
+    create:train3
+    create:whistle
+    create:whistle_high
+    create:whistle_low
+    create:whistle_train
+    create:whistle_train_low
+    create:whistle_train_manual
+    create:whistle_train_manual_end
+    create:whistle_train_manual_low
+    create:whistle_train_manual_low_end
+    create:worldshaper_place
+    create:wrench_remove
+    create:wrench_remove_compounded_1
+    create:wrench_rotate
+    minecraft:item.bucket.empty_milk
+    minecraft:item.bucket.fill_milk
+
+Missing minecraft:item:
+    computercraft:cable
+    computercraft:computer_advanced
+    computercraft:computer_command
+    computercraft:computer_normal
+    computercraft:disk
+    computercraft:disk_drive
+    computercraft:monitor_advanced
+    computercraft:monitor_normal
+    computercraft:pocket_computer_advanced
+    computercraft:pocket_computer_normal
+    computercraft:printed_book
+    computercraft:printed_page
+    computercraft:printed_pages
+    computercraft:printer
+    computercraft:speaker
+    computercraft:treasure_disk
+    computercraft:turtle_advanced
+    computercraft:turtle_normal
+    computercraft:wired_modem
+    computercraft:wired_modem_full
+    computercraft:wireless_modem_advanced
+    computercraft:wireless_modem_normal
+    create:acacia_window
+    create:acacia_window_pane
+    create:adjustable_chain_gearshift
+    create:analog_lever
+    create:andesite_alloy
+    create:andesite_alloy_block
+    create:andesite_bars
+    create:andesite_casing
+    create:andesite_door
+    create:andesite_encased_cogwheel
+    create:andesite_encased_large_cogwheel
+    create:andesite_encased_shaft
+    create:andesite_funnel
+    create:andesite_ladder
+    create:andesite_pillar
+    create:andesite_scaffolding
+    create:andesite_tunnel
+    create:asurine
+    create:asurine_pillar
+    create:attribute_filter
+    create:bar_of_chocolate
+    create:basin
+    create:belt_connector
+    create:birch_window
+    create:birch_window_pane
+    create:black_seat
+    create:black_toolbox
+    create:black_valve_handle
+    create:blaze_burner
+    create:blaze_cake
+    create:blaze_cake_base
+    create:blue_seat
+    create:blue_toolbox
+    create:blue_valve_handle
+    create:brass_bars
+    create:brass_block
+    create:brass_casing
+    create:brass_door
+    create:brass_encased_cogwheel
+    create:brass_encased_large_cogwheel
+    create:brass_encased_shaft
+    create:brass_funnel
+    create:brass_hand
+    create:brass_ingot
+    create:brass_ladder
+    create:brass_nugget
+    create:brass_scaffolding
+    create:brass_sheet
+    create:brass_tunnel
+    create:brown_seat
+    create:brown_toolbox
+    create:brown_valve_handle
+    create:builders_tea
+    create:calcite_pillar
+    create:cart_assembler
+    create:chest_minecart_contraption
+    create:chocolate_bucket
+    create:chocolate_glazed_berries
+    create:chromatic_compound
+    create:chute
+    create:cinder_flour
+    create:clipboard
+    create:clockwork_bearing
+    create:clutch
+    create:cogwheel
+    create:content_observer
+    create:contraption_controls
+    create:controller_rail
+    create:controls
+    create:copper_backtank
+    create:copper_backtank_placeable
+    create:copper_bars
+    create:copper_casing
+    create:copper_diving_boots
+    create:copper_diving_helmet
+    create:copper_door
+    create:copper_ladder
+    create:copper_nugget
+    create:copper_scaffolding
+    create:copper_sheet
+    create:copper_shingle_slab
+    create:copper_shingle_stairs
+    create:copper_shingles
+    create:copper_tile_slab
+    create:copper_tile_stairs
+    create:copper_tiles
+    create:copper_valve_handle
+    create:copycat_panel
+    create:copycat_step
+    create:crafter_slot_cover
+    create:crafting_blueprint
+    create:creative_blaze_cake
+    create:creative_crate
+    create:creative_fluid_tank
+    create:creative_motor
+    create:crimsite
+    create:crimsite_pillar
+    create:crimson_window
+    create:crimson_window_pane
+    create:crushed_raw_aluminum
+    create:crushed_raw_copper
+    create:crushed_raw_gold
+    create:crushed_raw_iron
+    create:crushed_raw_lead
+    create:crushed_raw_nickel
+    create:crushed_raw_osmium
+    create:crushed_raw_platinum
+    create:crushed_raw_quicksilver
+    create:crushed_raw_silver
+    create:crushed_raw_tin
+    create:crushed_raw_uranium
+    create:crushed_raw_zinc
+    create:crushing_wheel
+    create:cuckoo_clock
+    create:cut_andesite
+    create:cut_andesite_brick_slab
+    create:cut_andesite_brick_stairs
+    create:cut_andesite_brick_wall
+    create:cut_andesite_bricks
+    create:cut_andesite_slab
+    create:cut_andesite_stairs
+    create:cut_andesite_wall
+    create:cut_asurine
+    create:cut_asurine_brick_slab
+    create:cut_asurine_brick_stairs
+    create:cut_asurine_brick_wall
+    create:cut_asurine_bricks
+    create:cut_asurine_slab
+    create:cut_asurine_stairs
+    create:cut_asurine_wall
+    create:cut_calcite
+    create:cut_calcite_brick_slab
+    create:cut_calcite_brick_stairs
+    create:cut_calcite_brick_wall
+    create:cut_calcite_bricks
+    create:cut_calcite_slab
+    create:cut_calcite_stairs
+    create:cut_calcite_wall
+    create:cut_crimsite
+    create:cut_crimsite_brick_slab
+    create:cut_crimsite_brick_stairs
+    create:cut_crimsite_brick_wall
+    create:cut_crimsite_bricks
+    create:cut_crimsite_slab
+    create:cut_crimsite_stairs
+    create:cut_crimsite_wall
+    create:cut_deepslate
+    create:cut_deepslate_brick_slab
+    create:cut_deepslate_brick_stairs
+    create:cut_deepslate_brick_wall
+    create:cut_deepslate_bricks
+    create:cut_deepslate_slab
+    create:cut_deepslate_stairs
+    create:cut_deepslate_wall
+    create:cut_diorite
+    create:cut_diorite_brick_slab
+    create:cut_diorite_brick_stairs
+    create:cut_diorite_brick_wall
+    create:cut_diorite_bricks
+    create:cut_diorite_slab
+    create:cut_diorite_stairs
+    create:cut_diorite_wall
+    create:cut_dripstone
+    create:cut_dripstone_brick_slab
+    create:cut_dripstone_brick_stairs
+    create:cut_dripstone_brick_wall
+    create:cut_dripstone_bricks
+    create:cut_dripstone_slab
+    create:cut_dripstone_stairs
+    create:cut_dripstone_wall
+    create:cut_granite
+    create:cut_granite_brick_slab
+    create:cut_granite_brick_stairs
+    create:cut_granite_brick_wall
+    create:cut_granite_bricks
+    create:cut_granite_slab
+    create:cut_granite_stairs
+    create:cut_granite_wall
+    create:cut_limestone
+    create:cut_limestone_brick_slab
+    create:cut_limestone_brick_stairs
+    create:cut_limestone_brick_wall
+    create:cut_limestone_bricks
+    create:cut_limestone_slab
+    create:cut_limestone_stairs
+    create:cut_limestone_wall
+    create:cut_ochrum
+    create:cut_ochrum_brick_slab
+    create:cut_ochrum_brick_stairs
+    create:cut_ochrum_brick_wall
+    create:cut_ochrum_bricks
+    create:cut_ochrum_slab
+    create:cut_ochrum_stairs
+    create:cut_ochrum_wall
+    create:cut_scorchia
+    create:cut_scorchia_brick_slab
+    create:cut_scorchia_brick_stairs
+    create:cut_scorchia_brick_wall
+    create:cut_scorchia_bricks
+    create:cut_scorchia_slab
+    create:cut_scorchia_stairs
+    create:cut_scorchia_wall
+    create:cut_scoria
+    create:cut_scoria_brick_slab
+    create:cut_scoria_brick_stairs
+    create:cut_scoria_brick_wall
+    create:cut_scoria_bricks
+    create:cut_scoria_slab
+    create:cut_scoria_stairs
+    create:cut_scoria_wall
+    create:cut_tuff
+    create:cut_tuff_brick_slab
+    create:cut_tuff_brick_stairs
+    create:cut_tuff_brick_wall
+    create:cut_tuff_bricks
+    create:cut_tuff_slab
+    create:cut_tuff_stairs
+    create:cut_tuff_wall
+    create:cut_veridium
+    create:cut_veridium_brick_slab
+    create:cut_veridium_brick_stairs
+    create:cut_veridium_brick_wall
+    create:cut_veridium_bricks
+    create:cut_veridium_slab
+    create:cut_veridium_stairs
+    create:cut_veridium_wall
+    create:cyan_seat
+    create:cyan_toolbox
+    create:cyan_valve_handle
+    create:dark_oak_window
+    create:dark_oak_window_pane
+    create:deepslate_pillar
+    create:deepslate_zinc_ore
+    create:deployer
+    create:depot
+    create:diorite_pillar
+    create:display_board
+    create:display_link
+    create:dough
+    create:dripstone_pillar
+    create:electron_tube
+    create:elevator_contact
+    create:elevator_pulley
+    create:empty_blaze_burner
+    create:empty_schematic
+    create:encased_chain_drive
+    create:encased_fan
+    create:experience_block
+    create:experience_nugget
+    create:exposed_copper_shingle_slab
+    create:exposed_copper_shingle_stairs
+    create:exposed_copper_shingles
+    create:exposed_copper_tile_slab
+    create:exposed_copper_tile_stairs
+    create:exposed_copper_tiles
+    create:extendo_grip
+    create:filter
+    create:fluid_pipe
+    create:fluid_tank
+    create:fluid_valve
+    create:flywheel
+    create:framed_glass
+    create:framed_glass_door
+    create:framed_glass_pane
+    create:framed_glass_trapdoor
+    create:furnace_minecart_contraption
+    create:gantry_carriage
+    create:gantry_shaft
+    create:gearbox
+    create:gearshift
+    create:goggles
+    create:golden_sheet
+    create:granite_pillar
+    create:gray_seat
+    create:gray_toolbox
+    create:gray_valve_handle
+    create:green_seat
+    create:green_toolbox
+    create:green_valve_handle
+    create:hand_crank
+    create:handheld_worldshaper
+    create:haunted_bell
+    create:honey_bucket
+    create:honeyed_apple
+    create:horizontal_framed_glass
+    create:horizontal_framed_glass_pane
+    create:hose_pulley
+    create:incomplete_precision_mechanism
+    create:incomplete_track
+    create:industrial_iron_block
+    create:iron_sheet
+    create:item_drain
+    create:item_vault
+    create:jungle_window
+    create:jungle_window_pane
+    create:large_cogwheel
+    create:large_water_wheel
+    create:layered_andesite
+    create:layered_asurine
+    create:layered_calcite
+    create:layered_crimsite
+    create:layered_deepslate
+    create:layered_diorite
+    create:layered_dripstone
+    create:layered_granite
+    create:layered_limestone
+    create:layered_ochrum
+    create:layered_scorchia
+    create:layered_scoria
+    create:layered_tuff
+    create:layered_veridium
+    create:light_blue_seat
+    create:light_blue_toolbox
+    create:light_blue_valve_handle
+    create:light_gray_seat
+    create:light_gray_toolbox
+    create:light_gray_valve_handle
+    create:lime_seat
+    create:lime_toolbox
+    create:lime_valve_handle
+    create:limestone
+    create:limestone_pillar
+    create:linear_chassis
+    create:linked_controller
+    create:magenta_seat
+    create:magenta_toolbox
+    create:magenta_valve_handle
+    create:mangrove_window
+    create:mangrove_window_pane
+    create:mechanical_arm
+    create:mechanical_bearing
+    create:mechanical_crafter
+    create:mechanical_drill
+    create:mechanical_harvester
+    create:mechanical_mixer
+    create:mechanical_piston
+    create:mechanical_plough
+    create:mechanical_press
+    create:mechanical_pump
+    create:mechanical_roller
+    create:mechanical_saw
+    create:metal_bracket
+    create:metal_girder
+    create:millstone
+    create:minecart_contraption
+    create:minecart_coupling
+    create:mysterious_cuckoo_clock
+    create:netherite_backtank
+    create:netherite_backtank_placeable
+    create:netherite_diving_boots
+    create:netherite_diving_helmet
+    create:nixie_tube
+    create:nozzle
+    create:oak_window
+    create:oak_window_pane
+    create:ochrum
+    create:ochrum_pillar
+    create:orange_seat
+    create:orange_toolbox
+    create:orange_valve_handle
+    create:ornate_iron_window
+    create:ornate_iron_window_pane
+    create:oxidized_copper_shingle_slab
+    create:oxidized_copper_shingle_stairs
+    create:oxidized_copper_shingles
+    create:oxidized_copper_tile_slab
+    create:oxidized_copper_tile_stairs
+    create:oxidized_copper_tiles
+    create:peculiar_bell
+    create:pink_seat
+    create:pink_toolbox
+    create:pink_valve_handle
+    create:piston_extension_pole
+    create:placard
+    create:polished_cut_andesite
+    create:polished_cut_andesite_slab
+    create:polished_cut_andesite_stairs
+    create:polished_cut_andesite_wall
+    create:polished_cut_asurine
+    create:polished_cut_asurine_slab
+    create:polished_cut_asurine_stairs
+    create:polished_cut_asurine_wall
+    create:polished_cut_calcite
+    create:polished_cut_calcite_slab
+    create:polished_cut_calcite_stairs
+    create:polished_cut_calcite_wall
+    create:polished_cut_crimsite
+    create:polished_cut_crimsite_slab
+    create:polished_cut_crimsite_stairs
+    create:polished_cut_crimsite_wall
+    create:polished_cut_deepslate
+    create:polished_cut_deepslate_slab
+    create:polished_cut_deepslate_stairs
+    create:polished_cut_deepslate_wall
+    create:polished_cut_diorite
+    create:polished_cut_diorite_slab
+    create:polished_cut_diorite_stairs
+    create:polished_cut_diorite_wall
+    create:polished_cut_dripstone
+    create:polished_cut_dripstone_slab
+    create:polished_cut_dripstone_stairs
+    create:polished_cut_dripstone_wall
+    create:polished_cut_granite
+    create:polished_cut_granite_slab
+    create:polished_cut_granite_stairs
+    create:polished_cut_granite_wall
+    create:polished_cut_limestone
+    create:polished_cut_limestone_slab
+    create:polished_cut_limestone_stairs
+    create:polished_cut_limestone_wall
+    create:polished_cut_ochrum
+    create:polished_cut_ochrum_slab
+    create:polished_cut_ochrum_stairs
+    create:polished_cut_ochrum_wall
+    create:polished_cut_scorchia
+    create:polished_cut_scorchia_slab
+    create:polished_cut_scorchia_stairs
+    create:polished_cut_scorchia_wall
+    create:polished_cut_scoria
+    create:polished_cut_scoria_slab
+    create:polished_cut_scoria_stairs
+    create:polished_cut_scoria_wall
+    create:polished_cut_tuff
+    create:polished_cut_tuff_slab
+    create:polished_cut_tuff_stairs
+    create:polished_cut_tuff_wall
+    create:polished_cut_veridium
+    create:polished_cut_veridium_slab
+    create:polished_cut_veridium_stairs
+    create:polished_cut_veridium_wall
+    create:polished_rose_quartz
+    create:portable_fluid_interface
+    create:portable_storage_interface
+    create:potato_cannon
+    create:powdered_obsidian
+    create:powered_latch
+    create:powered_toggle_latch
+    create:precision_mechanism
+    create:propeller
+    create:pulse_extender
+    create:pulse_repeater
+    create:purple_seat
+    create:purple_toolbox
+    create:purple_valve_handle
+    create:radial_chassis
+    create:railway_casing
+    create:raw_zinc
+    create:raw_zinc_block
+    create:red_sand_paper
+    create:red_seat
+    create:red_toolbox
+    create:red_valve_handle
+    create:redstone_contact
+    create:redstone_link
+    create:refined_radiance
+    create:refined_radiance_casing
+    create:rope_pulley
+    create:rose_quartz
+    create:rose_quartz_block
+    create:rose_quartz_lamp
+    create:rose_quartz_tiles
+    create:rotation_speed_controller
+    create:sail_frame
+    create:sand_paper
+    create:schedule
+    create:schematic
+    create:schematic_and_quill
+    create:schematic_table
+    create:schematicannon
+    create:scorchia
+    create:scorchia_pillar
+    create:scoria
+    create:scoria_pillar
+    create:secondary_linear_chassis
+    create:sequenced_gearshift
+    create:shadow_steel
+    create:shadow_steel_casing
+    create:shaft
+    create:small_andesite_brick_slab
+    create:small_andesite_brick_stairs
+    create:small_andesite_brick_wall
+    create:small_andesite_bricks
+    create:small_asurine_brick_slab
+    create:small_asurine_brick_stairs
+    create:small_asurine_brick_wall
+    create:small_asurine_bricks
+    create:small_calcite_brick_slab
+    create:small_calcite_brick_stairs
+    create:small_calcite_brick_wall
+    create:small_calcite_bricks
+    create:small_crimsite_brick_slab
+    create:small_crimsite_brick_stairs
+    create:small_crimsite_brick_wall
+    create:small_crimsite_bricks
+    create:small_deepslate_brick_slab
+    create:small_deepslate_brick_stairs
+    create:small_deepslate_brick_wall
+    create:small_deepslate_bricks
+    create:small_diorite_brick_slab
+    create:small_diorite_brick_stairs
+    create:small_diorite_brick_wall
+    create:small_diorite_bricks
+    create:small_dripstone_brick_slab
+    create:small_dripstone_brick_stairs
+    create:small_dripstone_brick_wall
+    create:small_dripstone_bricks
+    create:small_granite_brick_slab
+    create:small_granite_brick_stairs
+    create:small_granite_brick_wall
+    create:small_granite_bricks
+    create:small_limestone_brick_slab
+    create:small_limestone_brick_stairs
+    create:small_limestone_brick_wall
+    create:small_limestone_bricks
+    create:small_ochrum_brick_slab
+    create:small_ochrum_brick_stairs
+    create:small_ochrum_brick_wall
+    create:small_ochrum_bricks
+    create:small_rose_quartz_tiles
+    create:small_scorchia_brick_slab
+    create:small_scorchia_brick_stairs
+    create:small_scorchia_brick_wall
+    create:small_scorchia_bricks
+    create:small_scoria_brick_slab
+    create:small_scoria_brick_stairs
+    create:small_scoria_brick_wall
+    create:small_scoria_bricks
+    create:small_tuff_brick_slab
+    create:small_tuff_brick_stairs
+    create:small_tuff_brick_wall
+    create:small_tuff_bricks
+    create:small_veridium_brick_slab
+    create:small_veridium_brick_stairs
+    create:small_veridium_brick_wall
+    create:small_veridium_bricks
+    create:smart_chute
+    create:smart_fluid_pipe
+    create:speedometer
+    create:spout
+    create:spruce_window
+    create:spruce_window_pane
+    create:steam_engine
+    create:steam_whistle
+    create:sticker
+    create:sticky_mechanical_piston
+    create:stockpile_switch
+    create:stressometer
+    create:sturdy_sheet
+    create:super_glue
+    create:sweet_roll
+    create:tiled_glass
+    create:tiled_glass_pane
+    create:track
+    create:track_observer
+    create:track_signal
+    create:track_station
+    create:train_door
+    create:train_trapdoor
+    create:tree_fertilizer
+    create:tuff_pillar
+    create:turntable
+    create:unprocessed_obsidian_sheet
+    create:veridium
+    create:veridium_pillar
+    create:vertical_framed_glass
+    create:vertical_framed_glass_pane
+    create:vertical_gearbox
+    create:wand_of_symmetry
+    create:warped_window
+    create:warped_window_pane
+    create:water_wheel
+    create:waxed_copper_shingle_slab
+    create:waxed_copper_shingle_stairs
+    create:waxed_copper_shingles
+    create:waxed_copper_tile_slab
+    create:waxed_copper_tile_stairs
+    create:waxed_copper_tiles
+    create:waxed_exposed_copper_shingle_slab
+    create:waxed_exposed_copper_shingle_stairs
+    create:waxed_exposed_copper_shingles
+    create:waxed_exposed_copper_tile_slab
+    create:waxed_exposed_copper_tile_stairs
+    create:waxed_exposed_copper_tiles
+    create:waxed_oxidized_copper_shingle_slab
+    create:waxed_oxidized_copper_shingle_stairs
+    create:waxed_oxidized_copper_shingles
+    create:waxed_oxidized_copper_tile_slab
+    create:waxed_oxidized_copper_tile_stairs
+    create:waxed_oxidized_copper_tiles
+    create:waxed_weathered_copper_shingle_slab
+    create:waxed_weathered_copper_shingle_stairs
+    create:waxed_weathered_copper_shingles
+    create:waxed_weathered_copper_tile_slab
+    create:waxed_weathered_copper_tile_stairs
+    create:waxed_weathered_copper_tiles
+    create:weathered_copper_shingle_slab
+    create:weathered_copper_shingle_stairs
+    create:weathered_copper_shingles
+    create:weathered_copper_tile_slab
+    create:weathered_copper_tile_stairs
+    create:weathered_copper_tiles
+    create:weighted_ejector
+    create:wheat_flour
+    create:whisk
+    create:white_sail
+    create:white_seat
+    create:white_toolbox
+    create:white_valve_handle
+    create:windmill_bearing
+    create:wooden_bracket
+    create:wrench
+    create:yellow_seat
+    create:yellow_toolbox
+    create:yellow_valve_handle
+    create:zinc_block
+    create:zinc_ingot
+    create:zinc_nugget
+    create:zinc_ore
+
+Missing minecraft:block:
+    computercraft:cable
+    computercraft:computer_advanced
+    computercraft:computer_command
+    computercraft:computer_normal
+    computercraft:disk_drive
+    computercraft:lectern
+    computercraft:monitor_advanced
+    computercraft:monitor_normal
+    computercraft:printer
+    computercraft:speaker
+    computercraft:turtle_advanced
+    computercraft:turtle_normal
+    computercraft:wired_modem_full
+    computercraft:wireless_modem_advanced
+    computercraft:wireless_modem_normal
+    create:acacia_window
+    create:acacia_window_pane
+    create:adjustable_chain_gearshift
+    create:analog_lever
+    create:andesite_alloy_block
+    create:andesite_bars
+    create:andesite_belt_funnel
+    create:andesite_casing
+    create:andesite_door
+    create:andesite_encased_cogwheel
+    create:andesite_encased_large_cogwheel
+    create:andesite_encased_shaft
+    create:andesite_funnel
+    create:andesite_ladder
+    create:andesite_pillar
+    create:andesite_scaffolding
+    create:andesite_tunnel
+    create:asurine
+    create:asurine_pillar
+    create:basin
+    create:belt
+    create:birch_window
+    create:birch_window_pane
+    create:black_nixie_tube
+    create:black_sail
+    create:black_seat
+    create:black_toolbox
+    create:black_valve_handle
+    create:blaze_burner
+    create:blue_nixie_tube
+    create:blue_sail
+    create:blue_seat
+    create:blue_toolbox
+    create:blue_valve_handle
+    create:brass_bars
+    create:brass_belt_funnel
+    create:brass_block
+    create:brass_casing
+    create:brass_door
+    create:brass_encased_cogwheel
+    create:brass_encased_large_cogwheel
+    create:brass_encased_shaft
+    create:brass_funnel
+    create:brass_ladder
+    create:brass_scaffolding
+    create:brass_tunnel
+    create:brown_nixie_tube
+    create:brown_sail
+    create:brown_seat
+    create:brown_toolbox
+    create:brown_valve_handle
+    create:calcite_pillar
+    create:cart_assembler
+    create:chocolate
+    create:chute
+    create:clipboard
+    create:clockwork_bearing
+    create:clutch
+    create:cogwheel
+    create:content_observer
+    create:contraption_controls
+    create:controller_rail
+    create:controls
+    create:copper_backtank
+    create:copper_bars
+    create:copper_casing
+    create:copper_door
+    create:copper_ladder
+    create:copper_scaffolding
+    create:copper_shingle_slab
+    create:copper_shingle_stairs
+    create:copper_shingles
+    create:copper_tile_slab
+    create:copper_tile_stairs
+    create:copper_tiles
+    create:copper_valve_handle
+    create:copycat_bars
+    create:copycat_base
+    create:copycat_panel
+    create:copycat_step
+    create:creative_crate
+    create:creative_fluid_tank
+    create:creative_motor
+    create:crimsite
+    create:crimsite_pillar
+    create:crimson_window
+    create:crimson_window_pane
+    create:crushing_wheel
+    create:crushing_wheel_controller
+    create:cuckoo_clock
+    create:cut_andesite
+    create:cut_andesite_brick_slab
+    create:cut_andesite_brick_stairs
+    create:cut_andesite_brick_wall
+    create:cut_andesite_bricks
+    create:cut_andesite_slab
+    create:cut_andesite_stairs
+    create:cut_andesite_wall
+    create:cut_asurine
+    create:cut_asurine_brick_slab
+    create:cut_asurine_brick_stairs
+    create:cut_asurine_brick_wall
+    create:cut_asurine_bricks
+    create:cut_asurine_slab
+    create:cut_asurine_stairs
+    create:cut_asurine_wall
+    create:cut_calcite
+    create:cut_calcite_brick_slab
+    create:cut_calcite_brick_stairs
+    create:cut_calcite_brick_wall
+    create:cut_calcite_bricks
+    create:cut_calcite_slab
+    create:cut_calcite_stairs
+    create:cut_calcite_wall
+    create:cut_crimsite
+    create:cut_crimsite_brick_slab
+    create:cut_crimsite_brick_stairs
+    create:cut_crimsite_brick_wall
+    create:cut_crimsite_bricks
+    create:cut_crimsite_slab
+    create:cut_crimsite_stairs
+    create:cut_crimsite_wall
+    create:cut_deepslate
+    create:cut_deepslate_brick_slab
+    create:cut_deepslate_brick_stairs
+    create:cut_deepslate_brick_wall
+    create:cut_deepslate_bricks
+    create:cut_deepslate_slab
+    create:cut_deepslate_stairs
+    create:cut_deepslate_wall
+    create:cut_diorite
+    create:cut_diorite_brick_slab
+    create:cut_diorite_brick_stairs
+    create:cut_diorite_brick_wall
+    create:cut_diorite_bricks
+    create:cut_diorite_slab
+    create:cut_diorite_stairs
+    create:cut_diorite_wall
+    create:cut_dripstone
+    create:cut_dripstone_brick_slab
+    create:cut_dripstone_brick_stairs
+    create:cut_dripstone_brick_wall
+    create:cut_dripstone_bricks
+    create:cut_dripstone_slab
+    create:cut_dripstone_stairs
+    create:cut_dripstone_wall
+    create:cut_granite
+    create:cut_granite_brick_slab
+    create:cut_granite_brick_stairs
+    create:cut_granite_brick_wall
+    create:cut_granite_bricks
+    create:cut_granite_slab
+    create:cut_granite_stairs
+    create:cut_granite_wall
+    create:cut_limestone
+    create:cut_limestone_brick_slab
+    create:cut_limestone_brick_stairs
+    create:cut_limestone_brick_wall
+    create:cut_limestone_bricks
+    create:cut_limestone_slab
+    create:cut_limestone_stairs
+    create:cut_limestone_wall
+    create:cut_ochrum
+    create:cut_ochrum_brick_slab
+    create:cut_ochrum_brick_stairs
+    create:cut_ochrum_brick_wall
+    create:cut_ochrum_bricks
+    create:cut_ochrum_slab
+    create:cut_ochrum_stairs
+    create:cut_ochrum_wall
+    create:cut_scorchia
+    create:cut_scorchia_brick_slab
+    create:cut_scorchia_brick_stairs
+    create:cut_scorchia_brick_wall
+    create:cut_scorchia_bricks
+    create:cut_scorchia_slab
+    create:cut_scorchia_stairs
+    create:cut_scorchia_wall
+    create:cut_scoria
+    create:cut_scoria_brick_slab
+    create:cut_scoria_brick_stairs
+    create:cut_scoria_brick_wall
+    create:cut_scoria_bricks
+    create:cut_scoria_slab
+    create:cut_scoria_stairs
+    create:cut_scoria_wall
+    create:cut_tuff
+    create:cut_tuff_brick_slab
+    create:cut_tuff_brick_stairs
+    create:cut_tuff_brick_wall
+    create:cut_tuff_bricks
+    create:cut_tuff_slab
+    create:cut_tuff_stairs
+    create:cut_tuff_wall
+    create:cut_veridium
+    create:cut_veridium_brick_slab
+    create:cut_veridium_brick_stairs
+    create:cut_veridium_brick_wall
+    create:cut_veridium_bricks
+    create:cut_veridium_slab
+    create:cut_veridium_stairs
+    create:cut_veridium_wall
+    create:cyan_nixie_tube
+    create:cyan_sail
+    create:cyan_seat
+    create:cyan_toolbox
+    create:cyan_valve_handle
+    create:dark_oak_window
+    create:dark_oak_window_pane
+    create:deepslate_pillar
+    create:deepslate_zinc_ore
+    create:deployer
+    create:depot
+    create:diorite_pillar
+    create:display_board
+    create:display_link
+    create:dripstone_pillar
+    create:elevator_contact
+    create:elevator_pulley
+    create:encased_chain_drive
+    create:encased_fan
+    create:encased_fluid_pipe
+    create:experience_block
+    create:exposed_copper_shingle_slab
+    create:exposed_copper_shingle_stairs
+    create:exposed_copper_shingles
+    create:exposed_copper_tile_slab
+    create:exposed_copper_tile_stairs
+    create:exposed_copper_tiles
+    create:fake_track
+    create:fluid_pipe
+    create:fluid_tank
+    create:fluid_valve
+    create:flywheel
+    create:framed_glass
+    create:framed_glass_door
+    create:framed_glass_pane
+    create:framed_glass_trapdoor
+    create:gantry_carriage
+    create:gantry_shaft
+    create:gearbox
+    create:gearshift
+    create:glass_fluid_pipe
+    create:granite_pillar
+    create:gray_nixie_tube
+    create:gray_sail
+    create:gray_seat
+    create:gray_toolbox
+    create:gray_valve_handle
+    create:green_nixie_tube
+    create:green_sail
+    create:green_seat
+    create:green_toolbox
+    create:green_valve_handle
+    create:hand_crank
+    create:haunted_bell
+    create:honey
+    create:horizontal_framed_glass
+    create:horizontal_framed_glass_pane
+    create:hose_pulley
+    create:industrial_iron_block
+    create:item_drain
+    create:item_vault
+    create:jungle_window
+    create:jungle_window_pane
+    create:large_bogey
+    create:large_cogwheel
+    create:large_water_wheel
+    create:layered_andesite
+    create:layered_asurine
+    create:layered_calcite
+    create:layered_crimsite
+    create:layered_deepslate
+    create:layered_diorite
+    create:layered_dripstone
+    create:layered_granite
+    create:layered_limestone
+    create:layered_ochrum
+    create:layered_scorchia
+    create:layered_scoria
+    create:layered_tuff
+    create:layered_veridium
+    create:lectern_controller
+    create:light_blue_nixie_tube
+    create:light_blue_sail
+    create:light_blue_seat
+    create:light_blue_toolbox
+    create:light_blue_valve_handle
+    create:light_gray_nixie_tube
+    create:light_gray_sail
+    create:light_gray_seat
+    create:light_gray_toolbox
+    create:light_gray_valve_handle
+    create:lime_nixie_tube
+    create:lime_sail
+    create:lime_seat
+    create:lime_toolbox
+    create:lime_valve_handle
+    create:limestone
+    create:limestone_pillar
+    create:linear_chassis
+    create:lit_blaze_burner
+    create:magenta_nixie_tube
+    create:magenta_sail
+    create:magenta_seat
+    create:magenta_toolbox
+    create:magenta_valve_handle
+    create:mangrove_window
+    create:mangrove_window_pane
+    create:mechanical_arm
+    create:mechanical_bearing
+    create:mechanical_crafter
+    create:mechanical_drill
+    create:mechanical_harvester
+    create:mechanical_mixer
+    create:mechanical_piston
+    create:mechanical_piston_head
+    create:mechanical_plough
+    create:mechanical_press
+    create:mechanical_pump
+    create:mechanical_roller
+    create:mechanical_saw
+    create:metal_bracket
+    create:metal_girder
+    create:metal_girder_encased_shaft
+    create:millstone
+    create:minecart_anchor
+    create:mysterious_cuckoo_clock
+    create:netherite_backtank
+    create:nixie_tube
+    create:nozzle
+    create:oak_window
+    create:oak_window_pane
+    create:ochrum
+    create:ochrum_pillar
+    create:orange_sail
+    create:orange_seat
+    create:orange_toolbox
+    create:orange_valve_handle
+    create:ornate_iron_window
+    create:ornate_iron_window_pane
+    create:oxidized_copper_shingle_slab
+    create:oxidized_copper_shingle_stairs
+    create:oxidized_copper_shingles
+    create:oxidized_copper_tile_slab
+    create:oxidized_copper_tile_stairs
+    create:oxidized_copper_tiles
+    create:peculiar_bell
+    create:pink_nixie_tube
+    create:pink_sail
+    create:pink_seat
+    create:pink_toolbox
+    create:pink_valve_handle
+    create:piston_extension_pole
+    create:placard
+    create:polished_cut_andesite
+    create:polished_cut_andesite_slab
+    create:polished_cut_andesite_stairs
+    create:polished_cut_andesite_wall
+    create:polished_cut_asurine
+    create:polished_cut_asurine_slab
+    create:polished_cut_asurine_stairs
+    create:polished_cut_asurine_wall
+    create:polished_cut_calcite
+    create:polished_cut_calcite_slab
+    create:polished_cut_calcite_stairs
+    create:polished_cut_calcite_wall
+    create:polished_cut_crimsite
+    create:polished_cut_crimsite_slab
+    create:polished_cut_crimsite_stairs
+    create:polished_cut_crimsite_wall
+    create:polished_cut_deepslate
+    create:polished_cut_deepslate_slab
+    create:polished_cut_deepslate_stairs
+    create:polished_cut_deepslate_wall
+    create:polished_cut_diorite
+    create:polished_cut_diorite_slab
+    create:polished_cut_diorite_stairs
+    create:polished_cut_diorite_wall
+    create:polished_cut_dripstone
+    create:polished_cut_dripstone_slab
+    create:polished_cut_dripstone_stairs
+    create:polished_cut_dripstone_wall
+    create:polished_cut_granite
+    create:polished_cut_granite_slab
+    create:polished_cut_granite_stairs
+    create:polished_cut_granite_wall
+    create:polished_cut_limestone
+    create:polished_cut_limestone_slab
+    create:polished_cut_limestone_stairs
+    create:polished_cut_limestone_wall
+    create:polished_cut_ochrum
+    create:polished_cut_ochrum_slab
+    create:polished_cut_ochrum_stairs
+    create:polished_cut_ochrum_wall
+    create:polished_cut_scorchia
+    create:polished_cut_scorchia_slab
+    create:polished_cut_scorchia_stairs
+    create:polished_cut_scorchia_wall
+    create:polished_cut_scoria
+    create:polished_cut_scoria_slab
+    create:polished_cut_scoria_stairs
+    create:polished_cut_scoria_wall
+    create:polished_cut_tuff
+    create:polished_cut_tuff_slab
+    create:polished_cut_tuff_stairs
+    create:polished_cut_tuff_wall
+    create:polished_cut_veridium
+    create:polished_cut_veridium_slab
+    create:polished_cut_veridium_stairs
+    create:polished_cut_veridium_wall
+    create:portable_fluid_interface
+    create:portable_storage_interface
+    create:powered_latch
+    create:powered_shaft
+    create:powered_toggle_latch
+    create:pulley_magnet
+    create:pulse_extender
+    create:pulse_repeater
+    create:purple_nixie_tube
+    create:purple_sail
+    create:purple_seat
+    create:purple_toolbox
+    create:purple_valve_handle
+    create:radial_chassis
+    create:railway_casing
+    create:raw_zinc_block
+    create:red_nixie_tube
+    create:red_sail
+    create:red_seat
+    create:red_toolbox
+    create:red_valve_handle
+    create:redstone_contact
+    create:redstone_link
+    create:refined_radiance_casing
+    create:rope
+    create:rope_pulley
+    create:rose_quartz_block
+    create:rose_quartz_lamp
+    create:rose_quartz_tiles
+    create:rotation_speed_controller
+    create:sail_frame
+    create:schematic_table
+    create:schematicannon
+    create:scorchia
+    create:scorchia_pillar
+    create:scoria
+    create:scoria_pillar
+    create:secondary_linear_chassis
+    create:sequenced_gearshift
+    create:shadow_steel_casing
+    create:shaft
+    create:small_andesite_brick_slab
+    create:small_andesite_brick_stairs
+    create:small_andesite_brick_wall
+    create:small_andesite_bricks
+    create:small_asurine_brick_slab
+    create:small_asurine_brick_stairs
+    create:small_asurine_brick_wall
+    create:small_asurine_bricks
+    create:small_bogey
+    create:small_calcite_brick_slab
+    create:small_calcite_brick_stairs
+    create:small_calcite_brick_wall
+    create:small_calcite_bricks
+    create:small_crimsite_brick_slab
+    create:small_crimsite_brick_stairs
+    create:small_crimsite_brick_wall
+    create:small_crimsite_bricks
+    create:small_deepslate_brick_slab
+    create:small_deepslate_brick_stairs
+    create:small_deepslate_brick_wall
+    create:small_deepslate_bricks
+    create:small_diorite_brick_slab
+    create:small_diorite_brick_stairs
+    create:small_diorite_brick_wall
+    create:small_diorite_bricks
+    create:small_dripstone_brick_slab
+    create:small_dripstone_brick_stairs
+    create:small_dripstone_brick_wall
+    create:small_dripstone_bricks
+    create:small_granite_brick_slab
+    create:small_granite_brick_stairs
+    create:small_granite_brick_wall
+    create:small_granite_bricks
+    create:small_limestone_brick_slab
+    create:small_limestone_brick_stairs
+    create:small_limestone_brick_wall
+    create:small_limestone_bricks
+    create:small_ochrum_brick_slab
+    create:small_ochrum_brick_stairs
+    create:small_ochrum_brick_wall
+    create:small_ochrum_bricks
+    create:small_rose_quartz_tiles
+    create:small_scorchia_brick_slab
+    create:small_scorchia_brick_stairs
+    create:small_scorchia_brick_wall
+    create:small_scorchia_bricks
+    create:small_scoria_brick_slab
+    create:small_scoria_brick_stairs
+    create:small_scoria_brick_wall
+    create:small_scoria_bricks
+    create:small_tuff_brick_slab
+    create:small_tuff_brick_stairs
+    create:small_tuff_brick_wall
+    create:small_tuff_bricks
+    create:small_veridium_brick_slab
+    create:small_veridium_brick_stairs
+    create:small_veridium_brick_wall
+    create:small_veridium_bricks
+    create:smart_chute
+    create:smart_fluid_pipe
+    create:speedometer
+    create:spout
+    create:spruce_window
+    create:spruce_window_pane
+    create:steam_engine
+    create:steam_whistle
+    create:steam_whistle_extension
+    create:sticker
+    create:sticky_mechanical_piston
+    create:stockpile_switch
+    create:stressometer
+    create:tiled_glass
+    create:tiled_glass_pane
+    create:track
+    create:track_observer
+    create:track_signal
+    create:track_station
+    create:train_door
+    create:train_trapdoor
+    create:tuff_pillar
+    create:turntable
+    create:veridium
+    create:veridium_pillar
+    create:vertical_framed_glass
+    create:vertical_framed_glass_pane
+    create:warped_window
+    create:warped_window_pane
+    create:water_wheel
+    create:water_wheel_structure
+    create:waxed_copper_shingle_slab
+    create:waxed_copper_shingle_stairs
+    create:waxed_copper_shingles
+    create:waxed_copper_tile_slab
+    create:waxed_copper_tile_stairs
+    create:waxed_copper_tiles
+    create:waxed_exposed_copper_shingle_slab
+    create:waxed_exposed_copper_shingle_stairs
+    create:waxed_exposed_copper_shingles
+    create:waxed_exposed_copper_tile_slab
+    create:waxed_exposed_copper_tile_stairs
+    create:waxed_exposed_copper_tiles
+    create:waxed_oxidized_copper_shingle_slab
+    create:waxed_oxidized_copper_shingle_stairs
+    create:waxed_oxidized_copper_shingles
+    create:waxed_oxidized_copper_tile_slab
+    create:waxed_oxidized_copper_tile_stairs
+    create:waxed_oxidized_copper_tiles
+    create:waxed_weathered_copper_shingle_slab
+    create:waxed_weathered_copper_shingle_stairs
+    create:waxed_weathered_copper_shingles
+    create:waxed_weathered_copper_tile_slab
+    create:waxed_weathered_copper_tile_stairs
+    create:waxed_weathered_copper_tiles
+    create:weathered_copper_shingle_slab
+    create:weathered_copper_shingle_stairs
+    create:weathered_copper_shingles
+    create:weathered_copper_tile_slab
+    create:weathered_copper_tile_stairs
+    create:weathered_copper_tiles
+    create:weighted_ejector
+    create:white_nixie_tube
+    create:white_sail
+    create:white_seat
+    create:white_toolbox
+    create:white_valve_handle
+    create:windmill_bearing
+    create:wooden_bracket
+    create:yellow_nixie_tube
+    create:yellow_sail
+    create:yellow_seat
+    create:yellow_toolbox
+    create:yellow_valve_handle
+    create:zinc_block
+    create:zinc_ore
+
+Missing minecraft:enchantment:
+    create:capacity
+    create:potato_recovery
+
+Missing minecraft:fluid:
+    create:chocolate
+    create:flowing_chocolate
+    create:flowing_honey
+    create:flowing_potion
+    create:flowing_tea
+    create:honey
+    create:potion
+    create:tea
+    minecraft:flowing_milk
+    minecraft:milk
+
+Missing minecraft:entity_type:
+    create:carriage_contraption
+    create:contraption
+    create:crafting_blueprint
+    create:gantry_contraption
+    create:potato_projectile
+    create:seat
+    create:stationary_contraption
+    create:super_glue
+
+
+[23Aug2026 20:45:46.306] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[23Aug2026 20:45:46.825] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
+[23Aug2026 20:45:46.826] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
+[23Aug2026 20:45:46.878] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:flywheel
+[23Aug2026 20:45:46.878] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:create
+[23Aug2026 20:45:46.878] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:badpackets
+[23Aug2026 20:45:46.878] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:inventorysorter
+[23Aug2026 20:45:46.878] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:wthit
+[23Aug2026 20:45:46.879] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:jei
+[23Aug2026 20:45:46.879] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:northerncompass
+[23Aug2026 20:45:46.879] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:journeymap
+[23Aug2026 20:45:46.879] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:computercraft
+[23Aug2026 20:45:46.879] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:arrowspicker
+[23Aug2026 20:45:48.361] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Aug2026 20:45:48.484] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[23Aug2026 20:45:49.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23Aug2026 20:45:49.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Aug2026 20:45:49.620] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Aug2026 20:45:49.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Aug2026 20:45:49.765] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Aug2026 20:45:49.824] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[23Aug2026 20:45:50.203] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Aug2026 20:45:51.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Aug2026 20:45:53.599] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2026 20:45:53.617] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2026 20:45:53.625] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2026 20:45:53.641] [Worker-Main-19/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2026 20:45:53.651] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2026 20:45:53.657] [Worker-Main-18/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2026 20:45:54.034] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.034] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.034] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.034] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:blaze_heater
+[23Aug2026 20:45:54.034] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.035] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.035] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.035] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.036] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.036] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.036] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.036] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.037] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.037] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.037] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_tank
+[23Aug2026 20:45:54.037] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_tank
+[23Aug2026 20:45:54.037] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.038] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearshift
+[23Aug2026 20:45:54.038] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.038] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.038] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.052] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.052] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:clutch
+[23Aug2026 20:45:54.053] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.053] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.053] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.053] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:flywheel
+[23Aug2026 20:45:54.053] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.053] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.054] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.054] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:steam_engine
+[23Aug2026 20:45:54.054] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:clutch
+[23Aug2026 20:45:54.054] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:rotation_speed_controller
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_tank
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_tank
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.055] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.056] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.056] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:clutch
+[23Aug2026 20:45:54.056] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.056] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:crushing_wheel
+[23Aug2026 20:45:54.056] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.056] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.057] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.057] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.057] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.057] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.057] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.057] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.059] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.059] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:powered_shaft
+[23Aug2026 20:45:54.059] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:deployer
+[23Aug2026 20:45:54.059] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.059] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:blaze_heater
+[23Aug2026 20:45:54.060] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.060] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.060] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.060] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.061] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.062] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_pipe
+[23Aug2026 20:45:54.062] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_pipe
+[23Aug2026 20:45:54.062] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.062] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.062] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.062] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:crushing_wheel_controller
+[23Aug2026 20:45:54.063] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.064] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.064] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.064] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.064] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.064] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:item_drain
+[23Aug2026 20:45:54.065] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.065] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_pipe
+[23Aug2026 20:45:54.065] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.065] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_pump
+[23Aug2026 20:45:54.065] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_mixer
+[23Aug2026 20:45:54.066] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:spout
+[23Aug2026 20:45:54.066] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.066] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.066] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:deployer
+[23Aug2026 20:45:54.066] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_press
+[23Aug2026 20:45:54.080] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.080] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.080] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.081] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.081] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.081] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:portable_storage_interface
+[23Aug2026 20:45:54.081] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:fluid_pipe
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:hand_crank
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.082] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.083] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.083] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.083] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.083] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.083] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.084] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.085] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.085] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.085] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.085] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.086] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.086] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.086] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.086] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_pump
+[23Aug2026 20:45:54.086] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.086] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.087] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.087] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.087] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:crushing_wheel
+[23Aug2026 20:45:54.087] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.087] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:basin
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:depot
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:depot
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:depot
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.088] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.089] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.089] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.090] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.091] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.091] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.091] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.110] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.111] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.111] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.112] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.112] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.112] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.112] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.112] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.112] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.113] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.113] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.113] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.114] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.114] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.114] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.114] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.115] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.115] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.115] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.116] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.116] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.116] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.116] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.117] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.117] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.117] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.117] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.117] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.118] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.125] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.126] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.126] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.127] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.127] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.128] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id computercraft:turtle_normal
+[23Aug2026 20:45:54.128] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.128] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.128] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.128] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.128] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.129] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.129] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.136] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[23Aug2026 20:45:54.151] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:item_vault
+[23Aug2026 20:45:54.152] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.153] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.153] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.153] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.154] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:encased_fan
+[23Aug2026 20:45:54.155] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.155] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.155] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.155] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.155] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.156] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.156] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.157] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.157] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.157] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.158] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.160] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.160] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.160] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.160] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.161] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.162] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:item_vault
+[23Aug2026 20:45:54.162] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.162] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.162] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.162] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.163] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.164] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.164] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:brass_tunnel
+[23Aug2026 20:45:54.164] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.164] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.164] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.164] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.165] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.165] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.165] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.165] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.166] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.166] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.166] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.166] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.168] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.168] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.168] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.170] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.170] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.170] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.170] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.170] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.171] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.171] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id computercraft:turtle_normal
+[23Aug2026 20:45:54.172] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.174] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.174] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.174] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.174] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.174] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.174] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.175] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.175] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.176] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.177] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.177] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.177] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.177] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.177] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.178] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.179] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:speedometer
+[23Aug2026 20:45:54.179] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:rotation_speed_controller
+[23Aug2026 20:45:54.180] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.180] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.180] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.180] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.180] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.181] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.182] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.184] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.184] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.184] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_press
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:deployer
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.185] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:large_water_wheel
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.186] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.187] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:depot
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.188] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:depot
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_crafter
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:large_water_wheel
+[23Aug2026 20:45:54.189] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.191] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.192] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.196] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.196] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.196] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:basin
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:funnel
+[23Aug2026 20:45:54.197] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_press
+[23Aug2026 20:45:54.198] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.198] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.198] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.198] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.198] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.200] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.200] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.200] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.200] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.200] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.200] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.201] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:encased_fan
+[23Aug2026 20:45:54.202] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.203] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.203] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.203] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.204] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:chute
+[23Aug2026 20:45:54.205] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.205] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.205] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.207] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.207] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.207] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.207] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.208] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.208] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.209] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.209] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.209] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.209] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.209] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.211] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.213] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.215] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.215] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.215] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.216] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.220] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.221] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.221] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.221] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.221] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.221] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.222] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:copycat
+[23Aug2026 20:45:54.225] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.225] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.225] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.226] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.227] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.228] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.229] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.232] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.232] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.232] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.232] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.234] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.235] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.235] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.236] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.236] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.236] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.236] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:sliding_door
+[23Aug2026 20:45:54.370] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.374] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.375] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.376] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.378] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.378] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.382] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.384] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.384] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.384] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.384] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.384] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.391] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.400] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.409] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.414] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:rotation_speed_controller
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:gearbox
+[23Aug2026 20:45:54.415] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:mechanical_bearing
+[23Aug2026 20:45:54.417] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.419] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.419] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:encased_fan
+[23Aug2026 20:45:54.419] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.419] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:encased_fan
+[23Aug2026 20:45:54.419] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.419] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:encased_fan
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.420] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:encased_fan
+[23Aug2026 20:45:54.421] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:belt
+[23Aug2026 20:45:54.424] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:large_water_wheel
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:elevator_contact
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:elevator_contact
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:elevator_contact
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.425] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:rotation_speed_controller
+[23Aug2026 20:45:54.427] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:large_water_wheel
+[23Aug2026 20:45:54.431] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.436] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:contraption
+[23Aug2026 20:45:54.447] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:track
+[23Aug2026 20:45:54.449] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:track
+[23Aug2026 20:45:54.465] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:elevator_pulley
+[23Aug2026 20:45:54.466] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:simple_kinetic
+[23Aug2026 20:45:54.487] [Server thread/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"create:large_cogwheel"}
+[23Aug2026 20:45:54.489] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.489] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.489] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.489] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.489] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.489] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.504] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id create:track_station
+[23Aug2026 20:45:54.518] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:stationary_contraption
+[23Aug2026 20:45:54.536] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:stationary_contraption
+[23Aug2026 20:45:54.541] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id create:super_glue
+[23Aug2026 20:45:54.636] [Worker-Main-21/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[23Aug2026 20:45:54.857] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3722 ms
+[23Aug2026 20:45:54.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.697s)! For help, type "help"
+[23Aug2026 20:45:54.877] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Aug2026 21:12:33.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23Aug2026 21:12:34.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Aug2026 21:12:34.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Aug2026 21:12:34.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Aug2026 21:12:34.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
+[23Aug2026 21:12:34.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
+[23Aug2026 21:12:34.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[23Aug2026 21:12:34.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Aug2026 21:12:34.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Aug2026 21:12:34.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Aug2026 21:12:34.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
