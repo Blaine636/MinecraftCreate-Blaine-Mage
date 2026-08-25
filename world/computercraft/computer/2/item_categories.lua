@@ -269,6 +269,7 @@ categories = {
     'cod',
     'beef',
     'sac',
+    'wool',
     },
     list={
     'minecraft:scute',
