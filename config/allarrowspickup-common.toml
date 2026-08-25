@@ -1,0 +1,7 @@
+[pickup]
+	#If true, arrows shot by creative-mode players (normally pickable only
+	#by other creative players) become pickable by anyone too, just like
+	#every other arrow. If false (default), creative-shot arrows keep their
+	#vanilla creative-only pickup behavior; only arrows that vanilla normally
+	#disallows picking up at all (e.g. skeleton/pillager arrows) are affected.
+	makeCreativeArrowsPickable = false
