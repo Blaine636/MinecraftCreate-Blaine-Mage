@@ -30,11 +30,17 @@ categories = {
     suffix={
     '_ice',
     ':ice',
-    'sand',
+    '_sand',
     },
     list={
+    'minecraft:sand',
     'minecraft:cobbled_deepslate',
     'minecraft:cobblestone',
+    'minecraft:magma_block',
+    'minecraft:glowstone',
+    'minecraft:obsidian',
+    'minecraft:redstone_block',
+    'minecraft:mud',
     }},
 
 
@@ -49,6 +55,12 @@ categories = {
     'minecraft:netherrack',
     'create:scoria',
     'minecraft:tuff',
+    'minecraft:dripstone_block',
+    'create:ochrum',
+    'create:crimsite',
+    'create:veridium',
+    'create:asurine',
+    'minecraft:calcite',
     }},
     
 
@@ -86,6 +98,7 @@ categories = {
     'minecraft:polished_diorite',
     'minecraft:chiseled_quartz_block',
     'minecraft:snow_block',
+    'minecraft:shroomlight',
     }},
 
 
@@ -174,7 +187,9 @@ categories = {
     'fence',
     'stairs',
     'wall',
-    'fence'
+    'fence',
+    'carpet',
+    'sign',
     },
     list={
     }},
@@ -183,11 +198,11 @@ categories = {
     --Tools
     {
     suffix={
-    "_axe",
-    "_pickaxe",
-    "_sword",
-    "_shovel",
-    "_hoe",
+    '_axe',
+    '_pickaxe',
+    '_sword',
+    '_shovel',
+    '_hoe',
     '_helmet',
     '_chestplate',
     '_leggings',
@@ -230,7 +245,9 @@ categories = {
     'create:wrench',
     'minecraft:brush',
     'create:potato_cannon',
-    "minecraft:name_tag",
+    'minecraft:name_tag',
+    'aeronautics:aviators_goggles',
+    'create:sand_paper',
     }},
 
 
@@ -245,6 +262,8 @@ categories = {
     'fungus',
     'mushroom',
     'carrot',
+    'dye',
+    'grass',
     },
     list={
     'minecraft:bamboo',
@@ -263,7 +282,22 @@ categories = {
     'minecraft:melon_slice',
     'minecraft:dried_kelp',
     'minecraft:beetroot',
-    'minecraft:chorus_fruit',        
+    'minecraft:chorus_fruit',
+    'minecraft:dandelion',
+    'minecraft:oak_leaves',
+    'minecraft:moss_block',
+    'minecraft:moss_carpet',
+    'minecraft:vine',
+    'minecraft:azure_bluet',
+    'minecraft:lily_of_the_valley',
+    'minecraft:fern',
+    'minecraft:warped_roots',
+    'minecraft:mangrove_roots',
+    'minecraft:oxeye_daisy',
+    'minecraft:warped_wart_block',
+    'minecraft:poppy',
+    'minecraft:rose_bush',
+    'create:dough',
     }},
 
 
@@ -298,7 +332,6 @@ categories = {
     'minecraft:leather',
     'minecraft:feather',
     'minecraft:porkchop',
-    'minecraft:cooked_beef',
     'minecraft:cooked_mutton',
     'minecraft:honeycomb',
     'minecraft:bread',
@@ -310,6 +343,9 @@ categories = {
     'minecraft:gunpowder',
     'minecraft:phantom_membrane',
     'minecraft:ghast_tear',
+    'minecraft:bone_meal',
+    'minecraft:fire_charge',
+    'minecraft:heart_of_the_sea',
     }},
 
 
@@ -344,6 +380,8 @@ categories = {
     'create:andesite_alloy',
     'create:powdered_obsidian',
     'minecraft:andesite',
+    'minecraft:clay_ball',
+    'minecraft:pointed_dripstone',
     }},
 
 
@@ -407,6 +445,20 @@ categories = {
     'create:deployer',
     'create:redstone_contact',
     'simulated:physics_assembler',
+    'create:andesite_casing',
+    'create:copycat_step',
+    'create:andesite_funnel',
+    'create:brass_tunnel',
+    'create:brass_casing',
+    'offroad:small_tire',
+    'create:mechanical_saw',
+    'create:copycat_panel',
+    'create:andesite_tunnel',
+    'create:andesite_scaffolding',
+    'create:track_station',
+    'aeronautics:white_envelope',
+    'simulated:engine_assembly',
+    'simulated:honey_glue',
     }},
 }
 
