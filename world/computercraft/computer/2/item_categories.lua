@@ -27,11 +27,14 @@ end
 categories = {
     -- Common blocks
     {
-    suffix={},
+    suffix={
+    '_ice',
+    ':ice',
+    'sand',
+    },
     list={
     'minecraft:cobbled_deepslate',
     'minecraft:cobblestone',
-    'minecraft:sand',
     }},
 
 
@@ -44,6 +47,8 @@ categories = {
     'minecraft:granite',
     'minecraft:gravel',
     'minecraft:netherrack',
+    'create:scoria',
+    'minecraft:tuff',
     }},
     
 
@@ -80,6 +85,7 @@ categories = {
     'minecraft:polished_andesite',
     'minecraft:polished_diorite',
     'minecraft:chiseled_quartz_block',
+    'minecraft:snow_block',
     }},
 
 
@@ -115,6 +121,7 @@ categories = {
     '_normal',
     },
     list={
+    'minecraft:paper',
     'minecraft:chest',
     'minecraft:chain',
     'minecraft:smoker',
@@ -189,6 +196,7 @@ categories = {
     'boat'
     },
     list={
+    'create:sand_paper',
     'minecraft:glass_bottle',
     'minecraft:flint_and_steel',
     'create:hand_crank',
@@ -239,6 +247,9 @@ categories = {
     'carrot',
     },
     list={
+    'minecraft:bamboo',
+    'minecraft:stick',
+    'minecraft:wheat',
     'minecraft:melon',
     'minecraft:sugar_cane',
     'minecraft:lily_pad',
@@ -391,6 +402,11 @@ categories = {
     'create:mechanical_piston',
     'create:steam_whistle',
     'create:steam_engine',
+    'create:cart_assembler',
+    'create:super_glue',
+    'create:deployer',
+    'create:redstone_contact',
+    'simulated:physics_assembler',
     }},
 }
 
