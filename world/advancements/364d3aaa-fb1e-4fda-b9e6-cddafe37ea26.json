@@ -818,11 +818,13 @@
       "minecraft:hoglin": "2024-03-19 19:21:03 -0600",
       "minecraft:cave_spider": "2026-08-26 23:51:22 -0600",
       "minecraft:piglin": "2024-03-08 19:30:09 -0700",
+      "minecraft:vindicator": "2026-08-28 22:07:12 -0600",
       "minecraft:enderman": "2024-03-03 16:48:18 -0700",
       "minecraft:silverfish": "2024-10-31 01:15:31 -0600",
       "minecraft:stray": "2026-08-15 01:57:34 -0600",
       "minecraft:magma_cube": "2024-03-19 22:20:35 -0600",
       "minecraft:spider": "2024-03-03 16:42:42 -0700",
+      "minecraft:vex": "2026-08-28 22:18:39 -0600",
       "minecraft:zombie": "2024-02-26 13:26:05 -0700",
       "minecraft:creeper": "2024-03-02 11:42:15 -0700",
       "minecraft:drowned": "2024-02-26 13:27:26 -0700",
@@ -8784,6 +8786,102 @@
   "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2026-08-28 19:22:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2026-08-28 23:07:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dark_oak_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-08-28 22:32:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2026-08-28 22:32:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2026-08-28 22:05:24 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-08-28 22:05:24 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2026-08-28 22:51:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-08-28 22:02:10 -0600"
     },
     "done": true
   },
