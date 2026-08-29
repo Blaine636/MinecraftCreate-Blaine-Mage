@@ -7,11 +7,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-08-29 01:53:39 -0600",
       "minecraft:forest": "2024-03-22 21:03:03 -0600",
       "minecraft:taiga": "2026-08-15 01:40:40 -0600",
       "minecraft:deep_ocean": "2024-03-22 22:15:22 -0600",
       "minecraft:lush_caves": "2026-08-28 22:50:51 -0600",
       "minecraft:ice_spikes": "2026-08-15 01:56:16 -0600",
+      "minecraft:eroded_badlands": "2026-08-29 02:07:59 -0600",
+      "minecraft:desert": "2026-08-29 02:05:31 -0600",
       "minecraft:frozen_river": "2026-08-15 01:40:52 -0600",
       "minecraft:ocean": "2024-03-22 22:14:04 -0600",
       "minecraft:jungle": "2024-03-23 23:38:56 -0600",
@@ -20,7 +23,9 @@
       "minecraft:windswept_hills": "2026-08-28 19:03:29 -0600",
       "minecraft:bamboo_jungle": "2026-08-24 01:21:19 -0600",
       "minecraft:windswept_savanna": "2026-08-28 19:32:18 -0600",
+      "minecraft:warm_ocean": "2026-08-29 02:00:25 -0600",
       "minecraft:deep_lukewarm_ocean": "2026-08-10 19:43:05 -0600",
+      "minecraft:badlands": "2026-08-29 02:06:54 -0600",
       "minecraft:flower_forest": "2024-03-22 21:43:51 -0600",
       "minecraft:savanna_plateau": "2024-03-22 21:50:05 -0600",
       "minecraft:beach": "2024-03-22 21:02:37 -0600",
@@ -33,9 +38,11 @@
       "minecraft:snowy_plains": "2026-08-15 01:41:03 -0600",
       "minecraft:dripstone_caves": "2026-08-14 21:44:48 -0600",
       "minecraft:snowy_taiga": "2026-08-15 01:40:07 -0600",
+      "minecraft:frozen_peaks": "2026-08-29 01:21:56 -0600",
       "minecraft:old_growth_birch_forest": "2024-03-22 22:22:28 -0600",
       "minecraft:deep_dark": "2026-08-26 23:09:43 -0600",
       "minecraft:grove": "2024-03-22 22:24:49 -0600",
+      "minecraft:swamp": "2026-08-29 00:50:23 -0600",
       "minecraft:meadow": "2024-03-22 21:47:55 -0600",
       "minecraft:savanna": "2024-03-22 21:14:05 -0600",
       "minecraft:plains": "2024-03-22 21:50:55 -0600",
@@ -892,6 +899,7 @@
       "minecraft:zombified_piglin": "2026-08-26 22:41:06 -0600",
       "minecraft:witch": "2026-08-17 23:13:50 -0600",
       "minecraft:wither_skeleton": "2026-08-10 22:29:48 -0600",
+      "minecraft:bogged": "2026-08-29 01:07:18 -0600",
       "minecraft:ghast": "2026-08-10 22:15:41 -0600",
       "minecraft:cave_spider": "2026-08-26 23:50:46 -0600",
       "minecraft:piglin": "2026-08-10 00:07:25 -0600",
@@ -8023,15 +8031,69 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_limestone_wall_from_stone_types_limestone_stonecutting": {
+  "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
-      "has_stone_types_limestone": "2026-08-28 22:58:47 -0600"
+      "has_tripwire_hook": "2026-08-28 22:00:42 -0600"
     },
     "done": true
   },
-  "minecraft:husbandry/allay_deliver_item_to_player": {
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
     "criteria": {
-      "allay_deliver_item_to_player": "2026-08-28 23:19:54 -0600"
+      "has_wild_armor_trim_smithing_template": "2026-08-28 22:00:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-08-28 22:00:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2026-08-28 22:44:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2026-08-28 22:44:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2026-08-28 22:44:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2026-08-28 22:44:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2026-08-28 22:44:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2026-08-28 22:44:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2026-08-28 22:50:54 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_limestone_wall_from_stone_types_limestone_stonecutting": {
+    "criteria": {
+      "has_stone_types_limestone": "2026-08-28 22:58:47 -0600"
     },
     "done": true
   },
@@ -8077,39 +8139,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2026-08-28 22:44:48 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2026-08-28 22:00:42 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_limestone_stairs_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2026-08-28 22:58:47 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2026-08-28 22:44:48 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_limestone_brick_wall_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2026-08-28 22:58:47 -0600"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/kill_axolotl_target": {
-    "criteria": {
-      "kill_axolotl_target": "2026-08-28 23:02:25 -0600"
     },
     "done": true
   },
@@ -8143,18 +8181,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
-    "criteria": {
-      "has_wild_armor_trim_smithing_template": "2026-08-28 22:00:42 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2026-08-28 22:00:42 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_limestone_wall_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2026-08-28 22:58:47 -0600"
@@ -8167,21 +8193,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2026-08-28 22:44:48 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2026-08-28 22:58:47 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_carpet": {
-    "criteria": {
-      "has_blue_wool": "2026-08-28 22:44:48 -0600"
     },
     "done": true
   },
@@ -8191,21 +8205,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_carpet": {
+  "minecraft:husbandry/kill_axolotl_target": {
     "criteria": {
-      "has_light_blue_wool": "2026-08-28 22:44:48 -0600"
+      "kill_axolotl_target": "2026-08-28 23:02:25 -0600"
     },
     "done": true
   },
-  "minecraft:husbandry/axolotl_in_a_bucket": {
+  "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
-      "axolotl_bucket": "2026-08-28 22:50:54 -0600"
+      "allay_deliver_item_to_player": "2026-08-28 23:19:54 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_banner": {
+  "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
-      "has_blue_wool": "2026-08-28 22:44:48 -0600"
+      "crying_obsidian": "2026-08-29 01:02:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2026-08-29 02:07:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2026-08-29 02:05:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2026-08-29 02:02:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-08-29 01:02:48 -0600"
     },
     "done": true
   },
