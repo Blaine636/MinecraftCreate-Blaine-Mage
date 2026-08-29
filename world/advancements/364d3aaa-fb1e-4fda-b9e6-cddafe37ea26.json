@@ -815,6 +815,7 @@
       "minecraft:ghast": "2024-03-20 21:13:50 -0600",
       "minecraft:ender_dragon": "2024-10-31 15:55:22 -0600",
       "minecraft:hoglin": "2024-03-19 19:21:03 -0600",
+      "minecraft:cave_spider": "2026-08-26 23:51:22 -0600",
       "minecraft:piglin": "2024-03-08 19:30:09 -0700",
       "minecraft:enderman": "2024-03-03 16:48:18 -0700",
       "minecraft:silverfish": "2024-10-31 01:15:31 -0600",
@@ -8368,6 +8369,360 @@
   "minecraft:recipes/redstone/copper_door": {
     "criteria": {
       "has_copper_ingot": "2026-08-24 21:37:16 -0600"
+    },
+    "done": true
+  },
+  "paxels:story/diamond_paxel": {
+    "criteria": {
+      "diamond_paxel": "2026-08-26 21:52:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/stressometer_from_conversion": {
+    "criteria": {
+      "has_item": "2026-08-26 21:56:18 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/aviators_goggles": {
+    "criteria": {
+      "has_ingredient": "2026-08-26 21:56:25 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox_from_conversion": {
+    "criteria": {
+      "has_the_recipe": "2026-08-26 22:04:25 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox_from_conversion": {
+    "criteria": {
+      "has_item": "2026-08-26 22:04:26 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_diamond": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_diamond": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_iron": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_gold": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_wood": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_iron": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_gold": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/transportation/paraglider_netherite": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/copper_upgrade": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/nether_upgrade": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "vc_gliders:recipes/misc/reinforced_paper_netherite": {
+    "criteria": {
+      "has_crafting_table": "2026-08-26 23:11:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-08-26 23:11:46 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2026-08-26 23:33:39 -0600"
+    },
+    "done": true
+  },
+  "musketmod:recipes/cartridge": {
+    "criteria": {
+      "has_gunpowder": "2026-08-26 23:38:41 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-08-27 21:24:45 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/gold_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-08-27 22:15:57 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/gold_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-08-27 22:15:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-08-27 22:19:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-08-27 22:19:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2026-08-27 22:19:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2026-08-27 22:19:35 -0600"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/rockcutting_wheel": {
+    "criteria": {
+      "has_ingredient": "2026-08-27 22:25:23 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/industrial_iron_window": {
+    "criteria": {
+      "has_ingredient": "2026-08-27 22:25:23 -0600"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/borehead_bearing": {
+    "criteria": {
+      "has_ingredient": "2026-08-27 22:25:23 -0600"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/rope_winch": {
+    "criteria": {
+      "has_the_recipe": "2026-08-27 22:25:45 -0600"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/rope_connector": {
+    "criteria": {
+      "has_the_recipe": "2026-08-27 22:26:14 -0600"
+    },
+    "done": true
+  },
+  "simulated:learning_the_ropes": {
+    "criteria": {
+      "0": "2026-08-27 22:27:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/rainbow_flag": {
+    "criteria": {
+      "has_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal_overlays/rainbow_flag": {
+    "criteria": {
+      "has_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/trans_flag": {
+    "criteria": {
+      "has_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_candle": {
+    "criteria": {
+      "has_brown_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal_overlays/trans_flag": {
+    "criteria": {
+      "has_dye": "2026-08-28 18:14:53 -0600"
+    },
+    "done": true
+  },
+  "musketmod:recipes/pistol": {
+    "criteria": {
+      "has_flint_and_steel": "2026-08-28 18:37:12 -0600"
+    },
+    "done": true
+  },
+  "musketmod:recipes/blunderbuss": {
+    "criteria": {
+      "has_flint_and_steel": "2026-08-28 18:37:12 -0600"
+    },
+    "done": true
+  },
+  "musketmod:recipes/musket": {
+    "criteria": {
+      "has_flint_and_steel": "2026-08-28 18:37:12 -0600"
     },
     "done": true
   },
