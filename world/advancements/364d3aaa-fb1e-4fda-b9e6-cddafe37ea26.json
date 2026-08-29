@@ -2625,6 +2625,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cat": "2024-03-02 11:35:07 -0700",
+      "minecraft:cow": "2026-08-29 14:19:44 -0600",
       "minecraft:chicken": "2024-03-20 19:22:13 -0600",
       "minecraft:wolf": "2026-08-23 01:09:44 -0600",
       "minecraft:turtle": "2026-08-15 02:17:34 -0600",
@@ -8886,6 +8887,12 @@
   "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
       "allay_deliver_item_to_player": "2026-08-28 23:07:14 -0600"
+    },
+    "done": true
+  },
+  "simulated:steamless_engine": {
+    "criteria": {
+      "0": "2026-08-29 13:33:40 -0600"
     },
     "done": true
   },
