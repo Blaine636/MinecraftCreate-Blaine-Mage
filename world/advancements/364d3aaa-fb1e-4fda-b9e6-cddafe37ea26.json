@@ -8896,12 +8896,6 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/turtle_normal/minecraft/diamond_hoe": {
-    "criteria": {
-      "has_items": "2026-08-29 18:48:19 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/tiled_glass_pane_from_glass_panes_colorless_stonecutting": {
     "criteria": {
       "has_glass_panes_colorless": "2026-08-29 18:28:00 -0600"
@@ -8914,12 +8908,6 @@
     },
     "done": true
   },
-  "create:compacting": {
-    "criteria": {
-      "0": "2026-08-29 21:43:15 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/vertical_framed_glass_pane_from_glass_panes_colorless_stonecutting": {
     "criteria": {
       "has_glass_panes_colorless": "2026-08-29 18:28:00 -0600"
@@ -8929,6 +8917,18 @@
   "create:recipes/building_blocks/horizontal_framed_glass_pane_from_glass_panes_colorless_stonecutting": {
     "criteria": {
       "has_glass_panes_colorless": "2026-08-29 18:28:00 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal/minecraft/diamond_hoe": {
+    "criteria": {
+      "has_items": "2026-08-29 18:48:19 -0600"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2026-08-29 21:43:15 -0600"
     },
     "done": true
   },
