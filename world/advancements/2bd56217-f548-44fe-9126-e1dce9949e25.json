@@ -8259,5 +8259,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2026-08-30 21:53:46 -0600"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal/minecraft/diamond_sword": {
+    "criteria": {
+      "has_items": "2026-08-31 02:21:52 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_calcite_brick_slab_recycling": {
+    "criteria": {
+      "has_small_calcite_brick_slab": "2026-08-31 02:13:41 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

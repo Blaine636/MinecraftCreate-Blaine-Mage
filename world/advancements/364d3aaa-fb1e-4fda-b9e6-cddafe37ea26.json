@@ -8933,5 +8933,17 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2026-08-31 00:30:12 -0600"
+    },
+    "done": true
+  },
+  "aeronautics:high_fashion": {
+    "criteria": {
+      "0": "2026-08-31 02:25:36 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
