@@ -8247,5 +8247,17 @@
     },
     "done": true
   },
+  "create:recipes/misc/smelting/gold_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-08-30 21:12:44 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/gold_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2026-08-30 21:12:44 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
