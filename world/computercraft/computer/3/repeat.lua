@@ -5,11 +5,11 @@ function swipe(duration)
     sleep(duration)
 end
 
-print('Sweep program running...')
+print('Sweep (repeat.lua) program running...')
 while true do
     active = redstone.getInput('top')
     if active then
-        swipe(11)
+        swipe(13)
     else
         sleep(1)
     end
