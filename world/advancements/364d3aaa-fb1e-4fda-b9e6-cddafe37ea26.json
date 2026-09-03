@@ -8957,12 +8957,6 @@
     },
     "done": true
   },
-  "simulated:not_gonna_sugarcoat_it": {
-    "criteria": {
-      "0": "2026-09-02 15:36:12 -0600"
-    },
-    "done": true
-  },
   "simulated:recipes/misc/analog_transmission": {
     "criteria": {
       "has_ingredient": "2026-09-02 15:12:40 -0600"
@@ -8990,6 +8984,12 @@
   "simulated:recipes/misc/directional_linked_receiver": {
     "criteria": {
       "has_ingredient": "2026-09-02 15:12:40 -0600"
+    },
+    "done": true
+  },
+  "simulated:not_gonna_sugarcoat_it": {
+    "criteria": {
+      "0": "2026-09-02 15:36:12 -0600"
     },
     "done": true
   },
