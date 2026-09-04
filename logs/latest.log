@@ -1,155 +1,43 @@
-[02Sep2026 21:05:54.851] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[02Sep2026 21:05:54.857] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.12.1+1-LTS-4
-[02Sep2026 21:05:54.858] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[02Sep2026 21:05:55.419] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[02Sep2026 21:05:55.481] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[02Sep2026 21:05:55.846] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.248:server]
-[02Sep2026 21:05:55.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]
-[02Sep2026 21:05:55.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "allarrowspickup-1.0.0.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.901] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.909] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cc-tweaked-1.21.1-forge-1.120.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.914] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.927] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.933] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.1.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.940] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gliders-1.21.1-neoforge-1.1.8.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.945] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "inventorysorter-1.21.1-24.0.24.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.951] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.956] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.5.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.961] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "musketmod-1.21.1-neoforge-1.5.4.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.965] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "paxels-0.1.3-neoforge-1.21.1.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.971] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.5.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:55.976] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wthit-1.21.1-neo-12.10.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[02Sep2026 21:05:56.609] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
-[02Sep2026 21:05:56.609] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.609] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jzlib-1.1.3.jar" [parent: cc-tweaked-1.21.1-forge-1.120.2.jar, locator: jarinjar]
-[02Sep2026 21:05:56.610] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.610] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.610] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.5.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.610] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
-[02Sep2026 21:05:56.611] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.611] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "playeranimator-658587-6024462.jar" [parent: gliders-1.21.1-neoforge-1.1.8.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.611] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.611] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar]
-[02Sep2026 21:05:56.611] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
-[02Sep2026 21:05:56.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.21-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "cobalt-0.9.9.jar" [parent: cc-tweaked-1.21.1-forge-1.120.2.jar, locator: jarinjar]
-[02Sep2026 21:05:56.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.613] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.613] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.613] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
-[02Sep2026 21:05:56.614] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
-     Mod List:
-		Name Version (Mod Id)
-
-		All Arrows Pickup 1.0.0 (allarrowspickup)
-		Bad Packets 0.8.2 (badpackets)
-		CC: Tweaked 1.120.2 (computercraft)
-		Cloth Config v15 API 15.0.140 (cloth_config)
-		Common Networking 1.0.21-1.21.1 (commonnetworking)
-		Create 6.0.10 (create)
-		Create Aeronautics 1.3.1 (aeronautics)
-		Create Aeronautics 1.3.1 (aeronautics_bundled)
-		Create Offroad 1.3.1 (offroad)
-		Create Simulated 1.3.1 (simulated)
-		Flywheel 1.0.6 (flywheel)
-		Gliders 1.1.8 (vc_gliders)
-		Journeymap 1.21.1-6.0.5 (journeymap)
-		JourneyMap API 2.0.0-1.21.1 (journeymap_api)
-		Just Enough Items 19.27.0.336 (jei)
-		Minecraft 1.21.1 (minecraft)
-		Musket Mod 1.5.4 (musketmod)
-		NeoForge 21.1.248 (neoforge)
-		Paxels 0.1.3 (paxels)
-		Player Animator 2.0.1+1.21.1 (playeranimator)
-		Ponder 1.0.82+mc1.21.1 (ponder)
-		Sable 2.0.5 (sable)
-		Sable Companion 1.6.0 (sablecompanion)
-		Simple Inventory Sorter 24.0.24 (inventorysorter)
-		Veil 4.3.2 (veil)
-		wthit 12.10.2 (wthit)
-[02Sep2026 21:05:57.251] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[02Sep2026 21:05:57.304] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[02Sep2026 21:05:57.427] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[02Sep2026 21:05:57.436] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02Sep2026 21:05:57.449] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[02Sep2026 21:05:57.449] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[02Sep2026 21:05:57.468] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[02Sep2026 21:05:57.469] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[02Sep2026 21:05:57.724] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
-[02Sep2026 21:05:58.286] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
-[02Sep2026 21:05:58.289] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
-[02Sep2026 21:05:58.294] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[02Sep2026 21:05:58.689] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[02Sep2026 21:06:05.650] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[02Sep2026 21:06:05.699] [modloading-worker-0/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
-[02Sep2026 21:06:05.704] [modloading-worker-0/INFO] [AllArrowsPickup/]: All Arrows Pickup loaded - arrows shot by any entity will now be pickable.
-[02Sep2026 21:06:05.748] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[02Sep2026 21:06:05.750] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
-[02Sep2026 21:06:07.266] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
-[02Sep2026 21:06:09.891] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[02Sep2026 21:06:09.901] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[02Sep2026 21:06:09.915] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[02Sep2026 21:06:09.915] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:neo at mcp.mobius.waila.plugin.neo.NeoCommonPlugin
-[02Sep2026 21:06:09.918] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[02Sep2026 21:06:09.966] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
-[02Sep2026 21:06:10.008] [modloading-sync-worker/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[02Sep2026 21:06:10.122] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02Sep2026 21:06:10.322] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[02Sep2026 21:06:10.323] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[02Sep2026 21:06:10.369] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
-[02Sep2026 21:06:10.369] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
-[02Sep2026 21:06:10.384] [main/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[02Sep2026 21:06:10.390] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[02Sep2026 21:06:10.428] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.5 Target: 1.21.1-6.0.0-beta.52
-[02Sep2026 21:06:10.429] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[02Sep2026 21:06:10.494] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.120.2 Target: null
-[02Sep2026 21:06:12.063] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3043 recipes
-[02Sep2026 21:06:12.307] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2735 advancements
-[02Sep2026 21:06:12.329] [main/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
-[02Sep2026 21:06:14.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[02Sep2026 21:06:14.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[02Sep2026 21:06:14.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[02Sep2026 21:06:14.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[02Sep2026 21:06:14.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[02Sep2026 21:06:14.283] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
-[02Sep2026 21:06:14.332] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
-[02Sep2026 21:06:14.334] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[02Sep2026 21:06:14.363] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\jei-server.toml
-[02Sep2026 21:06:14.372] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\inventorysorter-server.toml
-[02Sep2026 21:06:14.389] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\journeymap-server.toml
-[02Sep2026 21:06:14.399] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[02Sep2026 21:06:14.399] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\computercraft-server.toml
-[02Sep2026 21:06:14.443] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\create-server.toml
-[02Sep2026 21:06:14.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[02Sep2026 21:06:14.550] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
-[02Sep2026 21:06:14.561] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Using game directory relative Sable Rapier native directory X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\.sable\natives
-[02Sep2026 21:06:15.115] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
-[02Sep2026 21:06:15.340] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
-[02Sep2026 21:06:15.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[02Sep2026 21:06:15.602] [Worker-Main-21/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Sep2026 21:06:15.934] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 568 ms
-[02Sep2026 21:06:15.934] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.572s)! For help, type "help"
-[02Sep2026 21:06:15.983] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[02Sep2026 21:06:15.996] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[02Sep2026 21:06:15.998] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
-[02Sep2026 21:06:15.999] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@357b9fff for service interface journeymap.api.services.ClientPlatformService
-[02Sep2026 21:06:16.001] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@97fc922 for service interface journeymap.api.services.CommonPlatformService
-[02Sep2026 21:06:16.031] [Server thread/INFO] [journeymap/]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[02Sep2026 21:06:16.067] [Server thread/INFO] [journeymap/]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[02Sep2026 21:06:16.754] [Server thread/INFO] [com.simibubi.create.Create/]: RecipeTrie of depth 3 with 108 nodes built with 117 variants, 107 ingredients, and 105 recipes
-[02Sep2026 21:11:06.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[02Sep2026 21:11:06.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[02Sep2026 21:11:06.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[02Sep2026 21:11:06.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[02Sep2026 21:11:06.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
-[02Sep2026 21:11:06.144] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[02Sep2026 21:11:06.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[02Sep2026 21:11:06.223] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[02Sep2026 21:11:06.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
-[02Sep2026 21:11:06.241] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[02Sep2026 21:11:06.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02Sep2026 21:11:06.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02Sep2026 21:11:06.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02Sep2026 21:11:06.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Sep2026 00:01:10.311] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[04Sep2026 00:01:10.355] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[04Sep2026 00:01:10.355] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[04Sep2026 00:05:25.165] [Server thread/INFO] [journeymap/]: PaperMuffin teleported to 820.5 133.0 8672.5 minecraft:overworld
+[04Sep2026 00:05:25.285] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin moved too quickly! -983.6609597566512,47.093253780569086,-8363.474324941637
+[04Sep2026 00:05:44.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Teleported PaperMuffin to MainBlaine]
+[04Sep2026 00:06:10.345] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[04Sep2026 00:06:10.421] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[04Sep2026 00:06:10.421] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[04Sep2026 00:06:19.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Made PaperMuffin no longer a server operator]
+[04Sep2026 00:06:45.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Made PaperMuffin a server operator]
+[04Sep2026 00:11:10.377] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[04Sep2026 00:11:10.465] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[04Sep2026 00:11:10.466] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[04Sep2026 00:16:10.307] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[04Sep2026 00:16:10.379] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[04Sep2026 00:16:10.380] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[04Sep2026 00:16:33.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin has completed the challenge [Sniper Duel]
+[04Sep2026 00:17:12.066] [Worker-Main-31/ERROR] [net.minecraft.Util/]: Caught exception in thread Thread[#206,Worker-Main-31,5,main]
+java.lang.OutOfMemoryError: Java heap space
+	at MC-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap.clone(Long2ObjectOpenHashMap.java:1336) ~[fastutil-8.5.12.jar%23111!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.lighting.BlockLightSectionStorage$BlockDataLayerStorageMap.copy(BlockLightSectionStorage.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.lighting.BlockLightSectionStorage$BlockDataLayerStorageMap.copy(BlockLightSectionStorage.java:29) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.lighting.LayerLightSectionStorage.swapSectionMap(LayerLightSectionStorage.java:287) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.lighting.LightEngine.runLightUpdates(LightEngine.java:160) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.lighting.LevelLightEngine.runLightUpdates(LevelLightEngine.java:53) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ThreadedLevelLightEngine.runUpdate(ThreadedLevelLightEngine.java:185) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ThreadedLevelLightEngine.lambda$tryScheduleUpdate$27(ThreadedLevelLightEngine.java:164) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ThreadedLevelLightEngine$$Lambda/0x000002ade1796228.run(Unknown Source) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ProcessorMailbox.pollTask(ProcessorMailbox.java:91) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ProcessorMailbox.pollUntil(ProcessorMailbox.java:146) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[04Sep2026 00:20:46.457] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[04Sep2026 00:20:46.459] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[04Sep2026 00:20:46.758] [Server Watchdog/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 21c5d3d4-9077-481a-8de5-4b6710860352
+[04Sep2026 00:20:46.765] [Server Watchdog/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 88fe8aaf-71be-44a2-9552-39f39c7c52a9
+[04Sep2026 00:20:46.766] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\crash-reports\crash-2026-09-04_00.20.46-server.txt
