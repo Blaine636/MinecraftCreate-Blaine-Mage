@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-04-06 13:30:32 -0600",
+      "minecraft:snowy_slopes": "2026-09-04 00:36:25 -0600",
       "minecraft:forest": "2024-02-26 13:11:36 -0700",
       "minecraft:taiga": "2026-08-22 22:49:05 -0600",
       "minecraft:deep_ocean": "2024-03-22 22:15:24 -0600",
