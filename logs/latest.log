@@ -1,45 +1,45 @@
-[08Sep2026 17:02:23.347] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[08Sep2026 17:02:23.351] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.12.1+1-LTS-4
-[08Sep2026 17:02:23.353] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[08Sep2026 17:02:23.595] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[08Sep2026 17:02:23.695] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[08Sep2026 17:02:24.050] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.248:server]
-[08Sep2026 17:02:24.078] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]
-[08Sep2026 17:02:24.088] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "allarrowspickup-1.0.0.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.094] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.102] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cc-tweaked-1.21.1-forge-1.120.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.109] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.119] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.125] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.1.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.131] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gliders-1.21.1-neoforge-1.1.8.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.135] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "inventorysorter-1.21.1-24.0.24.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.140] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.5.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.151] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "musketmod-1.21.1-neoforge-1.5.4.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.155] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "paxels-0.1.3-neoforge-1.21.1.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.159] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.5.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.164] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wthit-1.21.1-neo-12.10.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
-[08Sep2026 17:02:24.807] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
-[08Sep2026 17:02:24.808] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.808] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jzlib-1.1.3.jar" [parent: cc-tweaked-1.21.1-forge-1.120.2.jar, locator: jarinjar]
-[08Sep2026 17:02:24.808] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.809] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.809] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.5.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.809] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
-[08Sep2026 17:02:24.809] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.809] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "playeranimator-658587-6024462.jar" [parent: gliders-1.21.1-neoforge-1.1.8.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.21-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "cobalt-0.9.9.jar" [parent: cc-tweaked-1.21.1-forge-1.120.2.jar, locator: jarinjar]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.810] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.812] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
-[08Sep2026 17:02:24.814] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[08Sep2026 20:37:36.812] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[08Sep2026 20:37:36.817] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.12.1+1-LTS-4
+[08Sep2026 20:37:36.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[08Sep2026 20:37:37.399] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Sep2026 20:37:37.459] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[08Sep2026 20:37:37.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.248:server]
+[08Sep2026 20:37:37.950] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.248-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.248\neoforge-21.1.248-universal.jar]], reader: mod manifest]
+[08Sep2026 20:37:37.962] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "allarrowspickup-1.0.0.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:37.968] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "badpackets-neo-0.8.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:37.976] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cc-tweaked-1.21.1-forge-1.120.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:37.982] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:37.996] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.1.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gliders-1.21.1-neoforge-1.1.8.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.013] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "inventorysorter-1.21.1-24.0.24.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.019] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.27.0.336.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.025] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.5.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.030] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "musketmod-1.21.1-neoforge-1.5.4.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.035] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "paxels-0.1.3-neoforge-1.21.1.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.040] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.5.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.046] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wthit-1.21.1-neo-12.10.2.jar" [locator: {mods folder locator at X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\mods}, reader: mod manifest]
+[08Sep2026 20:37:38.757] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[08Sep2026 20:37:38.758] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jzlib-1.1.3.jar" [parent: cc-tweaked-1.21.1-forge-1.120.2.jar, locator: jarinjar]
+[08Sep2026 20:37:38.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.3.2.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.5.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "playeranimator-658587-6024462.jar" [parent: gliders-1.21.1-neoforge-1.1.8.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.248.jar" [parent: neoforge-21.1.248-universal.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.3.2.jar, locator: jarinjar]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.760] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.21-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "cobalt-0.9.9.jar" [parent: cc-tweaked-1.21.1-forge-1.120.2.jar, locator: jarinjar]
+[08Sep2026 20:37:38.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: sable-neoforge-1.21.1-2.0.5.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.762] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.5.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.762] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.1.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.1.jar, locator: jarinjar, reader: mod manifest]
+[08Sep2026 20:37:38.764] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -69,93 +69,97 @@
 		Simple Inventory Sorter 24.0.24 (inventorysorter)
 		Veil 4.3.2 (veil)
 		wthit 12.10.2 (wthit)
-[08Sep2026 17:02:25.627] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[08Sep2026 17:02:25.674] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[08Sep2026 17:02:25.787] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Sep2026 17:02:25.807] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Sep2026 17:02:25.831] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[08Sep2026 17:02:25.832] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[08Sep2026 17:02:25.856] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Sep2026 17:02:25.858] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Sep2026 17:02:26.172] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
-[08Sep2026 17:02:27.018] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
-[08Sep2026 17:02:27.021] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
-[08Sep2026 17:02:27.026] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[08Sep2026 17:02:27.367] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[08Sep2026 17:02:34.671] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[08Sep2026 17:02:34.727] [modloading-worker-0/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
-[08Sep2026 17:02:34.750] [modloading-worker-0/INFO] [AllArrowsPickup/]: All Arrows Pickup loaded - arrows shot by any entity will now be pickable.
-[08Sep2026 17:02:34.769] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
-[08Sep2026 17:02:34.784] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[08Sep2026 17:02:36.446] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
-[08Sep2026 17:02:39.406] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[08Sep2026 17:02:39.420] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[08Sep2026 17:02:39.440] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[08Sep2026 17:02:39.441] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:neo at mcp.mobius.waila.plugin.neo.NeoCommonPlugin
-[08Sep2026 17:02:39.443] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[08Sep2026 17:02:39.452] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
-[08Sep2026 17:02:39.490] [modloading-sync-worker/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[08Sep2026 17:02:39.634] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08Sep2026 17:02:39.809] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[08Sep2026 17:02:39.809] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[08Sep2026 17:02:39.877] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
-[08Sep2026 17:02:39.878] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
-[08Sep2026 17:02:39.883] [main/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
-[08Sep2026 17:02:39.889] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
-[08Sep2026 17:02:40.009] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.5 Target: 1.21.1-6.0.0-beta.52
-[08Sep2026 17:02:40.010] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[08Sep2026 17:02:40.086] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.120.2 Target: null
-[08Sep2026 17:02:41.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3043 recipes
-[08Sep2026 17:02:42.045] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2735 advancements
-[08Sep2026 17:02:42.070] [main/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
-[08Sep2026 17:02:43.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[08Sep2026 17:02:43.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Sep2026 17:02:43.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Sep2026 17:02:43.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Sep2026 17:02:44.149] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Sep2026 17:02:44.259] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
-[08Sep2026 17:02:44.302] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
-[08Sep2026 17:02:44.302] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[08Sep2026 17:02:44.328] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\jei-server.toml
-[08Sep2026 17:02:44.330] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\inventorysorter-server.toml
-[08Sep2026 17:02:44.334] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\journeymap-server.toml
-[08Sep2026 17:02:44.335] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[08Sep2026 17:02:44.337] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\computercraft-server.toml
-[08Sep2026 17:02:44.363] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\create-server.toml
-[08Sep2026 17:02:44.400] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Sep2026 17:02:44.466] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
-[08Sep2026 17:02:44.479] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Using game directory relative Sable Rapier native directory X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\.sable\natives
-[08Sep2026 17:02:45.050] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
-[08Sep2026 17:02:45.353] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
-[08Sep2026 17:02:45.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Sep2026 17:02:45.592] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Sep2026 17:02:45.973] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 596 ms
-[08Sep2026 17:02:45.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.646s)! For help, type "help"
-[08Sep2026 17:02:46.024] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[08Sep2026 17:02:46.041] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[08Sep2026 17:02:46.043] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
-[08Sep2026 17:02:46.045] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@2f4bd55a for service interface journeymap.api.services.ClientPlatformService
-[08Sep2026 17:02:46.048] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@327865f for service interface journeymap.api.services.CommonPlatformService
-[08Sep2026 17:02:46.071] [Server thread/INFO] [journeymap/]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[08Sep2026 17:02:46.104] [Server thread/INFO] [journeymap/]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[08Sep2026 17:02:46.625] [Server thread/INFO] [com.simibubi.create.Create/]: RecipeTrie of depth 3 with 108 nodes built with 117 variants, 107 ingredients, and 105 recipes
-[08Sep2026 17:04:47.085] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
-[08Sep2026 17:04:49.137] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:2459] logged in with entity id 133 at (997.765200791706, 97.0, 8484.424273724588)
-[08Sep2026 17:04:49.138] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player MainBlaine
-[08Sep2026 17:04:49.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
-[08Sep2026 17:05:08.543] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /127.0.0.1:2459, UDP routing to /127.0.0.1:63833
-[08Sep2026 17:07:46.326] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:07:46.465] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:07:46.466] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:11:21.164] [Server thread/INFO] [journeymap/]: MainBlaine teleported to -199.5 69.0 -1.5 minecraft:overworld
-[08Sep2026 17:11:21.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -1192.6305505560158,-27.9375,-8483.935614786264
-[08Sep2026 17:12:46.270] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:12:46.335] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:12:46.336] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:17:46.261] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:17:46.298] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:17:46.299] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:19:24.621] [Netty Server IO #6/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+[08Sep2026 20:37:39.489] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[08Sep2026 20:37:39.543] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[08Sep2026 20:37:39.656] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Sep2026 20:37:39.670] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Sep2026 20:37:39.694] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[08Sep2026 20:37:39.695] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[08Sep2026 20:37:39.734] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Sep2026 20:37:39.735] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Sep2026 20:37:40.103] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
+[08Sep2026 20:37:40.733] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
+[08Sep2026 20:37:40.735] [main/WARN] [mixin/]: Error loading class: net/minecraftforge/common/ForgeTier (java.lang.ClassNotFoundException: net.minecraftforge.common.ForgeTier)
+[08Sep2026 20:37:40.740] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[08Sep2026 20:37:41.187] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[08Sep2026 20:37:49.462] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[08Sep2026 20:37:49.521] [modloading-worker-0/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
+[08Sep2026 20:37:49.527] [modloading-worker-0/INFO] [AllArrowsPickup/]: All Arrows Pickup loaded - arrows shot by any entity will now be pickable.
+[08Sep2026 20:37:49.574] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[08Sep2026 20:37:49.576] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[08Sep2026 20:37:51.333] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[08Sep2026 20:37:54.058] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[08Sep2026 20:37:54.067] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[08Sep2026 20:37:54.084] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[08Sep2026 20:37:54.085] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:neo at mcp.mobius.waila.plugin.neo.NeoCommonPlugin
+[08Sep2026 20:37:54.087] [modloading-sync-worker/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[08Sep2026 20:37:54.147] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[08Sep2026 20:37:54.184] [modloading-sync-worker/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[08Sep2026 20:37:54.288] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08Sep2026 20:37:54.434] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[08Sep2026 20:37:54.434] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/X:/NonSteamGamesOnXray/Minecraft/CreateServerWithModsIncludingComputerCraftWithMage-Updated/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[08Sep2026 20:37:54.522] [main/INFO] [com.simibubi.create.Create/]: Created 157 recipes which will be injected into the game
+[08Sep2026 20:37:54.529] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[08Sep2026 20:37:55.445] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[08Sep2026 20:37:55.448] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[08Sep2026 20:37:55.608] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.5 Target: 1.21.1-6.0.0-beta.52
+[08Sep2026 20:37:55.612] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[08Sep2026 20:37:55.712] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.120.2 Target: null
+[08Sep2026 20:37:56.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3043 recipes
+[08Sep2026 20:37:57.130] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2735 advancements
+[08Sep2026 20:37:57.150] [main/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
+[08Sep2026 20:37:59.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[08Sep2026 20:37:59.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Sep2026 20:37:59.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Sep2026 20:37:59.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Sep2026 20:37:59.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Sep2026 20:37:59.530] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding UDP server channel future
+[08Sep2026 20:37:59.590] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[08Sep2026 20:37:59.590] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[08Sep2026 20:37:59.619] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\jei-server.toml
+[08Sep2026 20:37:59.631] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\inventorysorter-server.toml
+[08Sep2026 20:37:59.651] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\journeymap-server.toml
+[08Sep2026 20:37:59.660] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[08Sep2026 20:37:59.661] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\computercraft-server.toml
+[08Sep2026 20:37:59.717] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\create-server.toml
+[08Sep2026 20:37:59.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Sep2026 20:37:59.844] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[08Sep2026 20:37:59.861] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Using game directory relative Sable Rapier native directory X:\NonSteamGamesOnXray\Minecraft\CreateServerWithModsIncludingComputerCraftWithMage-Updated\.sable\natives
+[08Sep2026 20:38:00.494] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[08Sep2026 20:38:00.874] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[08Sep2026 20:38:00.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Sep2026 20:38:01.222] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Sep2026 20:38:01.416] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[08Sep2026 20:38:01.705] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 797 ms
+[08Sep2026 20:38:01.706] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.087s)! For help, type "help"
+[08Sep2026 20:38:01.766] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[08Sep2026 20:38:01.782] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[08Sep2026 20:38:01.785] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[08Sep2026 20:38:01.786] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@551bc8a0 for service interface journeymap.api.services.ClientPlatformService
+[08Sep2026 20:38:01.790] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@49912d3b for service interface journeymap.api.services.CommonPlatformService
+[08Sep2026 20:38:01.813] [Server thread/INFO] [journeymap/]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[08Sep2026 20:38:01.856] [Server thread/INFO] [journeymap/]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[08Sep2026 20:38:02.609] [Server thread/INFO] [com.simibubi.create.Create/]: RecipeTrie of depth 3 with 109 nodes built with 117 variants, 107 ingredients, and 105 recipes
+[08Sep2026 20:38:47.852] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
+[08Sep2026 20:38:50.224] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:12602] logged in with entity id 125 at (1008.6548041174705, 98.0, 8482.820366688306)
+[08Sep2026 20:38:50.225] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player MainBlaine
+[08Sep2026 20:38:50.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
+[08Sep2026 20:38:51.533] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /127.0.0.1:12602, UDP routing to /127.0.0.1:49905
+[08Sep2026 20:43:02.135] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 20:43:02.206] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 20:43:02.207] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 20:48:02.099] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 20:48:02.136] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 20:48:02.137] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 20:49:04.386] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PaperMuffin is 2bd56217-f548-44fe-9126-e1dce9949e25
+[08Sep2026 20:49:06.097] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PaperMuffin[/174.109.224.121:51644] logged in with entity id 3891 at (803.3372175167675, 136.00000763163624, 8655.437137549197)
+[08Sep2026 20:49:06.099] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player PaperMuffin
+[08Sep2026 20:49:06.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin joined the game
+[08Sep2026 20:49:09.506] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /174.109.224.121:51644, UDP routing to /174.109.224.121:63040
+[08Sep2026 20:53:02.131] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 20:53:02.185] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 20:53:02.185] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 20:54:11.009] [Netty Server IO #9/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:47) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
@@ -196,34 +200,41 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
 	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[08Sep2026 17:22:46.275] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:22:46.316] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:22:46.317] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:27:46.272] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:27:46.293] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:27:46.294] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:32:46.264] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:32:46.285] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:32:46.286] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:37:46.260] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:37:46.279] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:37:46.280] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:42:46.261] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:42:46.280] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:42:46.281] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:47:46.260] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:47:46.287] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:47:46.289] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:52:46.259] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:52:46.273] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:52:46.274] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 17:57:46.258] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 17:57:46.286] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 17:57:46.286] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:02:46.259] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:02:46.287] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:02:46.287] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:03:13.608] [Netty Server IO #11/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+[08Sep2026 20:58:02.114] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 20:58:02.151] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 20:58:02.151] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:02:45.176] [Server thread/INFO] [journeymap/]: MainBlaine teleported to -199.5 69.0 -1.5 minecraft:overworld
+[08Sep2026 21:02:45.181] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -998.1970266958232,-67.00000441833342,-8651.692761890603
+[08Sep2026 21:02:49.681] [Server thread/INFO] [journeymap/]: MainBlaine teleported to 799.5 135.0 8650.5 minecraft:overworld
+[08Sep2026 21:02:54.879] [Server thread/INFO] [journeymap/]: MainBlaine teleported to -199.5 69.0 -1.5 minecraft:overworld
+[08Sep2026 21:03:02.134] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:03:02.179] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:03:02.180] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:04:07.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Teleported MainBlaine to PaperMuffin]
+[08Sep2026 21:06:10.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin has made the advancement [Those Were the Days]
+[08Sep2026 21:08:02.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:08:02.136] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:08:02.136] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:10:33.482] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=52, y=72, z=1126} BlockPos{x=52, y=73, z=1125}
+[08Sep2026 21:10:33.531] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=52, y=72, z=1126} BlockPos{x=52, y=73, z=1125}
+[08Sep2026 21:11:39.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin has made the advancement [War Pigs]
+[08Sep2026 21:13:02.104] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:13:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:13:02.109] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:18:02.109] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:18:02.114] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:18:02.115] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:23:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:23:02.111] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:23:02.112] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:28:02.103] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:28:02.107] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:28:02.107] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:32:06.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine has made the advancement [War Pigs]
+[08Sep2026 21:33:02.103] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:33:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:33:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:36:23.139] [Netty Server IO #15/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:47) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
@@ -264,65 +275,405 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
 	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[08Sep2026 18:07:46.262] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:07:46.288] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:07:46.289] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:12:46.259] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:12:46.287] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:12:46.288] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:17:46.262] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:17:46.294] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:17:46.294] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:20:16.951] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-193, y=69, z=-17} BlockPos{x=-196, y=70, z=-17}
-[08Sep2026 18:20:17.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-193, y=69, z=-17} BlockPos{x=-196, y=70, z=-17}
-[08Sep2026 18:22:46.263] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:22:46.293] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:22:46.293] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:27:46.262] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:27:46.289] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:27:46.289] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:28:21.886] [Server thread/INFO] [journeymap/]: MainBlaine teleported to 998.5 98.0 8483.5 minecraft:overworld
-[08Sep2026 18:32:48.092] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:32:48.138] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:32:48.138] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:33:23.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MainBlaine: Gave 12 [Stone] to MainBlaine]
-[08Sep2026 18:37:22.784] [Server thread/INFO] [journeymap/]: MainBlaine teleported to -199.5 69.0 -1.5 minecraft:overworld
-[08Sep2026 18:37:22.791] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -1205.0517593281957,-25.0,-8480.449907685692
-[08Sep2026 18:37:22.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -1205.0517593281957,-25.0,-8480.449907685692
-[08Sep2026 18:37:22.808] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine moved too quickly! -1205.0517593281957,-25.0,-8480.449907685692
-[08Sep2026 18:37:39.470] [Server thread/INFO] [journeymap/]: MainBlaine teleported to 998.5 98.0 8483.5 minecraft:overworld
-[08Sep2026 18:37:48.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:37:48.662] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:37:48.662] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:42:48.089] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:42:48.115] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:42:48.115] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:43:00.722] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Spider['Spider'/80414, l='ServerLevel[Create2024]', x=1015.93, y=99.00, z=8491.87] died: Spider hit the ground too hard
-[08Sep2026 18:44:10.975] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
-[08Sep2026 18:44:10.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
-[08Sep2026 18:47:48.064] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:47:48.083] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:47:48.083] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:52:48.062] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:52:48.066] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:52:48.066] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 18:57:48.063] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 18:57:48.067] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 18:57:48.067] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 19:02:48.063] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 19:02:48.066] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 19:02:48.066] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 19:03:02.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[08Sep2026 19:03:02.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Sep2026 19:03:02.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Sep2026 19:03:02.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Sep2026 19:03:02.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 19:03:02.393] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
-[08Sep2026 19:03:02.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 19:03:02.477] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
-[08Sep2026 19:03:02.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 19:03:02.491] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
-[08Sep2026 19:03:02.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08Sep2026 19:03:02.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Sep2026 19:03:02.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Sep2026 19:03:02.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Sep2026 21:38:02.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:38:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:38:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:43:02.100] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:43:02.104] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:43:02.105] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:48:02.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:48:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:48:02.109] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:53:02.103] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:53:02.113] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:53:02.113] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 21:53:42.561] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:53:42.561] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:53:47.243] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:53:47.244] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:53:47.257] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:53:47.257] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:04.016] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:04.016] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:04.016] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:04.016] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:04.017] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:04.017] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:04.062] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:04.063] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:04.063] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:04.063] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:04.071] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:04.071] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:11.101] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:11.102] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:54:16.012] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:54:16.012] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:13.149] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:13.149] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:13.256] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:13.257] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:13.265] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:13.265] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:27.973] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:27.973] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:27.973] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:27.973] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:27.973] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:27.973] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:28.012] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:28.012] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:55:28.048] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:55:28.048] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:56:26.030] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=75, z=920} BlockPos{x=52, y=75, z=920}
+[08Sep2026 21:56:26.081] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=75, z=920} BlockPos{x=52, y=75, z=920}
+[08Sep2026 21:56:26.779] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=74, z=920} BlockPos{x=51, y=74, z=920}
+[08Sep2026 21:56:26.831] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=50, y=74, z=920} BlockPos{x=51, y=74, z=920}
+[08Sep2026 21:56:27.527] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=74, z=920} BlockPos{x=50, y=73, z=920}
+[08Sep2026 21:56:27.578] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=49, y=74, z=920} BlockPos{x=50, y=73, z=920}
+[08Sep2026 21:56:28.278] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=73, z=920} BlockPos{x=49, y=72, z=920}
+[08Sep2026 21:56:28.331] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=48, y=73, z=920} BlockPos{x=49, y=72, z=920}
+[08Sep2026 21:56:29.026] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=47, y=72, z=920} BlockPos{x=48, y=71, z=920}
+[08Sep2026 21:56:29.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=47, y=72, z=920} BlockPos{x=48, y=71, z=920}
+[08Sep2026 21:56:29.732] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=46, y=71, z=920} BlockPos{x=47, y=70, z=920}
+[08Sep2026 21:56:29.780] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=46, y=71, z=920} BlockPos{x=47, y=70, z=920}
+[08Sep2026 21:57:45.356] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 21:57:45.356] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 21:58:02.109] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 21:58:02.113] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 21:58:02.113] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:00:03.130] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=46, y=71, z=920} BlockPos{x=3, y=66, z=876}
+[08Sep2026 22:00:47.762] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:00:47.762] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:00:52.371] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:00:52.371] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:00:52.372] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:00:52.372] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:06.447] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:06.448] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:06.514] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:06.514] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:06.514] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:06.514] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:06.523] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:06.523] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:21.614] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:21.614] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:21.646] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:21.647] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:21.647] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:21.647] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:21.648] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:21.648] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:21.648] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:21.649] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:21.649] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:21.649] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:25.401] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:25.401] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:25.458] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:25.459] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:25.460] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:25.460] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:25.506] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:25.507] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:25.507] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:25.507] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:29.203] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:29.203] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:29.219] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:29.219] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:29.219] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:29.220] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:41.937] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:41.938] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:42.103] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:42.103] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:42.104] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:42.104] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:02:42.104] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:02:42.104] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:03:02.103] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:03:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:03:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:03:45.007] [Netty Server IO #18/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:47) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:24) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar%23102!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection$2.write(Connection.java:528) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.doSendPacket(Connection.java:364) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.sendPacket(Connection.java:357) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:339) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:333) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.exceptionCaught(Connection.java:168) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08Sep2026 22:08:02.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:08:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:08:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:09:10.728] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-42, y=63, z=762} BlockPos{x=-42, y=65, z=761}
+[08Sep2026 22:09:34.480] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-42, y=64, z=760} BlockPos{x=-46, y=66, z=764}
+[08Sep2026 22:09:41.845] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:09:41.846] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:09:41.846] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[08Sep2026 22:09:41.846] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[08Sep2026 22:13:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:13:02.111] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:13:02.111] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:13:11.924] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[08Sep2026 22:13:11.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[08Sep2026 22:14:07.507] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
+[08Sep2026 22:14:08.873] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:7573] logged in with entity id 22268 at (-44.13755600758372, 67.0, 769.1468195908753)
+[08Sep2026 22:14:08.874] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player MainBlaine
+[08Sep2026 22:14:08.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
+[08Sep2026 22:14:14.702] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /127.0.0.1:7573, UDP routing to /127.0.0.1:53707
+[08Sep2026 22:18:02.103] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:18:02.109] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:18:02.109] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:18:36.522] [Netty Server IO #24/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:47) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:24) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar%23102!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection$2.write(Connection.java:528) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.doSendPacket(Connection.java:364) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.sendPacket(Connection.java:357) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:339) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:333) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.exceptionCaught(Connection.java:168) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08Sep2026 22:23:02.098] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:23:02.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:23:02.102] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:24:54.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine has completed the challenge [Subspace Bubble]
+[08Sep2026 22:26:52.280] [Netty Server IO #25/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:47) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:24) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar%23102!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection$2.write(Connection.java:528) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.doSendPacket(Connection.java:364) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.sendPacket(Connection.java:357) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:339) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:333) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.exceptionCaught(Connection.java:168) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08Sep2026 22:28:02.105] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:28:02.146] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:28:02.147] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:33:02.125] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:33:02.216] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:33:02.216] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:38:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:38:02.190] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:38:02.191] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:43:02.113] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:43:02.181] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:43:02.182] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:48:02.116] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:48:02.155] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:48:02.155] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:48:21.739] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[08Sep2026 22:48:21.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[08Sep2026 22:53:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:53:02.141] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:53:02.142] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 22:53:44.470] [Netty Server IO #7/ERROR] [net.minecraft.network.Connection/]: Exception caught in connection
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23101!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23101!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08Sep2026 22:53:44.483] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin lost connection: Disconnected
+[08Sep2026 22:53:44.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin left the game
+[08Sep2026 22:54:08.016] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PaperMuffin is 2bd56217-f548-44fe-9126-e1dce9949e25
+[08Sep2026 22:54:09.828] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PaperMuffin[/174.109.224.121:58001] logged in with entity id 59231 at (-180.34296093583524, 64.0, 21.386256658078413)
+[08Sep2026 22:54:09.829] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player PaperMuffin
+[08Sep2026 22:54:09.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin joined the game
+[08Sep2026 22:54:12.233] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /174.109.224.121:58001, UDP routing to /174.109.224.121:56174
+[08Sep2026 22:58:02.106] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 22:58:02.142] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 22:58:02.143] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:00:53.524] [Netty Server IO #35/ERROR] [net.minecraft.network.PacketEncoder/]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:47) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:24) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.codec@4.1.97.Final/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar%23102!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection$2.write(Connection.java:528) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.doSendPacket(Connection.java:364) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.sendPacket(Connection.java:357) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:339) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.send(Connection.java:333) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.exceptionCaught(Connection.java:168) ~[server-1.21.1-20240808.144430-srg.jar%23131!/:?]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23106!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23103!/:4.1.97.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08Sep2026 23:03:02.104] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:03:02.141] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:03:02.142] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:08:02.104] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:08:02.135] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:08:02.135] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:13:02.094] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:13:02.127] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:13:02.127] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:18:02.108] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:18:02.143] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:18:02.144] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:23:02.104] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:23:02.137] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:23:02.137] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:28:02.104] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:28:02.133] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:28:02.134] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:32:31.216] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MainBlaine is 364d3aaa-fb1e-4fda-b9e6-cddafe37ea26
+[08Sep2026 23:32:32.673] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MainBlaine[/127.0.0.1:11237] logged in with entity id 97914 at (-200.00893150515668, 69.0, -7.18230944093759)
+[08Sep2026 23:32:32.674] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player MainBlaine
+[08Sep2026 23:32:32.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine joined the game
+[08Sep2026 23:32:33.339] [Netty Server IO #0/INFO] [dev.ryanhcode.sable.Sable/]: UDP authentication complete with /127.0.0.1:11237, UDP routing to /127.0.0.1:60069
+[08Sep2026 23:33:02.113] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:33:02.143] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:33:02.143] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:34:16.175] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MainBlaine lost connection: Disconnected
+[08Sep2026 23:34:16.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MainBlaine left the game
+[08Sep2026 23:34:40.574] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PaperMuffin lost connection: Disconnected
+[08Sep2026 23:34:40.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PaperMuffin left the game
+[08Sep2026 23:34:49.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Sep2026 23:34:49.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: stotp<--[HERE]
+[08Sep2026 23:34:50.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08Sep2026 23:34:50.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Sep2026 23:34:50.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Sep2026 23:34:50.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Sep2026 23:34:50.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:34:50.386] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:overworld
+[08Sep2026 23:34:50.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:34:50.644] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_end
+[08Sep2026 23:34:50.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:34:50.658] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[Create2024]'/minecraft:the_nether
+[08Sep2026 23:34:50.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Sep2026 23:34:50.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Sep2026 23:34:50.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Sep2026 23:34:50.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -13,16 +13,19 @@
       "minecraft:taiga": "2026-08-22 22:49:05 -0600",
       "minecraft:deep_ocean": "2024-03-22 22:15:24 -0600",
       "minecraft:lush_caves": "2024-03-04 21:15:27 -0700",
+      "minecraft:deep_cold_ocean": "2026-09-08 22:33:44 -0600",
       "minecraft:ice_spikes": "2024-04-06 13:21:47 -0600",
       "minecraft:frozen_ocean": "2026-09-04 00:11:31 -0600",
       "minecraft:eroded_badlands": "2026-08-29 02:09:53 -0600",
       "minecraft:desert": "2026-08-24 00:19:22 -0600",
       "minecraft:frozen_river": "2026-08-15 01:40:16 -0600",
+      "minecraft:deep_frozen_ocean": "2026-09-08 22:34:27 -0600",
       "minecraft:jungle": "2024-02-26 17:20:22 -0700",
       "minecraft:ocean": "2024-03-22 22:13:59 -0600",
       "minecraft:sunflower_plains": "2024-03-03 16:51:26 -0700",
       "minecraft:birch_forest": "2024-03-22 22:20:00 -0600",
       "minecraft:windswept_hills": "2024-04-06 13:14:11 -0600",
+      "minecraft:old_growth_spruce_taiga": "2026-09-08 22:37:23 -0600",
       "minecraft:wooded_badlands": "2026-08-24 00:17:56 -0600",
       "minecraft:bamboo_jungle": "2026-08-24 00:16:38 -0600",
       "minecraft:windswept_savanna": "2026-08-28 19:32:15 -0600",
@@ -820,6 +823,7 @@
       "minecraft:vindicator": "2026-08-28 22:07:12 -0600",
       "minecraft:magma_cube": "2024-03-19 22:20:35 -0600",
       "minecraft:spider": "2024-03-03 16:42:42 -0700",
+      "minecraft:piglin_brute": "2026-09-08 21:14:01 -0600",
       "minecraft:creeper": "2024-03-02 11:42:15 -0700",
       "minecraft:slime": "2026-08-29 01:12:42 -0600",
       "minecraft:phantom": "2024-03-25 20:39:31 -0600",
@@ -9106,6 +9110,18 @@
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2026-09-08 15:19:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2026-09-08 21:32:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-09-08 22:24:54 -0600"
     },
     "done": true
   },
